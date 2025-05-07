@@ -7,6 +7,226 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#hasSpecialization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#hasSpecialization">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#hasSpecialization"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Department"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#hasSpecialization"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Specialization"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#hasTimetable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#hasTimetable">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#hasTimetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#StudyProgramme"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#hasTimetable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Timetable"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#includesCourse -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#includesCourse">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#includesCourse"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Timetable"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#includesCourse"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Course"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#includesExam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#includesExam">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#includesExam"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Timetable"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#includesExam"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Exam"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#manages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#manages">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#manages"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Management"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#manages"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#StudyProgramme"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#offersProgramme -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#offersProgramme">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#offersProgramme"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Department"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#offersProgramme"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#StudyProgramme"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#numberOfNonTaxedStudents -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#numberOfNonTaxedStudents"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#numberOfTaxedStudents -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#numberOfTaxedStudents"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#programmeDuration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#programmeDuration">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#programmeDuration"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#timetableType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#timetableType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Course -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Course"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Department -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Department"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Exam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Exam"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Specialization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Specialization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#StudyProgramme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#StudyProgramme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Timetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-23#Timetable"/>
 </rdf:RDF>
 
 
