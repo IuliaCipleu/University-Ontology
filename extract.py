@@ -3,6 +3,9 @@ import re
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
@@ -16,12 +19,20 @@ driver = webdriver.Chrome(service=service, options=options)
 
 driver.get("https://admitereonline.utcluj.ro/international-students/#tab-id-2")
 time.sleep(5)
+print(driver.page_source)
+
+# Wait for the element to be present
+wait = WebDriverWait(driver, 50)
+tab_element = wait.until(EC.presence_of_element_located((By.ID, "#tab-id-2")))
+
+# After ensuring the element is loaded, use BeautifulSoup
+soup = BeautifulSoup(driver.page_source, "html.parser")
 
 soup = BeautifulSoup(driver.page_source, "html.parser")
 driver.quit()
 
 # Extract the content of tab-id-2
-tab = soup.find("div", id="tab-id-2")
+tab = soup.find("div", id="#tab-id-2")
 if tab is None:
     raise ValueError("tab is None")
 text = tab.get_text(separator="\n", strip=True)
