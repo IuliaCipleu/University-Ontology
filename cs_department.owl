@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:base="http://example.org/ontology#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/ontology#BSc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology#StudyProgram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#hasLengthOfYears">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#StudyProgram">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#hasName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#VisionIVA,CommunicationNetworksandDistributedSystemsRCSD,InformationandComputingSystemSecuritySISC,Information">
+    <rdf:type rdf:resource="http://example.org/ontology#MS"/>
+    <base:hasName>Vision (IVA), Communication Networks and Distributed Systems (RCSD), Information and Computing System Security (SISC), Information</base:hasName>
+    <base:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</base:hasLengthOfYears>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#MSc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology#StudyProgram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#PhD">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology#StudyProgram"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -4,7 +4,7 @@ from rdflib import Graph
 merged_graph = Graph()
 
 # List of OWL files to merge
-owl_files = ["study_programs.owl", "departments.owl"]
+owl_files = ["study_programs.owl", "departments.owl", "cs_department.owl"]
 
 # Loop over each OWL file, load it into the graph, and merge
 for owl_file in owl_files:
