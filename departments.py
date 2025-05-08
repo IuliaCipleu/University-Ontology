@@ -75,4 +75,4 @@ for block in dept_blocks:
 # Serialize OWL
 output_path = "owl\\departments.owl"
 g.serialize(destination=output_path, format="xml")
-print(f"\n✅ OWL file '{output_path}' created successfully.")
+print(f"\nOWL file '{output_path}' created successfully.")
