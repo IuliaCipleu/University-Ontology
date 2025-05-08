@@ -59,6 +59,6 @@ for dept in departments:
     g.add((dept_uri, URIRef(base_uri + "hasContact"), Literal(dept["contact"])))
 
 # Serialize and save the data as an OWL file
-g.serialize("departments.owl", format="xml")
+g.serialize("owl\\departments.owl", format="xml")
 
 print("\nOWL file 'departments.owl' has been created successfully.")

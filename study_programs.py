@@ -104,4 +104,4 @@ for program in master_programs:
 # Serialize and save the data as an OWL file
 g.serialize("study_programs.owl", format="xml")
 
-print("\nOWL file 'study_programs.owl' has been created successfully.")
+print("\nOWL file 'owl\\study_programs.owl' has been created successfully.")

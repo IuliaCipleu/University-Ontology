@@ -78,5 +78,5 @@ for line in lines:
                 g.add((program_uri, hasLengthOfYears, Literal(duration)))
 
 # Save OWL
-g.serialize(destination="cs_department.owl", format="xml")
+g.serialize(destination="owl\\cs_department.owl", format="xml")
 print("\n✅ OWL file 'cs_department.owl' created dynamically based on OCR.")
