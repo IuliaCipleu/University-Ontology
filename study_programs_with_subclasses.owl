@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/ontology#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/ontology#Communication_Networks_and_Distributed_Systems_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Communication Networks and Distributed Systems</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Computer_Science_BSc">
+    <rdf:type rdf:resource="http://example.org/ontology#BSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Computer Science</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Applied_Informatics_in_Complex_Systems_Engineering_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Applied Informatics in Complex Systems Engineering</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Information_Technology_BSc">
+    <rdf:type rdf:resource="http://example.org/ontology#BSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Information Technology</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Cyber_Physical_Systems_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Cyber Physical Systems</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Complements_of_Computer_Science_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Complements of Computer Science</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Advanced_Process_Control_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Advanced Process Control</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Information_Technology_in_Economics_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Information Technology in Economics</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Automation_and_Applied_Informatics_BSc">
+    <rdf:type rdf:resource="http://example.org/ontology#BSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Automation and Applied Informatics</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Advanced_Control_of_Manufacturing_Processes_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Advanced Control of Manufacturing Processes</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Applied_Informatics_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Applied Informatics</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+</rdf:RDF>
