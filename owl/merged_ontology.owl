@@ -4,114 +4,59 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://example.org/ontology#Information_Technology_in_Economics_MSc">
-    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
-    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
-    <ns1:hasLanguage></ns1:hasLanguage>
-    <ns1:hasName>Information Technology in Economics</ns1:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Complements_of_Computer_Science_MSc">
-    <ns1:hasName>Complements of Computer Science</ns1:hasName>
-    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
-    <ns1:hasLanguage></ns1:hasLanguage>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Computer_Science_BSc">
-    <rdf:type rdf:resource="http://example.org/ontology#BSc"/>
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-    <ns1:hasName>Computer Science</ns1:hasName>
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns1:hasLengthOfYears>
-    <ns1:hasLanguage></ns1:hasLanguage>
-    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Applied_Informatics_in_Complex_Systems_Engineering_MSc">
-    <ns1:hasLanguage></ns1:hasLanguage>
-    <ns1:hasName>Applied Informatics in Complex Systems Engineering</ns1:hasName>
-    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Communication_Networks_and_Distributed_Systems_MSc">
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
-    <ns1:hasName>Communication Networks and Distributed Systems</ns1:hasName>
-    <ns1:hasLanguage></ns1:hasLanguage>
-    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#StudyProgram">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Advanced_Control_of_Manufacturing_Processes_MSc">
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
-    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
-    <ns1:hasName>Advanced Control of Manufacturing Processes</ns1:hasName>
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
-    <ns1:hasLanguage></ns1:hasLanguage>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Cyber_Physical_Systems_MSc">
-    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
-    <ns1:hasName>Cyber Physical Systems</ns1:hasName>
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
-    <ns1:hasLanguage></ns1:hasLanguage>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Information_Technology_BSc">
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns1:hasLengthOfYears>
-    <ns1:hasName>Information Technology</ns1:hasName>
-    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-    <rdf:type rdf:resource="http://example.org/ontology#BSc"/>
-    <ns1:hasLanguage></ns1:hasLanguage>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Applied_Informatics_MSc">
-    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
-    <ns1:hasLanguage></ns1:hasLanguage>
-    <ns1:hasName>Applied Informatics</ns1:hasName>
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Advanced_Process_Control_MSc">
-    <ns1:hasLanguage></ns1:hasLanguage>
-    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
-    <ns1:hasName>Advanced Process Control</ns1:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Departamentul_de_Automatica">
-    <rdf:type rdf:resource="http://example.org/ontology#Department"/>
-    <ns1:hasContact>+40-264-202367, Honoriu.Valean@aut.utcluj.ro</ns1:hasContact>
-    <ns1:hasDirector>Prof.dr.ing. Vlean Honoriu Mugurel</ns1:hasDirector>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#VisionIVA,CommunicationNetworksandDistributedSystemsRCSD,InformationandComputingSystemSecuritySISC,Information">
-    <ns1:hasName>Vision (IVA), Communication Networks and Distributed Systems (RCSD), Information and Computing System Security (SISC), Information</ns1:hasName>
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
-    <rdf:type rdf:resource="http://example.org/ontology#MS"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#BSc">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/ontology#StudyProgram"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Automation_and_Applied_Informatics_BSc">
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-    <rdf:type rdf:resource="http://example.org/ontology#BSc"/>
-    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns1:hasLengthOfYears>
-    <ns1:hasLanguage></ns1:hasLanguage>
-    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
-    <ns1:hasName>Automation and Applied Informatics</ns1:hasName>
-  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#MSc">
     <rdfs:subClassOf rdf:resource="http://example.org/ontology#StudyProgram"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Information_Technology_in_Economics_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
+    <ns1:hasName>Information Technology in Economics</ns1:hasName>
+    <ns1:hasLanguage></ns1:hasLanguage>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Advanced_Control_of_Manufacturing_Processes_MSc">
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <ns1:hasName>Advanced Control of Manufacturing Processes</ns1:hasName>
+    <ns1:hasLanguage></ns1:hasLanguage>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Departamentul_de_Automatica">
+    <ns1:hasDirector>Prof.dr.ing. Vlean Honoriu Mugurel</ns1:hasDirector>
+    <rdf:type rdf:resource="http://example.org/ontology#Department"/>
+    <ns1:hasContact>+40-264-202367, Honoriu.Valean@aut.utcluj.ro</ns1:hasContact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#hasLengthOfYears">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Information_Technology_BSc">
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <rdf:type rdf:resource="http://example.org/ontology#BSc"/>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasName>Information Technology</ns1:hasName>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns1:hasLengthOfYears>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Automation_and_Applied_Informatics_BSc">
+    <ns1:hasName>Automation and Applied Informatics</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <rdf:type rdf:resource="http://example.org/ontology#BSc"/>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns1:hasLengthOfYears>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Applied_Informatics_in_Complex_Systems_Engineering_MSc">
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
+    <ns1:hasLanguage></ns1:hasLanguage>
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasName>Applied Informatics in Complex Systems Engineering</ns1:hasName>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#PhD">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -122,19 +67,74 @@
     <rdf:type rdf:resource="http://example.org/ontology#Department"/>
     <ns1:hasContact>+40-264-202389, Rodica.Potolea@cs.utcluj.ro</ns1:hasContact>
   </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#StudyProgram">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Computer_Science_BSc">
+    <ns1:hasName>Computer Science</ns1:hasName>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns1:hasLengthOfYears>
+    <ns1:hasLanguage></ns1:hasLanguage>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <rdf:type rdf:resource="http://example.org/ontology#BSc"/>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Applied_Informatics_MSc">
+    <ns1:hasLanguage></ns1:hasLanguage>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasName>Applied Informatics</ns1:hasName>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Communication_Networks_and_Distributed_Systems_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <ns1:hasLanguage></ns1:hasLanguage>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
+    <ns1:hasName>Communication Networks and Distributed Systems</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Advanced_Process_Control_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
+    <ns1:hasName>Advanced Process Control</ns1:hasName>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLanguage></ns1:hasLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#VisionIVA,CommunicationNetworksandDistributedSystemsRCSD,InformationandComputingSystemSecuritySISC,Information">
+    <rdf:type rdf:resource="http://example.org/ontology#MS"/>
+    <ns1:hasName>Vision (IVA), Communication Networks and Distributed Systems (RCSD), Information and Computing System Security (SISC), Information</ns1:hasName>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Complements_of_Computer_Science_MSc">
+    <ns1:hasLanguage></ns1:hasLanguage>
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasName>Complements of Computer Science</ns1:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Cyber_Physical_Systems_MSc">
+    <ns1:hasLanguage></ns1:hasLanguage>
+    <ns1:hasName>Cyber Physical Systems</ns1:hasName>
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <rdf:type rdf:resource="http://example.org/ontology#MSc"/>
+    <ns1:hasLocation>Cluj-Napoca</ns1:hasLocation>
+    <ns1:hasLengthOfYears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasLengthOfYears>
+  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Departamentul_de_Matematica">
     <rdf:type rdf:resource="http://example.org/ontology#Department"/>
-    <ns1:hasDirector>Prof.dr.mat. Popa Vasile-Dorian</ns1:hasDirector>
     <ns1:hasContact>+40-264-401539, +40-264-401261, Popa.Dorian@math.utcluj.ro</ns1:hasContact>
+    <ns1:hasDirector>Prof.dr.mat. Popa Vasile-Dorian</ns1:hasDirector>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#BSc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology#StudyProgram"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#hasName">
     <rdfs:domain rdf:resource="http://example.org/ontology#StudyProgram"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#hasLengthOfYears">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    <rdfs:domain rdf:resource="http://example.org/ontology#StudyProgram"/>
   </rdf:Description>
 </rdf:RDF>
