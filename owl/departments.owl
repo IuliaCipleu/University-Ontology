@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="http://example.org/ontology#"
+   xmlns:base="http://example.org/ontology#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://example.org/ontology#Departamentul_de_Automatica">
-    <rdf:type rdf:resource="http://example.org/ontology#Department"/>
-    <ns1:hasDirector>Prof.dr.ing. Vlean Honoriu Mugurel</ns1:hasDirector>
-    <ns1:hasContact>+40-264-202367, Honoriu.Valean@aut.utcluj.ro</ns1:hasContact>
-  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Departamentul_de_Matematica">
     <rdf:type rdf:resource="http://example.org/ontology#Department"/>
-    <ns1:hasDirector>Prof.dr.mat. Popa Vasile-Dorian</ns1:hasDirector>
-    <ns1:hasContact>+40-264-401539, +40-264-401261, Popa.Dorian@math.utcluj.ro</ns1:hasContact>
+    <base:hasPhone>+40-264-401539</base:hasPhone>
+    <base:hasPhone>+40-264-401261</base:hasPhone>
+    <base:hasEmail>Popa.Dorian@math.utcluj.ro</base:hasEmail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Departamentul_de_Automatica">
+    <rdf:type rdf:resource="http://example.org/ontology#Department"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Departamentul_de_Calculatoare">
     <rdf:type rdf:resource="http://example.org/ontology#Department"/>
-    <ns1:hasDirector>Prof.dr.ing. Potolea Rodica</ns1:hasDirector>
-    <ns1:hasContact>+40-264-202389, Rodica.Potolea@cs.utcluj.ro</ns1:hasContact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#hasEmail">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Department">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#hasDirector">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#hasPhone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,7 +1,8 @@
 import os
+import re
 import pytesseract
 from PIL import Image
-from rdflib import Graph, URIRef, Literal
+from rdflib import Graph, URIRef, Literal, Namespace
 from rdflib.namespace import RDF, OWL, RDFS
 
 os.environ['TESSDATA_PREFIX'] = r'C:\Program Files\Tesseract-OCR\tessdata'
@@ -18,47 +19,60 @@ text = pytesseract.image_to_string(img)
 # Print the extracted text
 print(text)
 
-# Extract department details manually based on the extracted text
-departments = [
-    {
-        "name": "Departamentul de Calculatoare",
-        "director": "Prof.dr.ing. Potolea Rodica",
-        "contact": "+40-264-202389, Rodica.Potolea@cs.utcluj.ro"
-    },
-    {
-        "name": "Departamentul de Automatica",
-        "director": "Prof.dr.ing. Vlean Honoriu Mugurel",
-        "contact": "+40-264-202367, Honoriu.Valean@aut.utcluj.ro"
-    },
-    {
-        "name": "Departamentul de Matematica",
-        "director": "Prof.dr.mat. Popa Vasile-Dorian",
-        "contact": "+40-264-401539, +40-264-401261, Popa.Dorian@math.utcluj.ro"
-    }
-]
-
-# Create a graph for the OWL file
+# RDFLib setup
 g = Graph()
+BASE = Namespace("http://example.org/ontology#")
+g.bind("base", BASE)
 
-# Define base URI for the ontology
-base_uri = URIRef("http://example.org/ontology#")
+# Define class
+Department = BASE.Department
+g.add((Department, RDF.type, OWL.Class))
 
-# Create the class for "Department"
-Department = URIRef(base_uri + "Department")
+# Define properties
+hasDirector = BASE.hasDirector
+hasPhone = BASE.hasPhone
+hasEmail = BASE.hasEmail
 
-# Create individuals for each department
-for dept in departments:
-    # Create a URI for each department
-    dept_uri = URIRef(base_uri + dept["name"].replace(" ", "_"))
+g.add((hasDirector, RDF.type, OWL.DatatypeProperty))
+g.add((hasPhone, RDF.type, OWL.DatatypeProperty))
+g.add((hasEmail, RDF.type, OWL.DatatypeProperty))
 
-    # Add the department as an individual of the Department class
-    g.add((dept_uri, RDF.type, Department))
+# Extract departments using regex
+dept_blocks = re.split(r"\n\s*\n", text)  # Split blocks of text
 
-    # Add properties for the director and contact information
-    g.add((dept_uri, URIRef(base_uri + "hasDirector"), Literal(dept["director"])))
-    g.add((dept_uri, URIRef(base_uri + "hasContact"), Literal(dept["contact"])))
+for block in dept_blocks:
+    if "Departamentul de" in block:
+        lines = block.strip().split('\n')
+        name = director = ""
+        phones = []
+        email = ""
 
-# Serialize and save the data as an OWL file
-g.serialize("owl\\departments.owl", format="xml")
+        for line in lines:
+            if "Departamentul de" in line:
+                name = line.strip()
+            elif re.search(r"@[\w\.]+", line):
+                # Director and contact line
+                director_match = re.search(r"(Prof\..*?),", line)
+                if director_match:
+                    director = director_match.group(1).strip()
+                phones = re.findall(r"\+40[-\d]+", line)
+                email_match = re.search(r"[\w\.-]+@[\w\.-]+", line)
+                if email_match:
+                    email = email_match.group(0).strip()
 
-print("\nOWL file 'departments.owl' has been created successfully.")
+        if name:
+            dept_id = name.replace(" ", "_").replace(",", "")
+            dept_uri = BASE[dept_id]
+
+            g.add((dept_uri, RDF.type, Department))
+            if director:
+                g.add((dept_uri, hasDirector, Literal(director)))
+            for phone in phones:
+                g.add((dept_uri, hasPhone, Literal(phone)))
+            if email:
+                g.add((dept_uri, hasEmail, Literal(email)))
+
+# Serialize OWL
+output_path = "owl\\departments.owl"
+g.serialize(destination=output_path, format="xml")
+print(f"\n✅ OWL file '{output_path}' created successfully.")
