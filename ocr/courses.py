@@ -26,6 +26,27 @@ property_definitions = {
     "forYear": XSD.integer
 }
 
+g.add((BASE.StudyProgram, RDF.type, OWL.Class))
+
+is_taught_at = BASE.isTaughtAt
+g.add((is_taught_at, RDF.type, OWL.ObjectProperty))
+g.add((is_taught_at, RDFS.domain, BASE.Course))
+g.add((is_taught_at, RDFS.range, BASE.StudyProgram))
+
+# === Map folder keys to StudyProgram instances ===
+folder_to_program = {
+    "calc_engl": "Computer_Science_BSc",
+    "aut_engl": "Automation_and_Applied_Informatics_BSc",
+    "is": "Applied_Informatics_MSc",
+    "rcsd": "Communication_Networks_and_Distributed_Systems_MSc",
+    "cps": "Cyber_Physical_Systems_MSc"
+}
+
+# === Declare each study program as an individual of StudyProgram ===
+for prog_name in folder_to_program.values():
+    program_uri = BASE[prog_name]
+    g.add((program_uri, RDF.type, BASE.StudyProgram))
+
 
 def extract_courses(text, year):
     # Clean up the text for easier regex matching
@@ -80,31 +101,45 @@ def add_course_to_ontology(course):
         value = course.get(prop)
         if value is not None:
             g.add((course_uri, BASE[prop], Literal(value, datatype=dtype)))
+    g.add((course_uri, BASE.isTaughtAt, program_uri))
 
 
 # Path to folder with PDFs
-pdf_folder = os.path.abspath(os.path.join("..", "pdf", "lic", "calc_engl"))
+pdf_folders = [
+    os.path.abspath(os.path.join("..", "pdf", "lic", "calc_engl")),
+    os.path.abspath(os.path.join("..", "pdf", "lic", "aut_engl")),
+    os.path.abspath(os.path.join("..", "pdf", "master", "is")),
+    os.path.abspath(os.path.join("..", "pdf", "master", "cps")),
+    os.path.abspath(os.path.join("..", "pdf", "master", "rcsd"))
+]
 
 # Loop through all PDF files
-for filename in os.listdir(pdf_folder):
-    if filename.lower().endswith(".pdf"):
-        pdf_path = os.path.join(pdf_folder, filename)
-        print(f"\n===== Reading {filename} =====\n")
-        doc = fitz.open(pdf_path)
-        year = os.path.splitext(filename)[0].strip()
-        # Process pages
-        full_text = ""
-        for page_num in range(len(doc)):
-            page: fitz.Page = doc[page_num]
-            full_text += page.get_text()
-        doc.close()
+for pdf_folder in pdf_folders:
+    folder_key = os.path.basename(pdf_folder)
+    program_name = folder_to_program.get(folder_key)
+    if program_name is None:
+        print(f"Unknown folder: {folder_key}, skipping...")
+        continue
+    program_uri = BASE[program_name]
+    for filename in os.listdir(pdf_folder):
+        if filename.lower().endswith(".pdf"):
+            pdf_path = os.path.join(pdf_folder, filename)
+            print(f"\n===== Reading {filename} =====\n")
+            doc = fitz.open(pdf_path)
+            year = os.path.splitext(filename)[0].strip()
+            # Process pages
+            full_text = ""
+            for page_num in range(len(doc)):
+                page: fitz.Page = doc[page_num]
+                full_text += page.get_text()
+            doc.close()
 
-        # Extract course data
-        print(full_text)
-        courses = extract_courses(full_text, year)
-        for course in courses:
-            print(f"Adding course: {course}")
-            add_course_to_ontology(course)
+            # Extract course data
+            print(full_text)
+            courses = extract_courses(full_text, year)
+            for course in courses:
+                print(f"Adding course: {course}")
+                add_course_to_ontology(course)
 
 # Save ontology to file
 output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\courses.owl"
