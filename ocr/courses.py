@@ -2,16 +2,32 @@ import os
 import fitz  # PyMuPDF
 import re
 from rdflib import Graph, Namespace, Literal, RDF, URIRef
+from rdflib.namespace import XSD, OWL, RDFS
 
-# Define namespace
-EX = Namespace("http://example.org/courses/")
 
 # RDF Graph
 g = Graph()
-g.bind("ex", EX)
+BASE = Namespace("http://example.org/ontology#")
+g.bind("base", BASE)
+g.bind("owl", OWL)
+g.bind("rdfs", RDFS)
+g.bind("xsd", XSD)
+
+# === Declare the Course class ===
+g.add((BASE.Course, RDF.type, OWL.Class))
+
+# === Declare Data Properties ===
+property_definitions = {
+    "hasCode": XSD.string,
+    "hasTitle": XSD.string,
+    "hasCredits": XSD.float,
+    "hasDomain": XSD.string,
+    "hasPrefix": XSD.string,
+    "forYear": XSD.integer
+}
 
 
-def extract_courses(text):
+def extract_courses(text, year):
     # Clean up the text for easier regex matching
     text = re.sub(r'\n+', '\n', text)  # Replace multiple newlines with a single one
 
@@ -32,24 +48,38 @@ def extract_courses(text):
         title = match.group("title").strip()
 
         courses.append({
-            "code": code,
-            "title": title,
-            "credits": credits,
-            "domain": "Unknown",
-            "prefix": prefix
+            "hasCode": code,
+            "hasTitle": title,
+            "hasCredits": float(credits),
+            "hasPrefix": prefix,
+            "forYear": int(year)
         })
 
     return courses
 
 
+def declare_data_properties():
+    for prop, dtype in property_definitions.items():
+        prop_uri = BASE[prop]
+        g.add((prop_uri, RDF.type, OWL.DatatypeProperty))
+        g.add((prop_uri, RDFS.domain, BASE.Course))
+        g.add((prop_uri, RDFS.range, dtype))
+
+
+declare_data_properties()
+
+
 def add_course_to_ontology(course):
-    course_uri = EX[f"Course_{course['code'].replace('.', '_')}"]
-    g.add((course_uri, RDF.type, EX.Course))
-    g.add((course_uri, EX.hasCode, Literal(course["code"])))
-    g.add((course_uri, EX.hasTitle, Literal(course["title"])))
-    g.add((course_uri, EX.hasCredits, Literal(course["credits"])))
-    g.add((course_uri, EX.hasDomain, Literal(course["domain"])))
-    g.add((course_uri, EX.hasPrefix, Literal(course["prefix"])))
+    # Create a unique URI for the course (e.g., code_year)
+    course_id = f"{course['hasCode'].replace('.', '_')}_{course['forYear']}"
+    course_uri = BASE[course_id]
+    g.add((course_uri, RDF.type, BASE.Course))
+
+    # Add each data property
+    for prop, dtype in property_definitions.items():
+        value = course.get(prop)
+        if value is not None:
+            g.add((course_uri, BASE[prop], Literal(value, datatype=dtype)))
 
 
 # Path to folder with PDFs
@@ -61,7 +91,7 @@ for filename in os.listdir(pdf_folder):
         pdf_path = os.path.join(pdf_folder, filename)
         print(f"\n===== Reading {filename} =====\n")
         doc = fitz.open(pdf_path)
-
+        year = os.path.splitext(filename)[0].strip()
         # Process pages
         full_text = ""
         for page_num in range(len(doc)):
@@ -71,7 +101,7 @@ for filename in os.listdir(pdf_folder):
 
         # Extract course data
         print(full_text)
-        courses = extract_courses(full_text)
+        courses = extract_courses(full_text, year)
         for course in courses:
             print(f"Adding course: {course}")
             add_course_to_ontology(course)

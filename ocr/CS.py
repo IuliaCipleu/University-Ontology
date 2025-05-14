@@ -79,4 +79,4 @@ for line in lines:
 
 # Save OWL
 g.serialize(destination="owl\\cs_department.owl", format="xml")
-print("\n✅ OWL file 'cs_department.owl' created dynamically based on OCR.")
+print("\nOWL file 'cs_department.owl' created dynamically based on OCR.")
