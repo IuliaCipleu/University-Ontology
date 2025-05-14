@@ -73,6 +73,6 @@ for block in dept_blocks:
                 g.add((dept_uri, hasEmail, Literal(email)))
 
 # Serialize OWL
-output_path = "owl\\departments.owl"
+output_path = ".\\owl\\departments.owl"
 g.serialize(destination=output_path, format="xml")
 print(f"\nOWL file '{output_path}' created successfully.")

@@ -13,6 +13,7 @@ for owl_file in owl_files:
     merged_graph += graph  # Merge the graph into the merged_graph
 
 # Serialize the merged graph into a new OWL file
-merged_graph.serialize("owl\\merged_ontology.owl", format="xml")
+output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\merged_ontology.owl"
+merged_graph.serialize(output_path, format="xml")
 
 print("\nOWL files have been merged successfully into 'merged_ontology.owl'.")

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://example.org/courses/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/courses/Course_27_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>27.00</ex:hasCode>
+    <ex:hasTitle>Computer-Aided Graphics</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_304_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>304.00</ex:hasCode>
+    <ex:hasTitle>Volunteering 4</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_106_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>106.00</ex:hasCode>
+    <ex:hasTitle>Signals and Systems</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_11_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>11.00</ex:hasCode>
+    <ex:hasTitle>Digital System Design</ex:hasTitle>
+    <ex:hasCredits>6.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_13_10">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>13.10</ex:hasCode>
+    <ex:hasTitle>English II</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DO</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_22_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>22.00</ex:hasCode>
+    <ex:hasTitle>Systems Theory</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_26_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>26.00</ex:hasCode>
+    <ex:hasTitle>Operating Systems</ex:hasTitle>
+    <ex:hasCredits>5.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_306_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>306.00</ex:hasCode>
+    <ex:hasTitle>Volunteering 6</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_53_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>53.00</ex:hasCode>
+    <ex:hasTitle>Information Systems</ex:hasTitle>
+    <ex:hasCredits>5.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_206_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>206.00</ex:hasCode>
+    <ex:hasTitle>Classroom Management</ex:hasTitle>
+    <ex:hasCredits>3.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_54_20">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>54.20</ex:hasCode>
+    <ex:hasTitle>Cryptology</ex:hasTitle>
+    <ex:hasCredits>6.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DO</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_41_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>41.00</ex:hasCode>
+    <ex:hasTitle>Software design</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_201_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>201.00</ex:hasCode>
+    <ex:hasTitle>Pedagogy I (The Fundamentals of Pedagogy,</ex:hasTitle>
+    <ex:hasCredits>5.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_12_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>12.00</ex:hasCode>
+    <ex:hasTitle>Data Structures and Algorithms</ex:hasTitle>
+    <ex:hasCredits>6.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_37_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>37.00</ex:hasCode>
+    <ex:hasTitle>Logic Programming</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_208_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>208.00</ex:hasCode>
+    <ex:hasTitle>Graduation exam - Level I</ex:hasTitle>
+    <ex:hasCredits>5.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_24_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>24.00</ex:hasCode>
+    <ex:hasTitle>Numerical Methods</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_38_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>38.00</ex:hasCode>
+    <ex:hasTitle>Formal Languages and Translators</ex:hasTitle>
+    <ex:hasCredits>3.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_23_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>23.00</ex:hasCode>
+    <ex:hasTitle>Computer Architecture</ex:hasTitle>
+    <ex:hasCredits>5.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_10_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>10.00</ex:hasCode>
+    <ex:hasTitle>Electrotechnics</ex:hasTitle>
+    <ex:hasCredits>5.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_102_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>102.00</ex:hasCode>
+    <ex:hasTitle>Chemistry</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_55_20">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>55.20</ex:hasCode>
+    <ex:hasTitle>Parallel and Distributed Computing</ex:hasTitle>
+    <ex:hasCredits>5.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DO</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_52_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>52.00</ex:hasCode>
+    <ex:hasTitle>Project Preparing Methodology</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_58_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>58.00</ex:hasCode>
+    <ex:hasTitle>Practical Placement for Diploma Thesis</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_56_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>56.00</ex:hasCode>
+    <ex:hasTitle>Communication Protocols and Networks Project</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_28_30">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>28.30</ex:hasCode>
+    <ex:hasTitle>German Language II - Technical Documents</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DO</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_28_10">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>28.10</ex:hasCode>
+    <ex:hasTitle>English Language II - Technical Documents Elaboration</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DO</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_59_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>59.00</ex:hasCode>
+    <ex:hasTitle>Graduation Project Defense</ex:hasTitle>
+    <ex:hasCredits>10.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_42_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>42.00</ex:hasCode>
+    <ex:hasTitle>Intelligent Systems</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_25_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>25.00</ex:hasCode>
+    <ex:hasTitle>Fundamental Programming Techniques</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_207_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>207.00</ex:hasCode>
+    <ex:hasTitle>Teaching Practice in Compulsory Pre-University</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_55_10">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>55.10</ex:hasCode>
+    <ex:hasTitle>Input-Output Systems and Peripheral Devices</ex:hasTitle>
+    <ex:hasCredits>5.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DO</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_104_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>104.00</ex:hasCode>
+    <ex:hasTitle>Mechanics</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_14_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>14.00</ex:hasCode>
+    <ex:hasTitle>Sports I</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_43_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>43.00</ex:hasCode>
+    <ex:hasTitle>Practical Work in the Domain of Study (6 sapt)</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_13_30">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>13.30</ex:hasCode>
+    <ex:hasTitle>German II</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DO</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_54_10">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>54.10</ex:hasCode>
+    <ex:hasTitle>Knowledge-based Systems</ex:hasTitle>
+    <ex:hasCredits>6.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DO</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_107_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>107.00</ex:hasCode>
+    <ex:hasTitle>Real-time Systems</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_203_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>203.00</ex:hasCode>
+    <ex:hasTitle>Didactics of the Specialization</ex:hasTitle>
+    <ex:hasCredits>5.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_39_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>39.00</ex:hasCode>
+    <ex:hasTitle>Computer Networks</ex:hasTitle>
+    <ex:hasCredits>3.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_28_20">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>28.20</ex:hasCode>
+    <ex:hasTitle>French Language I - Technical Documents Elaboration</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DO</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_40_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>40.00</ex:hasCode>
+    <ex:hasTitle>Image Processing</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_13_20">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>13.20</ex:hasCode>
+    <ex:hasTitle>French II</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DO</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_302_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>302.00</ex:hasCode>
+    <ex:hasTitle>Volunteering 2</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_308_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>308.00</ex:hasCode>
+    <ex:hasTitle>Volunteering 8</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>Dfac</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_29_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>29.00</ex:hasCode>
+    <ex:hasTitle>Sports II</ex:hasTitle>
+    <ex:hasCredits>2.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_44_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>44.00</ex:hasCode>
+    <ex:hasTitle>Practical Work in the Specialization (6 sapt)</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/courses/Course_57_00">
+    <rdf:type rdf:resource="http://example.org/courses/Course"/>
+    <ex:hasCode>57.00</ex:hasCode>
+    <ex:hasTitle>Graduation Project</ex:hasTitle>
+    <ex:hasCredits>4.0</ex:hasCredits>
+    <ex:hasDomain>Unknown</ex:hasDomain>
+    <ex:hasPrefix>DI</ex:hasPrefix>
+  </rdf:Description>
+</rdf:RDF>
