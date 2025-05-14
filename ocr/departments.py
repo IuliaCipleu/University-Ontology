@@ -74,6 +74,6 @@ for block in dept_blocks:
                 g.add((dept_uri, hasEmail, Literal(email)))
 
 # Serialize OWL
-output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\merged_ontology.owl"
+output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\departments.owl"
 g.serialize(destination=output_path, format="xml")
 print(f"\nOWL file '{output_path}' created successfully.")
