@@ -102,6 +102,7 @@ for program in master_programs:
     g.add((program_uri, hasLengthOfYears, Literal(2)))
 
 # Serialize and save the data as an OWL file
-g.serialize("study_programs.owl", format="xml")
+output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\merged_ontology.owl"
+g.serialize(output_path, format="xml")
 
 print("\nOWL file '.\\owl\\study_programs.owl' has been created successfully.")

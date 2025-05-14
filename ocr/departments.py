@@ -3,7 +3,7 @@ import re
 import pytesseract
 from PIL import Image
 from rdflib import Graph, URIRef, Literal, Namespace
-from rdflib.namespace import RDF, OWL, RDFS
+from rdflib.namespace import RDF, OWL, RDFS, XSD
 
 os.environ['TESSDATA_PREFIX'] = r'C:\Program Files\Tesseract-OCR\tessdata'
 
@@ -11,7 +11,7 @@ os.environ['TESSDATA_PREFIX'] = r'C:\Program Files\Tesseract-OCR\tessdata'
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Update this path based on your system
 
 # Open an image file
-img = Image.open('fig\departments.jpg')  # Replace 'image.png' with the path to your image
+img = Image.open(r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\fig\departments.jpg")  # Replace 'image.png' with the path to your image
 
 # Use pytesseract to extract text
 text = pytesseract.image_to_string(img)
@@ -33,9 +33,10 @@ hasDirector = BASE.hasDirector
 hasPhone = BASE.hasPhone
 hasEmail = BASE.hasEmail
 
-g.add((hasDirector, RDF.type, OWL.DatatypeProperty))
-g.add((hasPhone, RDF.type, OWL.DatatypeProperty))
-g.add((hasEmail, RDF.type, OWL.DatatypeProperty))
+for prop in [hasDirector, hasPhone, hasEmail]:
+    g.add((prop, RDF.type, OWL.DatatypeProperty))
+    g.add((prop, RDFS.domain, Department))
+    g.add((prop, RDFS.range, XSD.string))
 
 # Extract departments using regex
 dept_blocks = re.split(r"\n\s*\n", text)  # Split blocks of text
@@ -73,6 +74,6 @@ for block in dept_blocks:
                 g.add((dept_uri, hasEmail, Literal(email)))
 
 # Serialize OWL
-output_path = ".\\owl\\departments.owl"
+output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\merged_ontology.owl"
 g.serialize(destination=output_path, format="xml")
 print(f"\nOWL file '{output_path}' created successfully.")

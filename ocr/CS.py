@@ -78,5 +78,6 @@ for line in lines:
                 g.add((program_uri, hasLengthOfYears, Literal(duration)))
 
 # Save OWL
-g.serialize(destination="owl\\cs_department.owl", format="xml")
+output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\merged_ontology.owl"
+g.serialize(destination=output_path, format="xml")
 print("\nOWL file 'cs_department.owl' created dynamically based on OCR.")
