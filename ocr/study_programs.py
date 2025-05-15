@@ -10,11 +10,11 @@ os.environ['TESSDATA_PREFIX'] = r'C:\Program Files\Tesseract-OCR\tessdata'
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Update this path based on your system
 
 # Open an image file
-img = Image.open('fig\\study_programme.jpg')  # Replace 'image.png' with the path to your image
+img = Image.open(r'C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\fig\study_programme.jpg')  # Replace 'image.png' with the path to your image
 
 # Use pytesseract to extract text
 text = pytesseract.image_to_string(img)
-
+print(text)
 # Split the text into lines
 lines = text.split("\n")
 
@@ -27,13 +27,14 @@ current_degree = None
 
 # Parse the lines
 for line in lines:
+    print(line)
     if "Study Programme B.Sc." in line:
         current_degree = "B.Sc."
     elif "Study Programme M.Sc." in line:
         current_degree = "M.Sc."
-    elif line.startswith("*"):
+    elif line.startswith("*") or line.startswith("+"):
         # Example: "* Computer Science (Cluj-Napoca) (RO, EN)"
-        program = line.strip("* ").split(" (")
+        program = line.strip("*+ ").split(" (")
         program_name = program[0]
         locations = program[1].split(")")[0].strip()
         languages = program[1].split(")")[1].strip("()").split(", ")
@@ -70,7 +71,7 @@ hasLengthOfYears = URIRef(base_uri + "hasLengthOfYears")
 for program in bachelor_programs:
     # Create a URI for each program
     program_uri = URIRef(base_uri + program['name'].replace(" ", "_") + "_BSc")
-
+    print(program_uri)
     # Add the program as an individual of the BSc subclass
     g.add((program_uri, RDF.type, BSc))
     g.add((program_uri, RDF.type, StudyProgram))  # Also add to StudyProgram as a general type
@@ -87,7 +88,7 @@ for program in bachelor_programs:
 for program in master_programs:
     # Create a URI for each program
     program_uri = URIRef(base_uri + program['name'].replace(" ", "_") + "_MSc")
-
+    print(program_uri)
     # Add the program as an individual of the MSc subclass
     g.add((program_uri, RDF.type, MSc))
     g.add((program_uri, RDF.type, StudyProgram))  # Also add to StudyProgram as a general type

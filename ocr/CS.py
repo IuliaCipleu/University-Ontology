@@ -9,7 +9,7 @@ os.environ['TESSDATA_PREFIX'] = r'C:\Program Files\Tesseract-OCR\tessdata'
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Load and OCR the image
-img = Image.open('fig\\CS.jpg')
+img = Image.open(r'C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\fig\CS.jpg')
 text = pytesseract.image_to_string(img)
 print("Extracted text:\n", text)
 
@@ -49,35 +49,44 @@ g.add((hasName, RDFS.range, XSD.string))
 
 lines = text.splitlines()
 current_category = None
-duration_map = {'BS': 4, 'MS': 2, 'PhD': 3}
+duration_map = {'B.Sc': 4, 'M.Sc': 2, 'PhD': 3}
 
+accumulator = ""
 for line in lines:
     line = line.strip()
     if line.startswith('+ BS'):
-        current_category = 'BS'
+        current_category = 'B.Sc'
         continue
     elif line.startswith('+ MS'):
-        current_category = 'MS'
+        current_category = 'M.Sc'
         continue
     elif line.startswith('* PhD'):
         current_category = 'PhD'
         continue
 
     if current_category and line:
-        # Split on ':' or '—' to extract names, and filter short lines
-        fragments = [frag.strip() for frag in line.replace('—', ':').split(':')]
-        for frag in fragments:
-            if len(frag) > 5 and frag[0].isupper():
-                program_name = frag
-                program_id = program_name.replace(" ", "").replace("(", "").replace(")", "").replace("-", "")
-                duration = duration_map[current_category]
+        # Continue accumulating lines until we hit an empty line or a new category
+        if line.startswith('+') or line.startswith('*'):
+            continue  # avoid lines with just '+' or '*'
 
-                program_uri = BASE[program_id]
-                g.add((program_uri, RDF.type, BASE[current_category]))
-                g.add((program_uri, hasName, Literal(program_name)))
-                g.add((program_uri, hasLengthOfYears, Literal(duration)))
+        accumulator += " " + line  # combine lines for multiline cases
+
+# After accumulating, now split by ',' and process each program
+if accumulator and current_category:
+    # First, normalize and split
+    programs = [p.strip(" ;.") for p in accumulator.split(",") if len(p.strip()) > 3]
+
+    for program_name in programs:
+        if program_name:  # avoid empty
+            program_id = program_name.replace(" ", "").replace("(", "").replace(")", "").replace("-", "").replace("’", "").replace("‘", "").replace("`", "")
+            duration = duration_map[current_category]
+            program_uri = BASE[program_id]
+            print(program_uri)
+            g.add((program_uri, RDF.type, BASE[current_category]))
+            g.add((program_uri, hasName, Literal(program_name)))
+            g.add((program_uri, hasLengthOfYears, Literal(duration)))
 
 # Save OWL
-output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\cs_departments.owl"
+output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\cs_department.owl"
 g.serialize(destination=output_path, format="xml")
 print("\nOWL file 'cs_department.owl' created dynamically based on OCR.")

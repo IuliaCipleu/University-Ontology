@@ -1,0 +1,10 @@
+PREFIX base: <http://example.org/ontology#>
+
+SELECT ?firstName ?surname
+WHERE {
+  ?student a base:Student ;
+           base:hasFirstName ?firstName ;
+           base:hasSurname ?surname ;
+           base:inGroup base:Group_30441 .
+}
+ORDER BY ?surname

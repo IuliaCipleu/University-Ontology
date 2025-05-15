@@ -15,6 +15,14 @@ g.bind("xsd", XSD)
 # === Declare Classes ===
 g.add((BASE.Student, RDF.type, OWL.Class))
 g.add((BASE.Group, RDF.type, OWL.Class))
+g.add((BASE.StudyProgram, RDF.type, OWL.Class))
+
+cs_bsc = BASE.Computer_Science_BSc
+ai_bsc = BASE.Automation_and_Applied_Informatics_BSc
+se_msc = BASE.Software_Engineering_MSc
+
+for program in [cs_bsc, ai_bsc, se_msc]:
+    g.add((program, RDF.type, BASE.StudyProgram))
 
 # === Declare Data Properties ===
 g.add((BASE.hasFirstName, RDF.type, OWL.DatatypeProperty))
@@ -23,11 +31,17 @@ g.add((BASE.hasFirstName, RDFS.domain, BASE.Student))
 g.add((BASE.hasFirstName, RDFS.range, XSD.string))
 g.add((BASE.hasSurname, RDFS.domain, BASE.Student))
 g.add((BASE.hasSurname, RDFS.range, XSD.string))
+g.add((BASE.inYear, RDF.type, OWL.DatatypeProperty))
+g.add((BASE.inYear, RDFS.domain, BASE.Group))
+g.add((BASE.inYear, RDFS.range, XSD.integer))
 
 # === Object Property ===
 g.add((BASE.inGroup, RDF.type, OWL.ObjectProperty))
 g.add((BASE.inGroup, RDFS.domain, BASE.Student))
 g.add((BASE.inGroup, RDFS.range, BASE.Group))
+g.add((BASE.isEnrolledIn, RDF.type, OWL.ObjectProperty))
+g.add((BASE.isEnrolledIn, RDFS.domain, BASE.Group))
+g.add((BASE.isEnrolledIn, RDFS.range, BASE.StudyProgram))
 
 
 # === Extract student names ===
@@ -97,6 +111,20 @@ for filename in os.listdir(pdf_folder):
         for student in students:
             print(f"Adding student: {student}")
             add_student_to_ontology(student, group_uri)
+        if len(group_name) == 5 and group_name.isdigit():
+            year_digit = int(group_name[3])  # 4th digit (index 3)
+            second_third = group_name[1:3]  # 2nd and 3rd digit
+
+            # Set inYear
+            g.add((group_uri, BASE.inYear, Literal(year_digit, datatype=XSD.integer)))
+
+            # Determine StudyProgram
+            if second_third == "04":
+                g.add((group_uri, BASE.isEnrolledIn, cs_bsc))
+            elif second_third == "01":
+                g.add((group_uri, BASE.isEnrolledIn, ai_bsc))
+            elif second_third == "23":
+                g.add((group_uri, BASE.isEnrolledIn, se_msc))
 
 # === Save ontology ===
 output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\students.owl"
