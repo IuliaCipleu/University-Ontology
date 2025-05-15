@@ -51,6 +51,16 @@ for dp, dt in [("day", XSD.string), ("time", XSD.string)]:
     g.add((dp_uri, RDFS.range, dt))
 
 
+def split_course_info(course_str):
+    # Split by ' - ' exactly into 3 parts: course name, teacher, room
+    parts = [part.strip() for part in course_str.split(' - ')]
+    if len(parts) == 3:
+        return parts[0], parts[1], parts[2]
+    else:
+        # If not exactly 3 parts, return the whole string as course name and empty teacher/room
+        return course_str.strip(), "", ""
+
+
 def uri_safe(name):
     return re.sub(r'\W+', '_', name.strip())
 
@@ -121,6 +131,7 @@ for filename in sorted(os.listdir(html_folder)):
             for cell in row_data[4:]:
                 if cell.strip():
                     for course_name in extract_courses(cell):
+                        print(course_name)
                         course_ind = get_or_create_individual("Course", course_name)
                         courses[course_name] = course_ind
 
