@@ -17,17 +17,17 @@ g.add((BASE.Student, RDF.type, OWL.Class))
 g.add((BASE.Group, RDF.type, OWL.Class))
 
 # === Declare Data Properties ===
-g.add((BASE.hasName, RDF.type, OWL.DatatypeProperty))
-g.add((BASE.inGroup, RDF.type, OWL.DatatypeProperty))
-g.add((BASE.hasName, RDFS.domain, BASE.Student))
-g.add((BASE.hasName, RDFS.range, XSD.string))
-g.add((BASE.inGroup, RDFS.domain, BASE.Student))
-g.add((BASE.inGroup, RDFS.range, XSD.integer))
+g.add((BASE.hasFirstName, RDF.type, OWL.DatatypeProperty))
+g.add((BASE.hasSurname, RDF.type, OWL.DatatypeProperty))
+g.add((BASE.hasFirstName, RDFS.domain, BASE.Student))
+g.add((BASE.hasFirstName, RDFS.range, XSD.string))
+g.add((BASE.hasSurname, RDFS.domain, BASE.Student))
+g.add((BASE.hasSurname, RDFS.range, XSD.string))
 
 # === Object Property ===
-g.add((BASE.isInGroup, RDF.type, OWL.ObjectProperty))
-g.add((BASE.isInGroup, RDFS.domain, BASE.Student))
-g.add((BASE.isInGroup, RDFS.range, BASE.Group))
+g.add((BASE.inGroup, RDF.type, OWL.ObjectProperty))
+g.add((BASE.inGroup, RDFS.domain, BASE.Student))
+g.add((BASE.inGroup, RDFS.range, BASE.Group))
 
 
 # === Extract student names ===
@@ -36,7 +36,6 @@ def extract_students(text, year):
     # Normalize text
     text = re.sub(r'\n+', '\n', text)
     lines = text.split('\n')
-    student_lines = []
     recording = False
 
     for line in lines:
@@ -44,27 +43,31 @@ def extract_students(text, year):
             recording = True
             continue
         if recording:
-            # Stop if we hit faculty name or metadata section
             if re.search(r'Facultatea|Specializarea|Grupa|Anul|e_\d+', line):
                 break
             if line.strip().isdigit():
                 continue  # skip line numbers
-            name = line.strip()
-            if name:
+            full_name = line.strip()
+            if full_name:
+                parts = full_name.split(maxsplit=1)
+                surname = parts[0]
+                first_name = parts[1] if len(parts) > 1 else "Unknown"
                 students.append({
-                    "hasName": name,
-                    "inGroup": int(year)
+                    "hasFirstName": first_name,
+                    "hasSurname": surname
                 })
     return students
 
 
 # === Add student to ontology ===
 def add_student_to_ontology(student, group_uri):
-    student_id = student['hasName'].replace(' ', '_').replace('-', '_')
+    student_id = f"{student['hasSurname']}_{student['hasFirstName']}".replace(' ', '_').replace('-', '_')
     student_uri = BASE[f"Student_{student_id}"]
     g.add((student_uri, RDF.type, BASE.Student))
-    g.add((student_uri, BASE.hasName, Literal(student['hasName'], datatype=XSD.string)))
-    g.add((student_uri, BASE.inGroup, Literal(student['inGroup'], datatype=XSD.integer)))
+    group_uri = BASE[f"Group_{group_name}"]
+    g.add((group_uri, RDF.type, BASE.Group))
+    g.add((student_uri, BASE.hasFirstName, Literal(student['hasFirstName'], datatype=XSD.string)))
+    g.add((student_uri, BASE.hasSurname, Literal(student['hasSurname'], datatype=XSD.string)))
     g.add((student_uri, BASE.isInGroup, group_uri))
 
 # === Main processing ===
@@ -73,13 +76,12 @@ def add_student_to_ontology(student, group_uri):
 pdf_folder = os.path.abspath(os.path.join("..", "pdf", "students"))
 folder_key = os.path.basename(pdf_folder)
 
-group_name = folder_key  # Use folder name as group identifier
-group_uri = BASE[f"Group_{group_name}"]
-g.add((group_uri, RDF.type, BASE.Group))
-
 for filename in os.listdir(pdf_folder):
     if filename.lower().endswith(".pdf"):
         pdf_path = os.path.join(pdf_folder, filename)
+        group_name = os.path.splitext(filename)[0].strip()
+        group_uri = BASE[f"Group_{group_name}"]
+        g.add((group_uri, RDF.type, BASE.Group))
         print(f"\n===== Reading {filename} =====\n")
         doc = fitz.open(pdf_path)
         year = os.path.splitext(filename)[0].strip()
