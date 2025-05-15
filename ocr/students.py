@@ -12,99 +12,91 @@ g.bind("owl", OWL)
 g.bind("rdfs", RDFS)
 g.bind("xsd", XSD)
 
-# === Declare the Course class ===
+# === Declare Classes ===
 g.add((BASE.Student, RDF.type, OWL.Class))
 g.add((BASE.Group, RDF.type, OWL.Class))
 
 # === Declare Data Properties ===
-property_definitions = {
-    "inYear": XSD.integer
-}
+g.add((BASE.hasName, RDF.type, OWL.DatatypeProperty))
+g.add((BASE.inGroup, RDF.type, OWL.DatatypeProperty))
+g.add((BASE.hasName, RDFS.domain, BASE.Student))
+g.add((BASE.hasName, RDFS.range, XSD.string))
+g.add((BASE.inGroup, RDFS.domain, BASE.Student))
+g.add((BASE.inGroup, RDFS.range, XSD.integer))
 
-def parse_group(group):
-    
-    return folder_to_enrolment
+# === Object Property ===
+g.add((BASE.isInGroup, RDF.type, OWL.ObjectProperty))
+g.add((BASE.isInGroup, RDFS.domain, BASE.Student))
+g.add((BASE.isInGroup, RDFS.range, BASE.Group))
 
 
-for enrol_name in folder_to_enrolment.values():
-    enrol_uri = BASE[enrol_name]
-    g.add((penrol_uri, RDF.type, BASE.StudyProgram))
-
-
+# === Extract student names ===
 def extract_students(text, year):
-    # Clean up the text for easier regex matching
-    text = re.sub(r'\n+', '\n', text)  # Replace multiple newlines with a single one
-
-    # Pattern to match lines with student info
-    student_pattern = re.compile(
-        r"(?P<code>\d{2,3}\.\d{2})\s+(?P<some_int>\d+)?\s+(?P<grade_type>Nota|A/R)\s+"
-        r"(?P<max_score>\d+)?\s+(?P<score1>\d+)?\s+(?P<score2>\d+)?\s+(?P<score3>\d+)?\s+"
-        r"(?P<credits>[\d\.]+)?\s+(?P<prefix>DI|DF|DD|DO|DS|DC|Dfac)?\s+"
-        r"(?P<title>[^\n]+)",
-        re.IGNORECASE
-    )
-
     students = []
-    for match in student_pattern.finditer(text):
-        code = match.group("code").strip()
-        credits = match.group("credits").strip() if match.group("credits") else "0"
-        prefix = match.group("prefix").strip() if match.group("prefix") else "Unknown"
-        title = match.group("title").strip()
+    # Normalize text
+    text = re.sub(r'\n+', '\n', text)
+    lines = text.split('\n')
+    student_lines = []
+    recording = False
 
-        students.append({
-            "hasCode": code,
-            "hasTitle": title,
-            "hasCredits": float(credits),
-            "hasPrefix": prefix,
-            "forYear": int(year)
-        })
-
+    for line in lines:
+        if re.search(r'\bLista studentilor\b', line, re.IGNORECASE):
+            recording = True
+            continue
+        if recording:
+            # Stop if we hit faculty name or metadata section
+            if re.search(r'Facultatea|Specializarea|Grupa|Anul|e_\d+', line):
+                break
+            if line.strip().isdigit():
+                continue  # skip line numbers
+            name = line.strip()
+            if name:
+                students.append({
+                    "hasName": name,
+                    "inGroup": int(year)
+                })
     return students
 
 
-def add_student_to_ontology(student):
-    # Create a unique URI for the student (e.g., code_year)
-    student_id = f"{student['hasCode'].replace('.', '_')}_{student['forYear']}"
-    student_uri = BASE[student_id]
-    g.add((student_uri, RDF.type, BASE.Course))
+# === Add student to ontology ===
+def add_student_to_ontology(student, group_uri):
+    student_id = student['hasName'].replace(' ', '_').replace('-', '_')
+    student_uri = BASE[f"Student_{student_id}"]
+    g.add((student_uri, RDF.type, BASE.Student))
+    g.add((student_uri, BASE.hasName, Literal(student['hasName'], datatype=XSD.string)))
+    g.add((student_uri, BASE.inGroup, Literal(student['inGroup'], datatype=XSD.integer)))
+    g.add((student_uri, BASE.isInGroup, group_uri))
 
-    # Add each data property
-    for prop, dtype in property_definitions.items():
-        value = student.get(prop)
-        if value is not None:
-            g.add((student_uri, BASE[prop], Literal(value, datatype=dtype)))
-    g.add((student_uri, BASE.isEnroledAt, enrolment_uri))
+# === Main processing ===
 
 
-enroled_at = BASE.enroledAt
 pdf_folder = os.path.abspath(os.path.join("..", "pdf", "students"))
 folder_key = os.path.basename(pdf_folder)
-enrolement = folder_to_enrolement.get(folder_key)
-if enrolement is None:
-    print(f"Unknown folder: {folder_key}, skipping...")
-    continue
-enrolement_uri = BASE[enrolement]
+
+group_name = folder_key  # Use folder name as group identifier
+group_uri = BASE[f"Group_{group_name}"]
+g.add((group_uri, RDF.type, BASE.Group))
+
 for filename in os.listdir(pdf_folder):
     if filename.lower().endswith(".pdf"):
         pdf_path = os.path.join(pdf_folder, filename)
         print(f"\n===== Reading {filename} =====\n")
         doc = fitz.open(pdf_path)
         year = os.path.splitext(filename)[0].strip()
-        # Process pages
+
+        # Read all pages
         full_text = ""
         for page_num in range(len(doc)):
             page: fitz.Page = doc[page_num]
             full_text += page.get_text()
         doc.close()
 
-        # Extract student data
-        print(full_text)
-        students = extract_students(full_text, enrolment)
+        students = extract_students(full_text, year)
         for student in students:
             print(f"Adding student: {student}")
-            add_student_to_ontology(student)
+            add_student_to_ontology(student, group_uri)
 
-# Save ontology to file
+# === Save ontology ===
 output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\students.owl"
 g.serialize(destination=output_path, format="xml")
 print(f"\nOntology saved to {output_path}")
