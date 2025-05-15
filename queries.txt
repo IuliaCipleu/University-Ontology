@@ -1,10 +1,42 @@
 PREFIX base: <http://example.org/ontology#>
 
-SELECT ?firstName ?surname
+SELECT ?student ?firstName ?surname ?group
 WHERE {
   ?student a base:Student ;
            base:hasFirstName ?firstName ;
            base:hasSurname ?surname ;
-           base:inGroup base:Group_30441 .
+           base:isInGroup ?group .
+}
+ORDER BY ?group ?surname
+----------------------------------
+PREFIX base: <http://example.org/ontology#>
+
+SELECT ?studyProgram ?student ?firstName ?surname
+WHERE {
+  ?student a base:Student ;
+           base:hasFirstName ?firstName ;
+           base:hasSurname ?surname ;
+           base:isInGroup ?group .
+  ?group base:isEnrolledIn ?studyProgram .
+}
+ORDER BY ?studyProgram ?surname
+----------------------------------
+PREFIX base: <http://example.org/ontology#>
+
+SELECT ?student ?firstName ?surname ?courseTitle
+WHERE {
+  ?student a base:Student ;
+           base:hasFirstName ?firstName ;
+           base:hasSurname ?surname ;
+           base:isInGroup ?group .
+
+  ?group base:isEnrolledIn ?studyProgram .
+
+  ?course a base:Course ;
+          base:isTaughtAt ?studyProgram ;
+          base:hasTitle ?courseTitle .
+
+  FILTER(str(?courseTitle) = "Electrotechnics")
 }
 ORDER BY ?surname
+---------------------------------------------
