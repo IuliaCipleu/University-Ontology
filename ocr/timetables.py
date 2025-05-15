@@ -131,8 +131,8 @@ for filename in sorted(os.listdir(html_folder)):
             for cell in row_data[4:]:
                 if cell.strip():
                     for course_name in extract_courses(cell):
-                        print(course_name)
-                        course_ind = get_or_create_individual("Course", course_name)
+                        course, teacher, room = split_course_info(course_name)
+                        course_ind = get_or_create_individual("Course", course)
                         courses[course_name] = course_ind
 
                         timeslot_ind = get_or_create_timeslot(day, time)
@@ -145,7 +145,16 @@ for filename in sorted(os.listdir(html_folder)):
                         g.add((se_uri, BASE.hasCourse, course_ind))
                         g.add((se_uri, BASE.hasTimeslot, timeslot_ind))
 
-                        # You can add room and teacher similarly if info is available
+                        if teacher:
+                            teacher_ind = get_or_create_individual("Teacher", teacher)
+                            teachers[teacher] = teacher_ind
+                            g.add((se_uri, BASE.hasTeacher, teacher_ind))
+
+                        # Add room if exists
+                        if room:
+                            room_ind = get_or_create_individual("Room", room)
+                            rooms[room] = room_ind
+                            g.add((se_uri, BASE.hasRoom, room_ind))
 
 # Save ontology
 g.serialize(destination=output_path, format="xml")
