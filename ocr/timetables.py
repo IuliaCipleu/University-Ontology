@@ -37,6 +37,14 @@ properties = {
     "hasTimeslot": "Timeslot"
 }
 
+day_translation = {
+    "Luni": "Monday",
+    "Marti": "Tuesday",
+    "Miercuri": "Wednesday",
+    "Joi": "Thursday",
+    "Vineri": "Friday"
+}
+
 for prop, rng in properties.items():
     prop_uri = BASE[prop]
     g.add((prop_uri, RDF.type, OWL.ObjectProperty))
@@ -143,6 +151,8 @@ for filename in sorted(os.listdir(html_folder)):
 
             if not day or not time:
                 continue
+            
+            day_en = day_translation.get(day.strip().capitalize(), day)
 
             # Courses start at 4th column
             for col_idx, cell in enumerate(row_data[4:], start=4):
@@ -155,7 +165,7 @@ for filename in sorted(os.listdir(html_folder)):
                         course_ind = get_or_create_individual("Course", course)
                         courses[course_name] = course_ind
 
-                        timeslot_ind = get_or_create_timeslot(day, time)
+                        timeslot_ind = get_or_create_timeslot(day_en, time)
 
                         # Create ScheduleEntry individual
                         se_name = f"{group_name}_{day}_{time}_{course_name}"
@@ -174,13 +184,7 @@ for filename in sorted(os.listdir(html_folder)):
                         if room:
                             room_ind = get_or_create_individual("Room", room)
                             rooms[room] = room_ind
-                            g.add((se_uri, BASE.hasRoom, room_ind))
-                            
-# for se in g.subjects(RDF.type, BASE["ScheduleEntry"]):
-#     room = g.value(se, BASE["hasRoom"])
-#     timeslot = g.value(se, BASE["hasTimeslot"])
-#     if room and timeslot:
-#         g.add((room, BASE["isOccupiedAt"], timeslot))
+                            g.add((se_uri, BASE.hasRoom, room_ind))                         
         
 # Save ontology
 g.serialize(destination=output_path, format="xml")
