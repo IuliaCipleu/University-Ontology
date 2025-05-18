@@ -50,6 +50,18 @@ for dp, dt in [("day", XSD.string), ("time", XSD.string)]:
     g.add((dp_uri, RDFS.domain, BASE["Timeslot"]))
     g.add((dp_uri, RDFS.range, dt))
 
+# Define isOccupiedAt
+is_occupied_at = BASE["isOccupiedAt"]
+g.add((is_occupied_at, RDF.type, OWL.ObjectProperty))
+g.add((is_occupied_at, RDFS.domain, BASE["Room"]))
+g.add((is_occupied_at, RDFS.range, BASE["Timeslot"]))
+
+# Define isFreeAt as inverse of isOccupiedAt
+is_free_at = BASE["isFreeAt"]
+g.add((is_free_at, RDF.type, OWL.ObjectProperty))
+g.add((is_free_at, RDFS.domain, BASE["Room"]))
+g.add((is_free_at, RDFS.range, BASE["Timeslot"]))
+
 
 def split_course_info(course_str):
     # Split by ' - ' exactly into 3 parts: course name, teacher, room
@@ -110,9 +122,9 @@ for filename in sorted(os.listdir(html_folder)):
         filepath = os.path.join(html_folder, filename)
         try:
             df = pd.read_html(filepath)[0]
-            print(f"✅ {filename}: {df.shape}")
+            print(f"{filename}: {df.shape}")
         except Exception as e:
-            print(f"❌ Failed to read {filename}: {e}")
+            print(f"Failed to read {filename}: {e}")
             continue
 
         group_name = filename.replace(".html", "")
@@ -155,7 +167,13 @@ for filename in sorted(os.listdir(html_folder)):
                             room_ind = get_or_create_individual("Room", room)
                             rooms[room] = room_ind
                             g.add((se_uri, BASE.hasRoom, room_ind))
-
+                            
+for se in g.subjects(RDF.type, BASE["ScheduleEntry"]):
+    room = g.value(se, BASE["hasRoom"])
+    timeslot = g.value(se, BASE["hasTimeslot"])
+    if room and timeslot:
+        g.add((room, BASE["isOccupiedAt"], timeslot))
+        
 # Save ontology
 g.serialize(destination=output_path, format="xml")
 print(f"Ontology saved to {output_path}")
