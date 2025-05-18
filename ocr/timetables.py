@@ -168,11 +168,11 @@ for filename in sorted(os.listdir(html_folder)):
                             rooms[room] = room_ind
                             g.add((se_uri, BASE.hasRoom, room_ind))
                             
-for se in g.subjects(RDF.type, BASE["ScheduleEntry"]):
-    room = g.value(se, BASE["hasRoom"])
-    timeslot = g.value(se, BASE["hasTimeslot"])
-    if room and timeslot:
-        g.add((room, BASE["isOccupiedAt"], timeslot))
+# for se in g.subjects(RDF.type, BASE["ScheduleEntry"]):
+#     room = g.value(se, BASE["hasRoom"])
+#     timeslot = g.value(se, BASE["hasTimeslot"])
+#     if room and timeslot:
+#         g.add((room, BASE["isOccupiedAt"], timeslot))
         
 # Save ontology
 g.serialize(destination=output_path, format="xml")
