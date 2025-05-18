@@ -130,6 +130,11 @@ for filename in sorted(os.listdir(html_folder)):
         group_name = filename.replace(".html", "")
         group_ind = get_or_create_individual("Group", group_name)
         groups[group_name] = group_ind
+        group_header_row_index = 2  # adjust if needed
+        group_names = df.iloc[group_header_row_index, 4:].tolist()  # from col 4 to end
+
+        # Clean group names (remove nan, strip strings)
+        group_names = [str(g).strip() if pd.notna(g) else "" for g in group_names]
 
         for index, row in df.iterrows():
             row_data = [str(cell) if pd.notna(cell) else "" for cell in row.tolist()]
@@ -140,8 +145,11 @@ for filename in sorted(os.listdir(html_folder)):
                 continue
 
             # Courses start at 4th column
-            for cell in row_data[4:]:
+            for col_idx, cell in enumerate(row_data[4:], start=4):
                 if cell.strip():
+                    group_for_column = group_names[col_idx - 4]  # match group by col index
+                    group_ind = get_or_create_individual("Group", group_for_column)
+                    groups[group_for_column] = group_ind
                     for course_name in extract_courses(cell):
                         course, teacher, room = split_course_info(course_name)
                         course_ind = get_or_create_individual("Course", course)
