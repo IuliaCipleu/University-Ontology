@@ -6122,3 +6122,1088 @@ Individual: Sport  # Generated from value "Sport" located at cell 'Legenda'!A65 
    Types: Room
 
 ===========================================================================================================
+Date: 2025-05-19 11:56:46
+Ontology source: /C:/Users/Cipleu/Documents/IULIA/SCOALA/facultate/Year%204%20Semester%202/KBS/Lab/Project/University-Ontology/owl/merged_ontology.owl
+Worksheet source: C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\excel\rooms.xlsx
+Transformation rules: C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\cellfie\rooms.json
+
+# Cell range: (Legenda!A2:A+) Comment: ""
+# Individual: @A*
+#   Types: Room
+
+Individual: 202  # Generated from value "202" located at cell 'Legenda'!A2 using reference @A*.
+   Types: Room
+Individual: 203  # Generated from value "203" located at cell 'Legenda'!A3 using reference @A*.
+   Types: Room
+Individual: 204  # Generated from value "204" located at cell 'Legenda'!A4 using reference @A*.
+   Types: Room
+Individual: 205  # Generated from value "205" located at cell 'Legenda'!A5 using reference @A*.
+   Types: Room
+Individual: 206  # Generated from value "206" located at cell 'Legenda'!A6 using reference @A*.
+   Types: Room
+Individual: 207  # Generated from value "207" located at cell 'Legenda'!A7 using reference @A*.
+   Types: Room
+Individual: 208  # Generated from value "208" located at cell 'Legenda'!A8 using reference @A*.
+   Types: Room
+Individual: 209  # Generated from value "209" located at cell 'Legenda'!A9 using reference @A*.
+   Types: Room
+Individual: 210  # Generated from value "210" located at cell 'Legenda'!A10 using reference @A*.
+   Types: Room
+Individual: 211  # Generated from value "211" located at cell 'Legenda'!A11 using reference @A*.
+   Types: Room
+Individual: 212  # Generated from value "212" located at cell 'Legenda'!A12 using reference @A*.
+   Types: Room
+Individual: 213  # Generated from value "213" located at cell 'Legenda'!A13 using reference @A*.
+   Types: Room
+Individual: 214  # Generated from value "214" located at cell 'Legenda'!A14 using reference @A*.
+   Types: Room
+Individual: 40  # Generated from value "40" located at cell 'Legenda'!A15 using reference @A*.
+   Types: Room
+Individual: F  # Generated from value "F" located at cell 'Legenda'!A16 using reference @A*.
+   Types: Room
+Individual: 356  # Generated from value "356" located at cell 'Legenda'!A18 using reference @A*.
+   Types: Room
+Individual: 16B  # Generated from value "16B" located at cell 'Legenda'!A19 using reference @A*.
+   Types: Room
+Individual: 26B  # Generated from value "26B" located at cell 'Legenda'!A20 using reference @A*.
+   Types: Room
+Individual: 36  # Generated from value "36" located at cell 'Legenda'!A21 using reference @A*.
+   Types: Room
+Individual: 45  # Generated from value "45" located at cell 'Legenda'!A22 using reference @A*.
+   Types: Room
+Individual: 51  # Generated from value "51" located at cell 'Legenda'!A23 using reference @A*.
+   Types: Room
+Individual: E15  # Generated from value "E15" located at cell 'Legenda'!A24 using reference @A*.
+   Types: Room
+Individual: E17  # Generated from value "E17" located at cell 'Legenda'!A25 using reference @A*.
+   Types: Room
+Individual: D21  # Generated from value "D21" located at cell 'Legenda'!A27 using reference @A*.
+   Types: Room
+Individual: D11  # Generated from value "D11" located at cell 'Legenda'!A28 using reference @A*.
+   Types: Room
+Individual: D12  # Generated from value "D12" located at cell 'Legenda'!A29 using reference @A*.
+   Types: Room
+Individual: P03  # Generated from value "P03" located at cell 'Legenda'!A30 using reference @A*.
+   Types: Room
+Individual: H11  # Generated from value "H11" located at cell 'Legenda'!A31 using reference @A*.
+   Types: Room
+Individual: H01  # Generated from value "H01" located at cell 'Legenda'!A32 using reference @A*.
+   Types: Room
+Individual: H41  # Generated from value "H41" located at cell 'Legenda'!A33 using reference @A*.
+   Types: Room
+Individual: 206P  # Generated from value "206P" located at cell 'Legenda'!A34 using reference @A*.
+   Types: Room
+Individual: BT 5.01  # Generated from value "BT 5.01" located at cell 'Legenda'!A35 using reference @A*.
+   Types: Room
+Individual: BT 5.02  # Generated from value "BT 5.02" located at cell 'Legenda'!A36 using reference @A*.
+   Types: Room
+Individual: BT 5.03  # Generated from value "BT 5.03" located at cell 'Legenda'!A37 using reference @A*.
+   Types: Room
+Individual: BT 5.04  # Generated from value "BT 5.04" located at cell 'Legenda'!A38 using reference @A*.
+   Types: Room
+Individual: BT 5.05  # Generated from value "BT 5.05" located at cell 'Legenda'!A39 using reference @A*.
+   Types: Room
+Individual: BT 7.02  # Generated from value "BT 7.02" located at cell 'Legenda'!A40 using reference @A*.
+   Types: Room
+Individual: 211LS  # Generated from value "211LS" located at cell 'Legenda'!A41 using reference @A*.
+   Types: Room
+Individual: 216LS  # Generated from value "216LS" located at cell 'Legenda'!A42 using reference @A*.
+   Types: Room
+Individual: 197  # Generated from value "197" located at cell 'Legenda'!A43 using reference @A*.
+   Types: Room
+Individual: 192  # Generated from value "192" located at cell 'Legenda'!A44 using reference @A*.
+   Types: Room
+Individual: S4.2  # Generated from value "S4.2" located at cell 'Legenda'!A45 using reference @A*.
+   Types: Room
+Individual: 467  # Generated from value "467" located at cell 'Legenda'!A46 using reference @A*.
+   Types: Room
+Individual: 479  # Generated from value "479" located at cell 'Legenda'!A47 using reference @A*.
+   Types: Room
+Individual: Aula Instalatii  # Generated from value "Aula Instalatii" located at cell 'Legenda'!A48 using reference @A*.
+   Types: Room
+Individual: D1  # Generated from value "D1" located at cell 'Legenda'!A49 using reference @A*.
+   Types: Room
+Individual: D3  # Generated from value "D3" located at cell 'Legenda'!A50 using reference @A*.
+   Types: Room
+Individual: C01  # Generated from value "C01" located at cell 'Legenda'!A51 using reference @A*.
+   Types: Room
+Individual: C12  # Generated from value "C12" located at cell 'Legenda'!A52 using reference @A*.
+   Types: Room
+Individual: SG  # Generated from value "SG" located at cell 'Legenda'!A53 using reference @A*.
+   Types: Room
+Individual: 101  # Generated from value "101" located at cell 'Legenda'!A54 using reference @A*.
+   Types: Room
+Individual: 102  # Generated from value "102" located at cell 'Legenda'!A55 using reference @A*.
+   Types: Room
+Individual: 103  # Generated from value "103" located at cell 'Legenda'!A56 using reference @A*.
+   Types: Room
+Individual: 104  # Generated from value "104" located at cell 'Legenda'!A57 using reference @A*.
+   Types: Room
+Individual: 105  # Generated from value "105" located at cell 'Legenda'!A58 using reference @A*.
+   Types: Room
+Individual: 106  # Generated from value "106" located at cell 'Legenda'!A59 using reference @A*.
+   Types: Room
+Individual: 107  # Generated from value "107" located at cell 'Legenda'!A60 using reference @A*.
+   Types: Room
+Individual: 108  # Generated from value "108" located at cell 'Legenda'!A61 using reference @A*.
+   Types: Room
+Individual: M1  # Generated from value "M1" located at cell 'Legenda'!A62 using reference @A*.
+   Types: Room
+Individual: M2  # Generated from value "M2" located at cell 'Legenda'!A63 using reference @A*.
+   Types: Room
+Individual: M3  # Generated from value "M3" located at cell 'Legenda'!A64 using reference @A*.
+   Types: Room
+Individual: Sport  # Generated from value "Sport" located at cell 'Legenda'!A65 using reference @A*.
+   Types: Room
+
+# Cell range: (Legenda!A2:C+) Comment: ""
+# Individual: @A*
+#   Types: Room
+#   Facts: hasWebPage @C*
+
+Individual: 202  # Generated from value "202" located at cell 'Legenda'!A2 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C2 using reference @C*.
+   Types: Room
+Individual: 203  # Generated from value "203" located at cell 'Legenda'!A3 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C3 using reference @C*.
+   Types: Room
+Individual: 204  # Generated from value "204" located at cell 'Legenda'!A4 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C4 using reference @C*.
+   Types: Room
+Individual: 205  # Generated from value "205" located at cell 'Legenda'!A5 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C5 using reference @C*.
+   Types: Room
+Individual: 206  # Generated from value "206" located at cell 'Legenda'!A6 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C6 using reference @C*.
+   Types: Room
+Individual: 207  # Generated from value "207" located at cell 'Legenda'!A7 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C7 using reference @C*.
+   Types: Room
+Individual: 208  # Generated from value "208" located at cell 'Legenda'!A8 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C8 using reference @C*.
+   Types: Room
+Individual: 209  # Generated from value "209" located at cell 'Legenda'!A9 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C9 using reference @C*.
+   Types: Room
+Individual: 210  # Generated from value "210" located at cell 'Legenda'!A10 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C10 using reference @C*.
+   Types: Room
+Individual: 211  # Generated from value "211" located at cell 'Legenda'!A11 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C11 using reference @C*.
+   Types: Room
+Individual: 212  # Generated from value "212" located at cell 'Legenda'!A12 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C12 using reference @C*.
+   Types: Room
+Individual: 213  # Generated from value "213" located at cell 'Legenda'!A13 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C13 using reference @C*.
+   Types: Room
+Individual: 214  # Generated from value "214" located at cell 'Legenda'!A14 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C14 using reference @C*.
+   Types: Room
+Individual: 40  # Generated from value "40" located at cell 'Legenda'!A15 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C15 using reference @C*.
+   Types: Room
+Individual: F  # Generated from value "F" located at cell 'Legenda'!A16 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C16 using reference @C*.
+   Types: Room
+Individual: 356  # Generated from value "356" located at cell 'Legenda'!A18 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C18 using reference @C*.
+   Types: Room
+Individual: 16B  # Generated from value "16B" located at cell 'Legenda'!A19 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C19 using reference @C*.
+   Types: Room
+Individual: 26B  # Generated from value "26B" located at cell 'Legenda'!A20 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C20 using reference @C*.
+   Types: Room
+Individual: 36  # Generated from value "36" located at cell 'Legenda'!A21 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C21 using reference @C*.
+   Types: Room
+Individual: 45  # Generated from value "45" located at cell 'Legenda'!A22 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C22 using reference @C*.
+   Types: Room
+Individual: 51  # Generated from value "51" located at cell 'Legenda'!A23 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C23 using reference @C*.
+   Types: Room
+Individual: E15  # Generated from value "E15" located at cell 'Legenda'!A24 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C24 using reference @C*.
+   Types: Room
+Individual: E17  # Generated from value "E17" located at cell 'Legenda'!A25 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C25 using reference @C*.
+   Types: Room
+Individual: D21  # Generated from value "D21" located at cell 'Legenda'!A27 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C27 using reference @C*.
+   Types: Room
+Individual: D11  # Generated from value "D11" located at cell 'Legenda'!A28 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C28 using reference @C*.
+   Types: Room
+Individual: D12  # Generated from value "D12" located at cell 'Legenda'!A29 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C29 using reference @C*.
+   Types: Room
+Individual: P03  # Generated from value "P03" located at cell 'Legenda'!A30 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C30 using reference @C*.
+   Types: Room
+Individual: H11  # Generated from value "H11" located at cell 'Legenda'!A31 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C31 using reference @C*.
+   Types: Room
+Individual: H01  # Generated from value "H01" located at cell 'Legenda'!A32 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C32 using reference @C*.
+   Types: Room
+Individual: H41  # Generated from value "H41" located at cell 'Legenda'!A33 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C33 using reference @C*.
+   Types: Room
+Individual: 206P  # Generated from value "206P" located at cell 'Legenda'!A34 using reference @A*.
+
+   Types: Room
+Individual: BT 5.01  # Generated from value "BT 5.01" located at cell 'Legenda'!A35 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C35 using reference @C*.
+   Types: Room
+Individual: BT 5.02  # Generated from value "BT 5.02" located at cell 'Legenda'!A36 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C36 using reference @C*.
+   Types: Room
+Individual: BT 5.03  # Generated from value "BT 5.03" located at cell 'Legenda'!A37 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C37 using reference @C*.
+   Types: Room
+Individual: BT 5.04  # Generated from value "BT 5.04" located at cell 'Legenda'!A38 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C38 using reference @C*.
+   Types: Room
+Individual: BT 5.05  # Generated from value "BT 5.05" located at cell 'Legenda'!A39 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C39 using reference @C*.
+   Types: Room
+Individual: BT 7.02  # Generated from value "BT 7.02" located at cell 'Legenda'!A40 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C40 using reference @C*.
+   Types: Room
+Individual: 211LS  # Generated from value "211LS" located at cell 'Legenda'!A41 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C41 using reference @C*.
+   Types: Room
+Individual: 216LS  # Generated from value "216LS" located at cell 'Legenda'!A42 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C42 using reference @C*.
+   Types: Room
+Individual: 197  # Generated from value "197" located at cell 'Legenda'!A43 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C43 using reference @C*.
+   Types: Room
+Individual: 192  # Generated from value "192" located at cell 'Legenda'!A44 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C44 using reference @C*.
+   Types: Room
+Individual: S4.2  # Generated from value "S4.2" located at cell 'Legenda'!A45 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C45 using reference @C*.
+   Types: Room
+Individual: 467  # Generated from value "467" located at cell 'Legenda'!A46 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C46 using reference @C*.
+   Types: Room
+Individual: 479  # Generated from value "479" located at cell 'Legenda'!A47 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C47 using reference @C*.
+   Types: Room
+Individual: Aula Instalatii  # Generated from value "Aula Instalatii" located at cell 'Legenda'!A48 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C48 using reference @C*.
+   Types: Room
+Individual: D1  # Generated from value "D1" located at cell 'Legenda'!A49 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C49 using reference @C*.
+   Types: Room
+Individual: D3  # Generated from value "D3" located at cell 'Legenda'!A50 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C50 using reference @C*.
+   Types: Room
+Individual: C01  # Generated from value "C01" located at cell 'Legenda'!A51 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C51 using reference @C*.
+   Types: Room
+Individual: C12  # Generated from value "C12" located at cell 'Legenda'!A52 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C52 using reference @C*.
+   Types: Room
+Individual: SG  # Generated from value "SG" located at cell 'Legenda'!A53 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C53 using reference @C*.
+   Types: Room
+Individual: 101  # Generated from value "101" located at cell 'Legenda'!A54 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C54 using reference @C*.
+   Types: Room
+Individual: 102  # Generated from value "102" located at cell 'Legenda'!A55 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C55 using reference @C*.
+   Types: Room
+Individual: 103  # Generated from value "103" located at cell 'Legenda'!A56 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C56 using reference @C*.
+   Types: Room
+Individual: 104  # Generated from value "104" located at cell 'Legenda'!A57 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C57 using reference @C*.
+   Types: Room
+Individual: 105  # Generated from value "105" located at cell 'Legenda'!A58 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C58 using reference @C*.
+   Types: Room
+Individual: 106  # Generated from value "106" located at cell 'Legenda'!A59 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C59 using reference @C*.
+   Types: Room
+Individual: 107  # Generated from value "107" located at cell 'Legenda'!A60 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C60 using reference @C*.
+   Types: Room
+Individual: 108  # Generated from value "108" located at cell 'Legenda'!A61 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C61 using reference @C*.
+   Types: Room
+Individual: M1  # Generated from value "M1" located at cell 'Legenda'!A62 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C62 using reference @C*.
+   Types: Room
+Individual: M2  # Generated from value "M2" located at cell 'Legenda'!A63 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C63 using reference @C*.
+   Types: Room
+Individual: M3  # Generated from value "M3" located at cell 'Legenda'!A64 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C64 using reference @C*.
+   Types: Room
+Individual: Sport  # Generated from value "Sport" located at cell 'Legenda'!A65 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/niczYnokxLy8QmkA7"  # Generated from value "https://goo.gl/maps/niczYnokxLy8QmkA7" located at cell 'Legenda'!C65 using reference @C*.
+   Types: Room
+Individual: 202  # Generated from value "202" located at cell 'Legenda'!A2 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C2 using reference @C*.
+   Types: Room
+Individual: 203  # Generated from value "203" located at cell 'Legenda'!A3 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C3 using reference @C*.
+   Types: Room
+Individual: 204  # Generated from value "204" located at cell 'Legenda'!A4 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C4 using reference @C*.
+   Types: Room
+Individual: 205  # Generated from value "205" located at cell 'Legenda'!A5 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C5 using reference @C*.
+   Types: Room
+Individual: 206  # Generated from value "206" located at cell 'Legenda'!A6 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C6 using reference @C*.
+   Types: Room
+Individual: 207  # Generated from value "207" located at cell 'Legenda'!A7 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C7 using reference @C*.
+   Types: Room
+Individual: 208  # Generated from value "208" located at cell 'Legenda'!A8 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C8 using reference @C*.
+   Types: Room
+Individual: 209  # Generated from value "209" located at cell 'Legenda'!A9 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C9 using reference @C*.
+   Types: Room
+Individual: 210  # Generated from value "210" located at cell 'Legenda'!A10 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C10 using reference @C*.
+   Types: Room
+Individual: 211  # Generated from value "211" located at cell 'Legenda'!A11 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C11 using reference @C*.
+   Types: Room
+Individual: 212  # Generated from value "212" located at cell 'Legenda'!A12 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C12 using reference @C*.
+   Types: Room
+Individual: 213  # Generated from value "213" located at cell 'Legenda'!A13 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C13 using reference @C*.
+   Types: Room
+Individual: 214  # Generated from value "214" located at cell 'Legenda'!A14 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C14 using reference @C*.
+   Types: Room
+Individual: 40  # Generated from value "40" located at cell 'Legenda'!A15 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C15 using reference @C*.
+   Types: Room
+Individual: F  # Generated from value "F" located at cell 'Legenda'!A16 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C16 using reference @C*.
+   Types: Room
+Individual: 356  # Generated from value "356" located at cell 'Legenda'!A18 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C18 using reference @C*.
+   Types: Room
+Individual: 16B  # Generated from value "16B" located at cell 'Legenda'!A19 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C19 using reference @C*.
+   Types: Room
+Individual: 26B  # Generated from value "26B" located at cell 'Legenda'!A20 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C20 using reference @C*.
+   Types: Room
+Individual: 36  # Generated from value "36" located at cell 'Legenda'!A21 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C21 using reference @C*.
+   Types: Room
+Individual: 45  # Generated from value "45" located at cell 'Legenda'!A22 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C22 using reference @C*.
+   Types: Room
+Individual: 51  # Generated from value "51" located at cell 'Legenda'!A23 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C23 using reference @C*.
+   Types: Room
+Individual: E15  # Generated from value "E15" located at cell 'Legenda'!A24 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C24 using reference @C*.
+   Types: Room
+Individual: E17  # Generated from value "E17" located at cell 'Legenda'!A25 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C25 using reference @C*.
+   Types: Room
+Individual: D21  # Generated from value "D21" located at cell 'Legenda'!A27 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C27 using reference @C*.
+   Types: Room
+Individual: D11  # Generated from value "D11" located at cell 'Legenda'!A28 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C28 using reference @C*.
+   Types: Room
+Individual: D12  # Generated from value "D12" located at cell 'Legenda'!A29 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C29 using reference @C*.
+   Types: Room
+Individual: P03  # Generated from value "P03" located at cell 'Legenda'!A30 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C30 using reference @C*.
+   Types: Room
+Individual: H11  # Generated from value "H11" located at cell 'Legenda'!A31 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C31 using reference @C*.
+   Types: Room
+Individual: H01  # Generated from value "H01" located at cell 'Legenda'!A32 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C32 using reference @C*.
+   Types: Room
+Individual: H41  # Generated from value "H41" located at cell 'Legenda'!A33 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C33 using reference @C*.
+   Types: Room
+Individual: 206P  # Generated from value "206P" located at cell 'Legenda'!A34 using reference @A*.
+
+   Types: Room
+Individual: BT 5.01  # Generated from value "BT 5.01" located at cell 'Legenda'!A35 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C35 using reference @C*.
+   Types: Room
+Individual: BT 5.02  # Generated from value "BT 5.02" located at cell 'Legenda'!A36 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C36 using reference @C*.
+   Types: Room
+Individual: BT 5.03  # Generated from value "BT 5.03" located at cell 'Legenda'!A37 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C37 using reference @C*.
+   Types: Room
+Individual: BT 5.04  # Generated from value "BT 5.04" located at cell 'Legenda'!A38 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C38 using reference @C*.
+   Types: Room
+Individual: BT 5.05  # Generated from value "BT 5.05" located at cell 'Legenda'!A39 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C39 using reference @C*.
+   Types: Room
+Individual: BT 7.02  # Generated from value "BT 7.02" located at cell 'Legenda'!A40 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C40 using reference @C*.
+   Types: Room
+Individual: 211LS  # Generated from value "211LS" located at cell 'Legenda'!A41 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C41 using reference @C*.
+   Types: Room
+Individual: 216LS  # Generated from value "216LS" located at cell 'Legenda'!A42 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C42 using reference @C*.
+   Types: Room
+Individual: 197  # Generated from value "197" located at cell 'Legenda'!A43 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C43 using reference @C*.
+   Types: Room
+Individual: 192  # Generated from value "192" located at cell 'Legenda'!A44 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C44 using reference @C*.
+   Types: Room
+Individual: S4.2  # Generated from value "S4.2" located at cell 'Legenda'!A45 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C45 using reference @C*.
+   Types: Room
+Individual: 467  # Generated from value "467" located at cell 'Legenda'!A46 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C46 using reference @C*.
+   Types: Room
+Individual: 479  # Generated from value "479" located at cell 'Legenda'!A47 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C47 using reference @C*.
+   Types: Room
+Individual: Aula Instalatii  # Generated from value "Aula Instalatii" located at cell 'Legenda'!A48 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C48 using reference @C*.
+   Types: Room
+Individual: D1  # Generated from value "D1" located at cell 'Legenda'!A49 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C49 using reference @C*.
+   Types: Room
+Individual: D3  # Generated from value "D3" located at cell 'Legenda'!A50 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C50 using reference @C*.
+   Types: Room
+Individual: C01  # Generated from value "C01" located at cell 'Legenda'!A51 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C51 using reference @C*.
+   Types: Room
+Individual: C12  # Generated from value "C12" located at cell 'Legenda'!A52 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C52 using reference @C*.
+   Types: Room
+Individual: SG  # Generated from value "SG" located at cell 'Legenda'!A53 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C53 using reference @C*.
+   Types: Room
+Individual: 101  # Generated from value "101" located at cell 'Legenda'!A54 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C54 using reference @C*.
+   Types: Room
+Individual: 102  # Generated from value "102" located at cell 'Legenda'!A55 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C55 using reference @C*.
+   Types: Room
+Individual: 103  # Generated from value "103" located at cell 'Legenda'!A56 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C56 using reference @C*.
+   Types: Room
+Individual: 104  # Generated from value "104" located at cell 'Legenda'!A57 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C57 using reference @C*.
+   Types: Room
+Individual: 105  # Generated from value "105" located at cell 'Legenda'!A58 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C58 using reference @C*.
+   Types: Room
+Individual: 106  # Generated from value "106" located at cell 'Legenda'!A59 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C59 using reference @C*.
+   Types: Room
+Individual: 107  # Generated from value "107" located at cell 'Legenda'!A60 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C60 using reference @C*.
+   Types: Room
+Individual: 108  # Generated from value "108" located at cell 'Legenda'!A61 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C61 using reference @C*.
+   Types: Room
+Individual: M1  # Generated from value "M1" located at cell 'Legenda'!A62 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C62 using reference @C*.
+   Types: Room
+Individual: M2  # Generated from value "M2" located at cell 'Legenda'!A63 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C63 using reference @C*.
+   Types: Room
+Individual: M3  # Generated from value "M3" located at cell 'Legenda'!A64 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C64 using reference @C*.
+   Types: Room
+Individual: Sport  # Generated from value "Sport" located at cell 'Legenda'!A65 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/niczYnokxLy8QmkA7"  # Generated from value "https://goo.gl/maps/niczYnokxLy8QmkA7" located at cell 'Legenda'!C65 using reference @C*.
+   Types: Room
+Individual: 202  # Generated from value "202" located at cell 'Legenda'!A2 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C2 using reference @C*.
+   Types: Room
+Individual: 203  # Generated from value "203" located at cell 'Legenda'!A3 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C3 using reference @C*.
+   Types: Room
+Individual: 204  # Generated from value "204" located at cell 'Legenda'!A4 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C4 using reference @C*.
+   Types: Room
+Individual: 205  # Generated from value "205" located at cell 'Legenda'!A5 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C5 using reference @C*.
+   Types: Room
+Individual: 206  # Generated from value "206" located at cell 'Legenda'!A6 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C6 using reference @C*.
+   Types: Room
+Individual: 207  # Generated from value "207" located at cell 'Legenda'!A7 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C7 using reference @C*.
+   Types: Room
+Individual: 208  # Generated from value "208" located at cell 'Legenda'!A8 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C8 using reference @C*.
+   Types: Room
+Individual: 209  # Generated from value "209" located at cell 'Legenda'!A9 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C9 using reference @C*.
+   Types: Room
+Individual: 210  # Generated from value "210" located at cell 'Legenda'!A10 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C10 using reference @C*.
+   Types: Room
+Individual: 211  # Generated from value "211" located at cell 'Legenda'!A11 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C11 using reference @C*.
+   Types: Room
+Individual: 212  # Generated from value "212" located at cell 'Legenda'!A12 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C12 using reference @C*.
+   Types: Room
+Individual: 213  # Generated from value "213" located at cell 'Legenda'!A13 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C13 using reference @C*.
+   Types: Room
+Individual: 214  # Generated from value "214" located at cell 'Legenda'!A14 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/ePHbZLVs8tU51jhG9"  # Generated from value "https://goo.gl/maps/ePHbZLVs8tU51jhG9" located at cell 'Legenda'!C14 using reference @C*.
+   Types: Room
+Individual: 40  # Generated from value "40" located at cell 'Legenda'!A15 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C15 using reference @C*.
+   Types: Room
+Individual: F  # Generated from value "F" located at cell 'Legenda'!A16 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C16 using reference @C*.
+   Types: Room
+Individual: 356  # Generated from value "356" located at cell 'Legenda'!A18 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C18 using reference @C*.
+   Types: Room
+Individual: 16B  # Generated from value "16B" located at cell 'Legenda'!A19 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C19 using reference @C*.
+   Types: Room
+Individual: 26B  # Generated from value "26B" located at cell 'Legenda'!A20 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C20 using reference @C*.
+   Types: Room
+Individual: 36  # Generated from value "36" located at cell 'Legenda'!A21 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C21 using reference @C*.
+   Types: Room
+Individual: 45  # Generated from value "45" located at cell 'Legenda'!A22 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C22 using reference @C*.
+   Types: Room
+Individual: 51  # Generated from value "51" located at cell 'Legenda'!A23 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C23 using reference @C*.
+   Types: Room
+Individual: E15  # Generated from value "E15" located at cell 'Legenda'!A24 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C24 using reference @C*.
+   Types: Room
+Individual: E17  # Generated from value "E17" located at cell 'Legenda'!A25 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C25 using reference @C*.
+   Types: Room
+Individual: D21  # Generated from value "D21" located at cell 'Legenda'!A27 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C27 using reference @C*.
+   Types: Room
+Individual: D11  # Generated from value "D11" located at cell 'Legenda'!A28 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C28 using reference @C*.
+   Types: Room
+Individual: D12  # Generated from value "D12" located at cell 'Legenda'!A29 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C29 using reference @C*.
+   Types: Room
+Individual: P03  # Generated from value "P03" located at cell 'Legenda'!A30 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C30 using reference @C*.
+   Types: Room
+Individual: H11  # Generated from value "H11" located at cell 'Legenda'!A31 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C31 using reference @C*.
+   Types: Room
+Individual: H01  # Generated from value "H01" located at cell 'Legenda'!A32 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C32 using reference @C*.
+   Types: Room
+Individual: H41  # Generated from value "H41" located at cell 'Legenda'!A33 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C33 using reference @C*.
+   Types: Room
+Individual: 206P  # Generated from value "206P" located at cell 'Legenda'!A34 using reference @A*.
+
+   Types: Room
+Individual: BT 5.01  # Generated from value "BT 5.01" located at cell 'Legenda'!A35 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C35 using reference @C*.
+   Types: Room
+Individual: BT 5.02  # Generated from value "BT 5.02" located at cell 'Legenda'!A36 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C36 using reference @C*.
+   Types: Room
+Individual: BT 5.03  # Generated from value "BT 5.03" located at cell 'Legenda'!A37 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C37 using reference @C*.
+   Types: Room
+Individual: BT 5.04  # Generated from value "BT 5.04" located at cell 'Legenda'!A38 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C38 using reference @C*.
+   Types: Room
+Individual: BT 5.05  # Generated from value "BT 5.05" located at cell 'Legenda'!A39 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C39 using reference @C*.
+   Types: Room
+Individual: BT 7.02  # Generated from value "BT 7.02" located at cell 'Legenda'!A40 using reference @A*.
+   Facts: hasWebPage " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt"  # Generated from value " https://utcluj.digital/tur-virtual-3d-hub-utcn-bt" located at cell 'Legenda'!C40 using reference @C*.
+   Types: Room
+Individual: 211LS  # Generated from value "211LS" located at cell 'Legenda'!A41 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C41 using reference @C*.
+   Types: Room
+Individual: 216LS  # Generated from value "216LS" located at cell 'Legenda'!A42 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C42 using reference @C*.
+   Types: Room
+Individual: 197  # Generated from value "197" located at cell 'Legenda'!A43 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C43 using reference @C*.
+   Types: Room
+Individual: 192  # Generated from value "192" located at cell 'Legenda'!A44 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C44 using reference @C*.
+   Types: Room
+Individual: S4.2  # Generated from value "S4.2" located at cell 'Legenda'!A45 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/NuHRYdENaUVgA7Kk6"  # Generated from value "https://goo.gl/maps/NuHRYdENaUVgA7Kk6" located at cell 'Legenda'!C45 using reference @C*.
+   Types: Room
+Individual: 467  # Generated from value "467" located at cell 'Legenda'!A46 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C46 using reference @C*.
+   Types: Room
+Individual: 479  # Generated from value "479" located at cell 'Legenda'!A47 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C47 using reference @C*.
+   Types: Room
+Individual: Aula Instalatii  # Generated from value "Aula Instalatii" located at cell 'Legenda'!A48 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C48 using reference @C*.
+   Types: Room
+Individual: D1  # Generated from value "D1" located at cell 'Legenda'!A49 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C49 using reference @C*.
+   Types: Room
+Individual: D3  # Generated from value "D3" located at cell 'Legenda'!A50 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C50 using reference @C*.
+   Types: Room
+Individual: C01  # Generated from value "C01" located at cell 'Legenda'!A51 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C51 using reference @C*.
+   Types: Room
+Individual: C12  # Generated from value "C12" located at cell 'Legenda'!A52 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C52 using reference @C*.
+   Types: Room
+Individual: SG  # Generated from value "SG" located at cell 'Legenda'!A53 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C53 using reference @C*.
+   Types: Room
+Individual: 101  # Generated from value "101" located at cell 'Legenda'!A54 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C54 using reference @C*.
+   Types: Room
+Individual: 102  # Generated from value "102" located at cell 'Legenda'!A55 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C55 using reference @C*.
+   Types: Room
+Individual: 103  # Generated from value "103" located at cell 'Legenda'!A56 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C56 using reference @C*.
+   Types: Room
+Individual: 104  # Generated from value "104" located at cell 'Legenda'!A57 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C57 using reference @C*.
+   Types: Room
+Individual: 105  # Generated from value "105" located at cell 'Legenda'!A58 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C58 using reference @C*.
+   Types: Room
+Individual: 106  # Generated from value "106" located at cell 'Legenda'!A59 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C59 using reference @C*.
+   Types: Room
+Individual: 107  # Generated from value "107" located at cell 'Legenda'!A60 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C60 using reference @C*.
+   Types: Room
+Individual: 108  # Generated from value "108" located at cell 'Legenda'!A61 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C61 using reference @C*.
+   Types: Room
+Individual: M1  # Generated from value "M1" located at cell 'Legenda'!A62 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C62 using reference @C*.
+   Types: Room
+Individual: M2  # Generated from value "M2" located at cell 'Legenda'!A63 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C63 using reference @C*.
+   Types: Room
+Individual: M3  # Generated from value "M3" located at cell 'Legenda'!A64 using reference @A*.
+   Facts: hasWebPage "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9"  # Generated from value "(https://goo.gl/maps/G1JPkvdFMdPTmfUv9" located at cell 'Legenda'!C64 using reference @C*.
+   Types: Room
+Individual: Sport  # Generated from value "Sport" located at cell 'Legenda'!A65 using reference @A*.
+   Facts: hasWebPage "https://goo.gl/maps/niczYnokxLy8QmkA7"  # Generated from value "https://goo.gl/maps/niczYnokxLy8QmkA7" located at cell 'Legenda'!C65 using reference @C*.
+   Types: Room
+
+# Cell range: (Legenda!A2:B+) Comment: ""
+# Individual: @A*
+#   Facts: hasLocation @B*
+
+Individual: 202  # Generated from value "202" located at cell 'Legenda'!A2 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor 		"  # Generated from value "2 Observatorului Street 2nd floor 		" located at cell 'Legenda'!B2 using reference @B*.
+Individual: 203  # Generated from value "203" located at cell 'Legenda'!A3 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B3 using reference @B*.
+Individual: 204  # Generated from value "204" located at cell 'Legenda'!A4 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B4 using reference @B*.
+Individual: 205  # Generated from value "205" located at cell 'Legenda'!A5 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B5 using reference @B*.
+Individual: 206  # Generated from value "206" located at cell 'Legenda'!A6 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B6 using reference @B*.
+Individual: 207  # Generated from value "207" located at cell 'Legenda'!A7 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B7 using reference @B*.
+Individual: 208  # Generated from value "208" located at cell 'Legenda'!A8 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B8 using reference @B*.
+Individual: 209  # Generated from value "209" located at cell 'Legenda'!A9 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B9 using reference @B*.
+Individual: 210  # Generated from value "210" located at cell 'Legenda'!A10 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B10 using reference @B*.
+Individual: 211  # Generated from value "211" located at cell 'Legenda'!A11 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B11 using reference @B*.
+Individual: 212  # Generated from value "212" located at cell 'Legenda'!A12 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B12 using reference @B*.
+Individual: 213  # Generated from value "213" located at cell 'Legenda'!A13 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B13 using reference @B*.
+Individual: 214  # Generated from value "214" located at cell 'Legenda'!A14 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B14 using reference @B*.
+Individual: 40  # Generated from value "40" located at cell 'Legenda'!A15 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B15 using reference @B*.
+Individual: F  # Generated from value "F" located at cell 'Legenda'!A16 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B16 using reference @B*.
+Individual: 356  # Generated from value "356" located at cell 'Legenda'!A18 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B18 using reference @B*.
+Individual: 16B  # Generated from value "16B" located at cell 'Legenda'!A19 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B19 using reference @B*.
+Individual: 26B  # Generated from value "26B" located at cell 'Legenda'!A20 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B20 using reference @B*.
+Individual: 36  # Generated from value "36" located at cell 'Legenda'!A21 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B21 using reference @B*.
+Individual: 45  # Generated from value "45" located at cell 'Legenda'!A22 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B22 using reference @B*.
+Individual: 51  # Generated from value "51" located at cell 'Legenda'!A23 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B23 using reference @B*.
+Individual: E15  # Generated from value "E15" located at cell 'Legenda'!A24 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B24 using reference @B*.
+Individual: E17  # Generated from value "E17" located at cell 'Legenda'!A25 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B25 using reference @B*.
+Individual: D21  # Generated from value "D21" located at cell 'Legenda'!A27 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B27 using reference @B*.
+Individual: D11  # Generated from value "D11" located at cell 'Legenda'!A28 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B28 using reference @B*.
+Individual: D12  # Generated from value "D12" located at cell 'Legenda'!A29 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B29 using reference @B*.
+Individual: P03  # Generated from value "P03" located at cell 'Legenda'!A30 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street, the building inside the backyard"  # Generated from value "26-28 Gh. Baritiu Street, the building inside the backyard" located at cell 'Legenda'!B30 using reference @B*.
+Individual: H11  # Generated from value "H11" located at cell 'Legenda'!A31 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B31 using reference @B*.
+Individual: H01  # Generated from value "H01" located at cell 'Legenda'!A32 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B32 using reference @B*.
+Individual: H41  # Generated from value "H41" located at cell 'Legenda'!A33 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B33 using reference @B*.
+Individual: 206P  # Generated from value "206P" located at cell 'Legenda'!A34 using reference @A*.
+   Facts: hasLocation "Daicoviciu Street, Tower Building, Floor 2,near DSPP"  # Generated from value "Daicoviciu Street, Tower Building, Floor 2,near DSPP" located at cell 'Legenda'!B34 using reference @B*.
+Individual: BT 5.01  # Generated from value "BT 5.01" located at cell 'Legenda'!A35 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 5th floor"  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B35 using reference @B*.
+Individual: BT 5.02  # Generated from value "BT 5.02" located at cell 'Legenda'!A36 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 5th floor"  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B36 using reference @B*.
+Individual: BT 5.03  # Generated from value "BT 5.03" located at cell 'Legenda'!A37 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 5th floor"  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B37 using reference @B*.
+Individual: BT 5.04  # Generated from value "BT 5.04" located at cell 'Legenda'!A38 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 5th floor"  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B38 using reference @B*.
+Individual: BT 5.05  # Generated from value "BT 5.05" located at cell 'Legenda'!A39 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 5th floor"  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B39 using reference @B*.
+Individual: BT 7.02  # Generated from value "BT 7.02" located at cell 'Legenda'!A40 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 7th floor"  # Generated from value "8 Gh. Baritiu Street, 7th floor" located at cell 'Legenda'!B40 using reference @B*.
+Individual: 211LS  # Generated from value "211LS" located at cell 'Legenda'!A41 using reference @A*.
+   Facts: hasLocation "25 Gh. Baritiu Street"  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B41 using reference @B*.
+Individual: 216LS  # Generated from value "216LS" located at cell 'Legenda'!A42 using reference @A*.
+   Facts: hasLocation "25 Gh. Baritiu Street"  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B42 using reference @B*.
+Individual: 197  # Generated from value "197" located at cell 'Legenda'!A43 using reference @A*.
+   Facts: hasLocation "25 Gh. Baritiu Street"  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B43 using reference @B*.
+Individual: 192  # Generated from value "192" located at cell 'Legenda'!A44 using reference @A*.
+   Facts: hasLocation "25 Gh. Baritiu Street"  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B44 using reference @B*.
+Individual: S4.2  # Generated from value "S4.2" located at cell 'Legenda'!A45 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street, building behind room P03, 4th floor"  # Generated from value "26-28 Gh. Baritiu Street, building behind room P03, 4th floor" located at cell 'Legenda'!B45 using reference @B*.
+Individual: 467  # Generated from value "467" located at cell 'Legenda'!A46 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B46 using reference @B*.
+Individual: 479  # Generated from value "479" located at cell 'Legenda'!A47 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B47 using reference @B*.
+Individual: Aula Instalatii  # Generated from value "Aula Instalatii" located at cell 'Legenda'!A48 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B48 using reference @B*.
+Individual: D1  # Generated from value "D1" located at cell 'Legenda'!A49 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B49 using reference @B*.
+Individual: D3  # Generated from value "D3" located at cell 'Legenda'!A50 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B50 using reference @B*.
+Individual: C01  # Generated from value "C01" located at cell 'Legenda'!A51 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B51 using reference @B*.
+Individual: C12  # Generated from value "C12" located at cell 'Legenda'!A52 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B52 using reference @B*.
+Individual: SG  # Generated from value "SG" located at cell 'Legenda'!A53 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B53 using reference @B*.
+Individual: 101  # Generated from value "101" located at cell 'Legenda'!A54 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B54 using reference @B*.
+Individual: 102  # Generated from value "102" located at cell 'Legenda'!A55 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B55 using reference @B*.
+Individual: 103  # Generated from value "103" located at cell 'Legenda'!A56 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B56 using reference @B*.
+Individual: 104  # Generated from value "104" located at cell 'Legenda'!A57 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B57 using reference @B*.
+Individual: 105  # Generated from value "105" located at cell 'Legenda'!A58 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B58 using reference @B*.
+Individual: 106  # Generated from value "106" located at cell 'Legenda'!A59 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B59 using reference @B*.
+Individual: 107  # Generated from value "107" located at cell 'Legenda'!A60 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B60 using reference @B*.
+Individual: 108  # Generated from value "108" located at cell 'Legenda'!A61 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B61 using reference @B*.
+Individual: M1  # Generated from value "M1" located at cell 'Legenda'!A62 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B62 using reference @B*.
+Individual: M2  # Generated from value "M2" located at cell 'Legenda'!A63 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B63 using reference @B*.
+Individual: M3  # Generated from value "M3" located at cell 'Legenda'!A64 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B64 using reference @B*.
+Individual: Sport  # Generated from value "Sport" located at cell 'Legenda'!A65 using reference @A*.
+   Facts: hasLocation "TUCN Swimming Complex, Splaiul Independentei street"  # Generated from value "TUCN Swimming Complex, Splaiul Independentei street" located at cell 'Legenda'!B65 using reference @B*.
+Individual: 202  # Generated from value "202" located at cell 'Legenda'!A2 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor 		"  # Generated from value "2 Observatorului Street 2nd floor 		" located at cell 'Legenda'!B2 using reference @B*.
+Individual: 203  # Generated from value "203" located at cell 'Legenda'!A3 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B3 using reference @B*.
+Individual: 204  # Generated from value "204" located at cell 'Legenda'!A4 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B4 using reference @B*.
+Individual: 205  # Generated from value "205" located at cell 'Legenda'!A5 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B5 using reference @B*.
+Individual: 206  # Generated from value "206" located at cell 'Legenda'!A6 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B6 using reference @B*.
+Individual: 207  # Generated from value "207" located at cell 'Legenda'!A7 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B7 using reference @B*.
+Individual: 208  # Generated from value "208" located at cell 'Legenda'!A8 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B8 using reference @B*.
+Individual: 209  # Generated from value "209" located at cell 'Legenda'!A9 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B9 using reference @B*.
+Individual: 210  # Generated from value "210" located at cell 'Legenda'!A10 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B10 using reference @B*.
+Individual: 211  # Generated from value "211" located at cell 'Legenda'!A11 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B11 using reference @B*.
+Individual: 212  # Generated from value "212" located at cell 'Legenda'!A12 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B12 using reference @B*.
+Individual: 213  # Generated from value "213" located at cell 'Legenda'!A13 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B13 using reference @B*.
+Individual: 214  # Generated from value "214" located at cell 'Legenda'!A14 using reference @A*.
+   Facts: hasLocation "2 Observatorului Street 2nd floor "  # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B14 using reference @B*.
+Individual: 40  # Generated from value "40" located at cell 'Legenda'!A15 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B15 using reference @B*.
+Individual: F  # Generated from value "F" located at cell 'Legenda'!A16 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B16 using reference @B*.
+Individual: 356  # Generated from value "356" located at cell 'Legenda'!A18 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B18 using reference @B*.
+Individual: 16B  # Generated from value "16B" located at cell 'Legenda'!A19 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B19 using reference @B*.
+Individual: 26B  # Generated from value "26B" located at cell 'Legenda'!A20 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B20 using reference @B*.
+Individual: 36  # Generated from value "36" located at cell 'Legenda'!A21 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B21 using reference @B*.
+Individual: 45  # Generated from value "45" located at cell 'Legenda'!A22 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B22 using reference @B*.
+Individual: 51  # Generated from value "51" located at cell 'Legenda'!A23 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B23 using reference @B*.
+Individual: E15  # Generated from value "E15" located at cell 'Legenda'!A24 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B24 using reference @B*.
+Individual: E17  # Generated from value "E17" located at cell 'Legenda'!A25 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B25 using reference @B*.
+Individual: D21  # Generated from value "D21" located at cell 'Legenda'!A27 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B27 using reference @B*.
+Individual: D11  # Generated from value "D11" located at cell 'Legenda'!A28 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B28 using reference @B*.
+Individual: D12  # Generated from value "D12" located at cell 'Legenda'!A29 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B29 using reference @B*.
+Individual: P03  # Generated from value "P03" located at cell 'Legenda'!A30 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street, the building inside the backyard"  # Generated from value "26-28 Gh. Baritiu Street, the building inside the backyard" located at cell 'Legenda'!B30 using reference @B*.
+Individual: H11  # Generated from value "H11" located at cell 'Legenda'!A31 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B31 using reference @B*.
+Individual: H01  # Generated from value "H01" located at cell 'Legenda'!A32 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B32 using reference @B*.
+Individual: H41  # Generated from value "H41" located at cell 'Legenda'!A33 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street"  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B33 using reference @B*.
+Individual: 206P  # Generated from value "206P" located at cell 'Legenda'!A34 using reference @A*.
+   Facts: hasLocation "Daicoviciu Street, Tower Building, Floor 2,near DSPP"  # Generated from value "Daicoviciu Street, Tower Building, Floor 2,near DSPP" located at cell 'Legenda'!B34 using reference @B*.
+Individual: BT 5.01  # Generated from value "BT 5.01" located at cell 'Legenda'!A35 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 5th floor"  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B35 using reference @B*.
+Individual: BT 5.02  # Generated from value "BT 5.02" located at cell 'Legenda'!A36 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 5th floor"  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B36 using reference @B*.
+Individual: BT 5.03  # Generated from value "BT 5.03" located at cell 'Legenda'!A37 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 5th floor"  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B37 using reference @B*.
+Individual: BT 5.04  # Generated from value "BT 5.04" located at cell 'Legenda'!A38 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 5th floor"  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B38 using reference @B*.
+Individual: BT 5.05  # Generated from value "BT 5.05" located at cell 'Legenda'!A39 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 5th floor"  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B39 using reference @B*.
+Individual: BT 7.02  # Generated from value "BT 7.02" located at cell 'Legenda'!A40 using reference @A*.
+   Facts: hasLocation "8 Gh. Baritiu Street, 7th floor"  # Generated from value "8 Gh. Baritiu Street, 7th floor" located at cell 'Legenda'!B40 using reference @B*.
+Individual: 211LS  # Generated from value "211LS" located at cell 'Legenda'!A41 using reference @A*.
+   Facts: hasLocation "25 Gh. Baritiu Street"  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B41 using reference @B*.
+Individual: 216LS  # Generated from value "216LS" located at cell 'Legenda'!A42 using reference @A*.
+   Facts: hasLocation "25 Gh. Baritiu Street"  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B42 using reference @B*.
+Individual: 197  # Generated from value "197" located at cell 'Legenda'!A43 using reference @A*.
+   Facts: hasLocation "25 Gh. Baritiu Street"  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B43 using reference @B*.
+Individual: 192  # Generated from value "192" located at cell 'Legenda'!A44 using reference @A*.
+   Facts: hasLocation "25 Gh. Baritiu Street"  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B44 using reference @B*.
+Individual: S4.2  # Generated from value "S4.2" located at cell 'Legenda'!A45 using reference @A*.
+   Facts: hasLocation "26-28 Gh. Baritiu Street, building behind room P03, 4th floor"  # Generated from value "26-28 Gh. Baritiu Street, building behind room P03, 4th floor" located at cell 'Legenda'!B45 using reference @B*.
+Individual: 467  # Generated from value "467" located at cell 'Legenda'!A46 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B46 using reference @B*.
+Individual: 479  # Generated from value "479" located at cell 'Legenda'!A47 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B47 using reference @B*.
+Individual: Aula Instalatii  # Generated from value "Aula Instalatii" located at cell 'Legenda'!A48 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B48 using reference @B*.
+Individual: D1  # Generated from value "D1" located at cell 'Legenda'!A49 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B49 using reference @B*.
+Individual: D3  # Generated from value "D3" located at cell 'Legenda'!A50 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B50 using reference @B*.
+Individual: C01  # Generated from value "C01" located at cell 'Legenda'!A51 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B51 using reference @B*.
+Individual: C12  # Generated from value "C12" located at cell 'Legenda'!A52 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B52 using reference @B*.
+Individual: SG  # Generated from value "SG" located at cell 'Legenda'!A53 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B53 using reference @B*.
+Individual: 101  # Generated from value "101" located at cell 'Legenda'!A54 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B54 using reference @B*.
+Individual: 102  # Generated from value "102" located at cell 'Legenda'!A55 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B55 using reference @B*.
+Individual: 103  # Generated from value "103" located at cell 'Legenda'!A56 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B56 using reference @B*.
+Individual: 104  # Generated from value "104" located at cell 'Legenda'!A57 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B57 using reference @B*.
+Individual: 105  # Generated from value "105" located at cell 'Legenda'!A58 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B58 using reference @B*.
+Individual: 106  # Generated from value "106" located at cell 'Legenda'!A59 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B59 using reference @B*.
+Individual: 107  # Generated from value "107" located at cell 'Legenda'!A60 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B60 using reference @B*.
+Individual: 108  # Generated from value "108" located at cell 'Legenda'!A61 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B61 using reference @B*.
+Individual: M1  # Generated from value "M1" located at cell 'Legenda'!A62 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B62 using reference @B*.
+Individual: M2  # Generated from value "M2" located at cell 'Legenda'!A63 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B63 using reference @B*.
+Individual: M3  # Generated from value "M3" located at cell 'Legenda'!A64 using reference @A*.
+   Facts: hasLocation "71-73 Dorobantilor Street"  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B64 using reference @B*.
+Individual: Sport  # Generated from value "Sport" located at cell 'Legenda'!A65 using reference @A*.
+   Facts: hasLocation "TUCN Swimming Complex, Splaiul Independentei street"  # Generated from value "TUCN Swimming Complex, Splaiul Independentei street" located at cell 'Legenda'!B65 using reference @B*.
+
+# Cell range: (Legenda!B2:B+) Comment: ""
+# Individual: @B*
+#   Types: Location
+
+Individual: 2 Observatorului Street 2nd floor 		  # Generated from value "2 Observatorului Street 2nd floor 		" located at cell 'Legenda'!B2 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B3 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B4 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B5 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B6 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B7 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B8 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B9 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B10 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B11 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B12 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B13 using reference @B*.
+   Types: Location
+Individual: 2 Observatorului Street 2nd floor   # Generated from value "2 Observatorului Street 2nd floor " located at cell 'Legenda'!B14 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B15 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B16 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B17 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B18 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B19 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B20 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B21 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B22 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B23 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B24 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B25 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B26 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B27 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B28 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B29 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street, the building inside the backyard  # Generated from value "26-28 Gh. Baritiu Street, the building inside the backyard" located at cell 'Legenda'!B30 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B31 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B32 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street  # Generated from value "26-28 Gh. Baritiu Street" located at cell 'Legenda'!B33 using reference @B*.
+   Types: Location
+Individual: Daicoviciu Street, Tower Building, Floor 2,near DSPP  # Generated from value "Daicoviciu Street, Tower Building, Floor 2,near DSPP" located at cell 'Legenda'!B34 using reference @B*.
+   Types: Location
+Individual: 8 Gh. Baritiu Street, 5th floor  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B35 using reference @B*.
+   Types: Location
+Individual: 8 Gh. Baritiu Street, 5th floor  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B36 using reference @B*.
+   Types: Location
+Individual: 8 Gh. Baritiu Street, 5th floor  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B37 using reference @B*.
+   Types: Location
+Individual: 8 Gh. Baritiu Street, 5th floor  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B38 using reference @B*.
+   Types: Location
+Individual: 8 Gh. Baritiu Street, 5th floor  # Generated from value "8 Gh. Baritiu Street, 5th floor" located at cell 'Legenda'!B39 using reference @B*.
+   Types: Location
+Individual: 8 Gh. Baritiu Street, 7th floor  # Generated from value "8 Gh. Baritiu Street, 7th floor" located at cell 'Legenda'!B40 using reference @B*.
+   Types: Location
+Individual: 25 Gh. Baritiu Street  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B41 using reference @B*.
+   Types: Location
+Individual: 25 Gh. Baritiu Street  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B42 using reference @B*.
+   Types: Location
+Individual: 25 Gh. Baritiu Street  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B43 using reference @B*.
+   Types: Location
+Individual: 25 Gh. Baritiu Street  # Generated from value "25 Gh. Baritiu Street" located at cell 'Legenda'!B44 using reference @B*.
+   Types: Location
+Individual: 26-28 Gh. Baritiu Street, building behind room P03, 4th floor  # Generated from value "26-28 Gh. Baritiu Street, building behind room P03, 4th floor" located at cell 'Legenda'!B45 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B46 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B47 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B48 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B49 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B50 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B51 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B52 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B53 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B54 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B55 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B56 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B57 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B58 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B59 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B60 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B61 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B62 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B63 using reference @B*.
+   Types: Location
+Individual: 71-73 Dorobantilor Street  # Generated from value "71-73 Dorobantilor Street" located at cell 'Legenda'!B64 using reference @B*.
+   Types: Location
+Individual: TUCN Swimming Complex, Splaiul Independentei street  # Generated from value "TUCN Swimming Complex, Splaiul Independentei street" located at cell 'Legenda'!B65 using reference @B*.
+   Types: Location
+
+===========================================================================================================
