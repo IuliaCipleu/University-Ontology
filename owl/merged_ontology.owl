@@ -336,7 +336,6 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#hasLocation -->
 
     <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasLocation">
-        <rdfs:domain rdf:resource="http://example.org/ontology#Room"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
@@ -1086,7 +1085,7 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#D1">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -1095,7 +1094,7 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#D21">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -1296,7 +1295,7 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#F">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -1485,7 +1484,7 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#H11">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -2135,7 +2134,7 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#P03">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#4e629b83e0144b719e415e91c1a047ce"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet,TheBuildingInsideTheBackyard"/>
     </NamedIndividual>
     
 
@@ -2830,7 +2829,7 @@
     <NamedIndividual rdf:about="http://example.org/ontology#Sport">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#3cfd0c9098e5d16a6319ed0fb9f56756"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#TUCNSwimmingComplex,SplaiulIndependenteiStreet"/>
     </NamedIndividual>
     
 
@@ -6991,7 +6990,7 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#102">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -11315,7 +11314,7 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#356">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13025,7 +13024,7 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#40">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13118,7 +13117,7 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#467">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13379,7 +13378,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13388,7 +13387,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#BT5.01">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8a9189aeef149f96ac4f5e11dbbc125c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </NamedIndividual>
     
 
@@ -13397,7 +13396,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#BT5.02">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8a9189aeef149f96ac4f5e11dbbc125c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </NamedIndividual>
     
 
@@ -13406,7 +13405,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#BT5.03">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8a9189aeef149f96ac4f5e11dbbc125c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </NamedIndividual>
     
 
@@ -13415,7 +13414,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#BT5.04">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8a9189aeef149f96ac4f5e11dbbc125c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </NamedIndividual>
     
 
@@ -13424,7 +13423,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#BT5.05">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8a9189aeef149f96ac4f5e11dbbc125c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </NamedIndividual>
     
 
@@ -13433,7 +13432,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#BT7.02">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#ad09a2c31795d95ba259cd33fc33d5a9"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,7thFloor"/>
     </NamedIndividual>
     
 
@@ -13442,7 +13441,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#C01">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13451,7 +13450,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#C12">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13460,7 +13459,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#D11">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13469,7 +13468,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#D12">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13478,7 +13477,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#D3">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13487,7 +13486,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#E15">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13496,7 +13495,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#E17">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13505,7 +13504,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#H01">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13514,7 +13513,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#H41">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13523,7 +13522,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#M1">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13532,7 +13531,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#M2">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13541,7 +13540,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#M3">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13550,7 +13549,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#S4.2">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#47aadd5bcc90d88f00ee3227dca9a14d"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet,BuildingBehindRoomP03,4thFloor"/>
     </NamedIndividual>
     
 
@@ -13559,24 +13558,20 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#SG">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#ad09a2c31795d95ba259cd33fc33d5a9 -->
 
-    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#ad09a2c31795d95ba259cd33fc33d5a9">
-        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-    </NamedIndividual>
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#ad09a2c31795d95ba259cd33fc33d5a9"/>
     
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c -->
 
-    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c">
-        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-    </NamedIndividual>
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
     
 
 
@@ -13584,7 +13579,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#101">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13593,7 +13588,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#103">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13602,7 +13597,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#104">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13611,7 +13606,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#105">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13620,7 +13615,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#106">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13629,7 +13624,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#107">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13638,7 +13633,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#108">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13647,7 +13642,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#16B">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13656,7 +13651,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#192">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#370124787e00cb9e7f665a1b9fb3a9a7"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13665,7 +13660,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#197">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#370124787e00cb9e7f665a1b9fb3a9a7"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13674,7 +13669,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#202">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13683,7 +13678,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#203">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13692,7 +13687,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#204">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13701,7 +13696,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#205">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13710,7 +13705,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#206">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13728,7 +13723,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#207">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13737,7 +13732,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#208">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13746,7 +13741,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#209">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13755,7 +13750,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#210">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13764,7 +13759,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#211">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13773,7 +13768,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#211LS">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#370124787e00cb9e7f665a1b9fb3a9a7"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13782,7 +13777,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#212">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13791,7 +13786,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#213">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13800,7 +13795,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#214">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
@@ -13809,7 +13804,15 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#216LS">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#370124787e00cb9e7f665a1b9fb3a9a7"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
     </NamedIndividual>
     
 
@@ -13818,16 +13821,38 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#26B">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet,TheBuildingInsideTheBackyard -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet,TheBuildingInsideTheBackyard">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet,BuildingBehindRoomP03,4thFloor -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet,BuildingBehindRoomP03,4thFloor">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
     </NamedIndividual>
     
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#3cfd0c9098e5d16a6319ed0fb9f56756 -->
 
-    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#3cfd0c9098e5d16a6319ed0fb9f56756">
-        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-    </NamedIndividual>
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#3cfd0c9098e5d16a6319ed0fb9f56756"/>
     
 
 
@@ -13835,24 +13860,20 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#36">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#370124787e00cb9e7f665a1b9fb3a9a7 -->
 
-    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#370124787e00cb9e7f665a1b9fb3a9a7">
-        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-    </NamedIndividual>
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#370124787e00cb9e7f665a1b9fb3a9a7"/>
     
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#4e629b83e0144b719e415e91c1a047ce -->
 
-    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#4e629b83e0144b719e415e91c1a047ce">
-        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-    </NamedIndividual>
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#4e629b83e0144b719e415e91c1a047ce"/>
     
 
 
@@ -13860,16 +13881,14 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#45">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#47aadd5bcc90d88f00ee3227dca9a14d -->
 
-    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#47aadd5bcc90d88f00ee3227dca9a14d">
-        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-    </NamedIndividual>
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#47aadd5bcc90d88f00ee3227dca9a14d"/>
     
 
 
@@ -13877,7 +13896,7 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#479">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </NamedIndividual>
     
 
@@ -13886,22 +13905,26 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#51">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#e3acd0bd039c28ab1aff93659fc35a6c"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </NamedIndividual>
     
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#634474a60440207ab496b09cf45e44a0 -->
 
-    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#634474a60440207ab496b09cf45e44a0">
-        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-    </NamedIndividual>
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#634474a60440207ab496b09cf45e44a0"/>
     
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b -->
 
-    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b">
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#7d1dc79524ff42135ae6f851e39fb71b"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
     </NamedIndividual>
     
@@ -13909,7 +13932,37 @@
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#8a9189aeef149f96ac4f5e11dbbc125c -->
 
-    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#8a9189aeef149f96ac4f5e11dbbc125c">
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#8a9189aeef149f96ac4f5e11dbbc125c"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,7thFloor -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,7thFloor">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DaicoviciuStreet,TowerBuilding,Floor2,nearDSPP -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DaicoviciuStreet,TowerBuilding,Floor2,nearDSPP">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#TUCNSwimmingComplex,SplaiulIndependenteiStreet -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#TUCNSwimmingComplex,SplaiulIndependenteiStreet">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
     </NamedIndividual>
     
