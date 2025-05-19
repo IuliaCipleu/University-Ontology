@@ -126,15 +126,9 @@ def get_or_create_timeslot(day, time):
 
 def fix_room_name(room_name):
     if room_name.startswith("BT"):
-        parts = room_name.split('_')
-        if len(parts) >= 3:
-            fixed_name = parts[0] + parts[1] + '.' + parts[2]
-            if len(parts) > 3:
-                fixed_name += '_' + '_'.join(parts[3:])
-            return fixed_name
-        else:
-            return room_name.replace('_', '', 1)
-    elif room_name.startswith("Aula_I_"):
+        fixed_name = room_name.replace(' ', '')
+        return fixed_name
+    elif room_name.startswith("Aula I."):
         return "AulaInstalatii"
     return room_name
 
@@ -198,6 +192,7 @@ for filename in sorted(os.listdir(html_folder)):
                         # Add room if exists
                         if room:
                             fixed_room = fix_room_name(room)
+                            print(room, fixed_room)
                             room_ind = get_or_create_individual("Room", fixed_room)
                             rooms[fixed_room] = room_ind
                             rooms[room] = room_ind
