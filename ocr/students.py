@@ -1,6 +1,7 @@
 import os
 import fitz  # PyMuPDF
 import re
+import pandas as pd
 from rdflib import Graph, Namespace, Literal, RDF, URIRef
 from rdflib.namespace import XSD, OWL, RDFS
 
@@ -89,6 +90,7 @@ def add_student_to_ontology(student, group_uri):
 
 pdf_folder = os.path.abspath(os.path.join("..", "pdf", "students"))
 folder_key = os.path.basename(pdf_folder)
+all_students = []
 
 for filename in os.listdir(pdf_folder):
     if filename.lower().endswith(".pdf"):
@@ -111,6 +113,7 @@ for filename in os.listdir(pdf_folder):
         for student in students:
             print(f"Adding student: {student}")
             add_student_to_ontology(student, group_uri)
+        all_students.extend(students)
         if len(group_name) == 5 and group_name.isdigit():
             year_digit = int(group_name[3])  # 4th digit (index 3)
             second_third = group_name[1:3]  # 2nd and 3rd digit
@@ -130,3 +133,12 @@ for filename in os.listdir(pdf_folder):
 output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\students.owl"
 g.serialize(destination=output_path, format="xml")
 print(f"\nOntology saved to {output_path}")
+
+if all_students:
+    df = pd.DataFrame(all_students)
+    # Rename columns to what you want
+    df.rename(columns={"hasSurname": "Surname", "hasFirstName": "FirstName"}, inplace=True)
+
+    excel_output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\excel\students.xlsx"
+    df.to_excel(excel_output_path, index=False)
+    print(f"\nStudents saved to Excel file: {excel_output_path}")
