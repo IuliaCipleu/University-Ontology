@@ -151,6 +151,15 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#hasDepartment -->
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasDepartment">
+        <rdfs:domain rdf:resource="http://example.org/ontology#StudyProgram"/>
+        <rdfs:range rdf:resource="http://example.org/ontology#Department"/>
+    </ObjectProperty>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#hasLocation -->
 
     <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasLocation">
