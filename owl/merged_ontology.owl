@@ -13512,6 +13512,249 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Achim-CalebSighiartau -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Achim-CalebSighiartau">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AdrianRatiu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AdrianRatiu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AdrianVasileSimon -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AdrianVasileSimon">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Alessia-AnamariaPintilie -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alessia-AnamariaPintilie">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Alexandra-IuliaMotreanu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alexandra-IuliaMotreanu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AlexandruCantemir -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AlexandruCantemir">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AlexiaGiesswein -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AlexiaGiesswein">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Alina-ElenaOrbeanu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alina-ElenaOrbeanu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ana-AndreeaMudura -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ana-AndreeaMudura">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ana-IoanaPop -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ana-IoanaPop">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AnastasiaHaiduc -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AnastasiaHaiduc">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrea-MariaNichitut -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrea-MariaNichitut">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andreea-BeatriceCroitoriu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andreea-BeatriceCroitoriu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andreea-LaviniaGavrilescu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andreea-LaviniaGavrilescu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andreea-ManuelaFratean -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andreea-ManuelaFratean">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AndreeaCovaciu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AndreeaCovaciu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AndreeaMarin -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AndreeaMarin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrei-AntonieAchim -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-AntonieAchim">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrei-BogdanTudor -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-BogdanTudor">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrei-CristianOnea -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-CristianOnea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrei-DenisAlexandru -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-DenisAlexandru">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrei-TiberiuDarko -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-TiberiuDarko">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AndreiPelle -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AndreiPelle">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AngelCzako -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AngelCzako">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Antonia-MariaFilimon -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Antonia-MariaFilimon">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AntoniaCoblisan -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AntoniaCoblisan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AntoniaIncze -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AntoniaIncze">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii -->
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii">
@@ -13575,6 +13818,24 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Bogdan-CristianBoanca -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bogdan-CristianBoanca">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Bogdan-MihaiGalis -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bogdan-MihaiGalis">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#C01 -->
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#C01">
@@ -13589,6 +13850,78 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#C12">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Catalin-AdrianChita -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Catalin-AdrianChita">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Catalin-AndreiSimonca -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Catalin-AndreiSimonca">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CatalinMaris -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#CatalinMaris">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CatalinMiholca -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#CatalinMiholca">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cristian-AlexandruIelciu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristian-AlexandruIelciu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cristian-CatalinNicoara -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristian-CatalinNicoara">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cristian-FelicianPapiu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristian-FelicianPapiu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cristina-SandraChetan -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristina-SandraChetan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
     </NamedIndividual>
     
 
@@ -13620,6 +13953,156 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dan-CristianCosma -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dan-CristianCosma">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Daniel-Sebastian-NicholasVladut -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Daniel-Sebastian-NicholasVladut">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Daniela-MihaelaScobaru -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Daniela-MihaelaScobaru">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Daria-AlessiaHolom -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Daria-AlessiaHolom">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DariaPirvan -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DariaPirvan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Darius-MarianSimu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Darius-MarianSimu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Darius-RazvanHerman -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Darius-RazvanHerman">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#David-StefanPascalau -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#David-StefanPascalau">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Deborah-Ruxandra-MariaFlorea -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Deborah-Ruxandra-MariaFlorea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DenisCretu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DenisCretu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Denisa-BiancaDersedan -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Denisa-BiancaDersedan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Denisa-MariaHerlea -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Denisa-MariaHerlea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dorm1F -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dorm1F">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <ont:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ont:distanceTo26-28_Gh._Baritiu_Street>
+        <ont:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ont:distanceTo2_Observatorului_Street_2nd_floor>
+        <ont:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ont:distanceTo71-73_Dorobantilor_Street>
+        <ont:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ont:distanceToTUCN_Swimming_Complex>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DormObservator -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DormObservator">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <ont:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ont:distanceTo26-28_Gh._Baritiu_Street>
+        <ont:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ont:distanceTo2_Observatorului_Street_2nd_floor>
+        <ont:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ont:distanceTo71-73_Dorobantilor_Street>
+        <ont:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ont:distanceToTUCN_Swimming_Complex>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dragos-BogdanIon -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dragos-BogdanIon">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dragos-SorinTivadar -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dragos-SorinTivadar">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#E15 -->
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#E15">
@@ -13638,6 +14121,69 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#EduardHegyi -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#EduardHegyi">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#EricAndrone -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#EricAndrone">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Filip-IoanPintea -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Filip-IoanPintea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Flaviu-ValeriuBaciu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Flaviu-ValeriuBaciu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#GeorgeMuresan -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#GeorgeMuresan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Georgiana-TatianaMorodan -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Georgiana-TatianaMorodan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Giulia-AnaPop -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Giulia-AnaPop">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#H01 -->
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#H01">
@@ -13652,6 +14198,123 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#H41">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Horatiu-AndreiBologa -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Horatiu-AndreiBologa">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ilie-TraianNiculai -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ilie-TraianNiculai">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ioan-AlexandruMezo -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioan-AlexandruMezo">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ioan-FlorinIftene -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioan-FlorinIftene">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ioan-RarisMois -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioan-RarisMois">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ioana-RamonaMartin -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioana-RamonaMartin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ioana-RuxandraAngheluta -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioana-RuxandraAngheluta">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#IonelaDanci -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#IonelaDanci">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Larisa-DamarisLupoaie -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Larisa-DamarisLupoaie">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Laurentiu-EusebiuMuresan -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Laurentiu-EusebiuMuresan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Lorena-Maria-VeronicaRogoz -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Lorena-Maria-VeronicaRogoz">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Luca-GeorgianPavel -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Luca-GeorgianPavel">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#LucaIoanTrifan -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#LucaIoanTrifan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
     </NamedIndividual>
     
 
@@ -13683,6 +14346,240 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Madalina-MariaSalajan -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Madalina-MariaSalajan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Maria-AntoniaHoluta -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Maria-AntoniaHoluta">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MarianaBiltiu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MarianaBiltiu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MarynaNikolaiesku -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MarynaNikolaiesku">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MihaelaAanei -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MihaelaAanei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mihai-AdrianDiaconu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihai-AdrianDiaconu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mihai-AndreiDumitrascu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihai-AndreiDumitrascu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mihai-AndreiGalchis -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihai-AndreiGalchis">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MihaiDamian -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MihaiDamian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MihaiEnache -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MihaiEnache">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mihnea-SebastianBurlacu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihnea-SebastianBurlacu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mira-TeodoraCulda -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mira-TeodoraCulda">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Miruna-AndreeaUdvari -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Miruna-AndreeaUdvari">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MouadLaamarti -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MouadLaamarti">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Narcis-DumitruLascu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Narcis-DumitruLascu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Oana-Georgia-CristianaIstrate -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Oana-Georgia-CristianaIstrate">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Patricia-AndradaIancu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Patricia-AndradaIancu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Patricia-MariaCiortin -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Patricia-MariaCiortin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Radu-GeorgeAchim -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Radu-GeorgeAchim">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Rares-IlieObogeanu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rares-IlieObogeanu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Raul-AndreiOros -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Raul-AndreiOros">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Raul-GabrielMladin -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Raul-GabrielMladin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Raul-GeorgePop -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Raul-GeorgePop">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#RazvanPodariu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#RazvanPodariu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#RobertPalfi -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#RobertPalfi">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#RubenBuleandra -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#RubenBuleandra">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#S4.2 -->
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#S4.2">
@@ -13701,11 +14598,131 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sebastian-AndreiPascu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sebastian-AndreiPascu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sebastian-VasileMangau -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sebastian-VasileMangau">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sergiu-CristianAnton -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sergiu-CristianAnton">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Simion-AndreiKrisan -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Simion-AndreiKrisan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Stefan-CostinAtitienei -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Stefan-CostinAtitienei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#StefanAndreica -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#StefanAndreica">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Stefania-IoanaSucala -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Stefania-IoanaSucala">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Tudor-DanFlorea -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Tudor-DanFlorea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#TudorBuzgure -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#TudorBuzgure">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#TudorPadurariu -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#TudorPadurariu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Vlad-IonutDemean -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Vlad-IonutDemean">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#-StanciuRaresSav -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#-StanciuRaresSav">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#101 -->
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#101">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <ont:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ont:distanceTo26-28_Gh._Baritiu_Street>
+        <ont:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ont:distanceTo2_Observatorului_Street_2nd_floor>
+        <ont:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ont:distanceTo71-73_Dorobantilor_Street>
+        <ont:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ont:distanceToTUCN_Swimming_Complex>
     </NamedIndividual>
     
 
@@ -13760,6 +14777,18 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#108">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <ont:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ont:distanceTo26-28_Gh._Baritiu_Street>
+        <ont:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ont:distanceTo2_Observatorului_Street_2nd_floor>
+        <ont:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ont:distanceTo71-73_Dorobantilor_Street>
+        <ont:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ont:distanceToTUCN_Swimming_Complex>
     </NamedIndividual>
     
 
@@ -13975,6 +15004,18 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <ont:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ont:distanceTo26-28_Gh._Baritiu_Street>
+        <ont:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ont:distanceTo2_Observatorului_Street_2nd_floor>
+        <ont:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ont:distanceTo71-73_Dorobantilor_Street>
+        <ont:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ont:distanceToTUCN_Swimming_Complex>
+    </NamedIndividual>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#36 -->
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#36">
@@ -14015,6 +15056,18 @@
 
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <ont:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ont:distanceTo26-28_Gh._Baritiu_Street>
+        <ont:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ont:distanceTo2_Observatorului_Street_2nd_floor>
+        <ont:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ont:distanceTo71-73_Dorobantilor_Street>
+        <ont:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ont:distanceToTUCN_Swimming_Complex>
     </NamedIndividual>
     
 
