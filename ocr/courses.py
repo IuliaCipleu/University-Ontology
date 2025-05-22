@@ -90,9 +90,9 @@ def declare_data_properties():
 declare_data_properties()
 
 
-def add_course_to_ontology(course):
+def add_course_to_ontology(course, id):
     # Create a unique URI for the course (e.g., code_year)
-    course_id = f"{course['hasCode'].replace('.', '_')}_{course['forYear']}"
+    course_id = f"{id}_{course['hasCode'].replace('.', '_')}_{course['forYear']}"
     course_uri = BASE[course_id]
     g.add((course_uri, RDF.type, BASE.Course))
 
@@ -114,6 +114,7 @@ pdf_folders = [
 ]
 
 # Loop through all PDF files
+id_counter = 0
 for pdf_folder in pdf_folders:
     folder_key = os.path.basename(pdf_folder)
     program_name = folder_to_program.get(folder_key)
@@ -139,7 +140,8 @@ for pdf_folder in pdf_folders:
             courses = extract_courses(full_text, year)
             for course in courses:
                 print(f"Adding course: {course}")
-                add_course_to_ontology(course)
+                add_course_to_ontology(course, id_counter)
+                id_counter+= 1
 
 # Save ontology to file
 output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\owl\courses.owl"
