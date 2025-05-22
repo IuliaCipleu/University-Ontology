@@ -933,14 +933,6 @@
     
 
 
-    <!-- http://example.org/ontology#CV_for_Mobile_Systems_S_Nedevschi_BT_5_01 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#CV_for_Mobile_Systems_S_Nedevschi_BT_5_01">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#C_Cenan -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#C_Cenan">
@@ -1280,14 +1272,6 @@
     
 
 
-    <!-- http://example.org/ontology#Data_Warehouse_and_Business_Intelligence_C_Cenan_BT_5_02 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Data_Warehouse_and_Business_Intelligence_C_Cenan_BT_5_02">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Departamentul_de_Automatica -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Departamentul_de_Automatica">
@@ -1318,14 +1302,6 @@
     <!-- http://example.org/ontology#Dezv_si_integrarea_sistemelor_informatice_DISI_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Dezv_si_integrarea_sistemelor_informatice_DISI_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Dezv_si_integrarea_sistemelor_informatice_DISI_M_Antal_D21 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Dezv_si_integrarea_sistemelor_informatice_DISI_M_Antal_D21">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -1439,14 +1415,6 @@
     <!-- http://example.org/ontology#Fog_si_Cloud -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Fog_si_Cloud">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Fog_si_Cloud_T_Cioara_BT_5_01 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Fog_si_Cloud_T_Cioara_BT_5_01">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -1689,14 +1657,6 @@
     
 
 
-    <!-- http://example.org/ontology#Image_Processing_and_Computer_Vision_F_Oniga_BT_5_02 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Image_Processing_and_Computer_Vision_F_Oniga_BT_5_02">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Information_System_Audit_and_Risk_Management_D_Lutas_102 -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Information_System_Audit_and_Risk_Management_D_Lutas_102">
@@ -1734,14 +1694,6 @@
     <!-- http://example.org/ontology#Information_Theory_and_Statistics_c_s_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Information_Theory_and_Statistics_c_s_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Information_Theory_and_Statistics_c_s_I_Rasa_BT_5_02 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Information_Theory_and_Statistics_c_s_I_Rasa_BT_5_02">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -1886,30 +1838,6 @@
     
 
 
-    <!-- http://example.org/ontology#Limbaje_formale_şi_translatoare_LFT_A_Marginean_40 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Limbaje_formale_şi_translatoare_LFT_A_Marginean_40">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Limbaje_formale_şi_translatoare_LFT_C_Feier_40 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Limbaje_formale_şi_translatoare_LFT_C_Feier_40">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Luni -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Luni">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#ML2_BT_5_02 -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#ML2_BT_5_02">
@@ -1974,25 +1902,9 @@
     
 
 
-    <!-- http://example.org/ontology#Managementul_Proiectelor_I_Anghel_D21 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Managementul_Proiectelor_I_Anghel_D21">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Managementul_clasei_de_elevi_C_Tausan_206P -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Managementul_clasei_de_elevi_C_Tausan_206P">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Marti -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Marti">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -2006,41 +1918,9 @@
     
 
 
-    <!-- http://example.org/ontology#Metode_numerice_CN_I_Gavrea_40 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Metode_numerice_CN_I_Gavrea_40">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Metode_numerice_CN_I_Gavrea_Aula_I_ -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Metode_numerice_CN_I_Gavrea_Aula_I_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Metodologia_intocmirii_proiectelor_MIP_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Metodologia_intocmirii_proiectelor_MIP_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Metodologia_intocmirii_proiectelor_MIP_I_Anghel_D21 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Metodologia_intocmirii_proiectelor_MIP_I_Anghel_D21">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Miercuri -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Miercuri">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -2057,14 +1937,6 @@
     <!-- http://example.org/ontology#Modelarea_Proceselor_de_Business -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Modelarea_Proceselor_de_Business">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Modelarea_Proceselor_de_Business_I_Salomie_BT_5_02 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Modelarea_Proceselor_de_Business_I_Salomie_BT_5_02">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -2138,14 +2010,6 @@
     
 
 
-    <!-- http://example.org/ontology#OPT_Alg_Computability_AC_R_Potolea_BT_7_02 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#OPT_Alg_Computability_AC_R_Potolea_BT_7_02">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#OPT_Ind_Informatics_II_Gh_Sebestyen_356 -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#OPT_Ind_Informatics_II_Gh_Sebestyen_356">
@@ -2197,14 +2061,6 @@
     <!-- http://example.org/ontology#OPT_Statistics_prob_SP_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#OPT_Statistics_prob_SP_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#OPT_Statistics_prob_SP_I_Rasa_F -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#OPT_Statistics_prob_SP_I_Rasa_F">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -2451,14 +2307,6 @@
     
 
 
-    <!-- http://example.org/ontology#Procesarea_Imaginilor_PI_R_Itu_40 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Procesarea_Imaginilor_PI_R_Itu_40">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Procesarea_datelor_mari_in_Edge -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Procesarea_datelor_mari_in_Edge">
@@ -2475,25 +2323,9 @@
     
 
 
-    <!-- http://example.org/ontology#Procesarea_imaginilor_PI_R_Danescu_40 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Procesarea_imaginilor_PI_R_Danescu_40">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Programare_Web_PWEB_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Programare_Web_PWEB_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Programare_Web_PWEB_I_Anghel_H11 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Programare_Web_PWEB_I_Anghel_H11">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -2507,41 +2339,9 @@
     
 
 
-    <!-- http://example.org/ontology#Programare_in_limbaj_de_asamblare_PLA_A_Hangan_13_15_P03 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Programare_in_limbaj_de_asamblare_PLA_A_Hangan_13_15_P03">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Programare_in_limbaj_de_asamblare_PLA_G_Sebestyen_P03 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Programare_in_limbaj_de_asamblare_PLA_G_Sebestyen_P03">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Programare_logica_PL_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Programare_logica_PL_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Programare_logica_PL_C_Lemnaru_40 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Programare_logica_PL_C_Lemnaru_40">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Programare_logica_PL_R_Ardelean_40 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Programare_logica_PL_R_Ardelean_40">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -2566,22 +2366,6 @@
     <!-- http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_F_Lisman_8_11_Aula_I_ -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_F_Lisman_8_11_Aula_I_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_V_Miclea_14_17_Aula_I_ -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_V_Miclea_14_17_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -2654,14 +2438,6 @@
     <!-- http://example.org/ontology#Retele_de_calculatoare_RC_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Retele_de_calculatoare_RC_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Retele_de_calculatoare_RC_V_Dadarlat_40 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Retele_de_calculatoare_RC_V_Dadarlat_40">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -2795,25 +2571,9 @@
     
 
 
-    <!-- http://example.org/ontology#Securit_sist_apl_SSA_M_Joldos_F -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Securit_sist_apl_SSA_M_Joldos_F">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Semantic_Web_Agents -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Semantic_Web_Agents">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Semantic_Web_Agents_A_Groza_356 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Semantic_Web_Agents_A_Groza_356">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -2827,25 +2587,9 @@
     
 
 
-    <!-- http://example.org/ontology#Servicii_si_Aplicatii_in_Cloud_C_Pop_BT_5_02 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Servicii_si_Aplicatii_in_Cloud_C_Pop_BT_5_02">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Sist_bazate_pe_cunost_SBC_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Sist_bazate_pe_cunost_SBC_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Sist_bazate_pe_cunost_SBC_A_Groza_H11 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Sist_bazate_pe_cunost_SBC_A_Groza_H11">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -2867,22 +2611,6 @@
     
 
 
-    <!-- http://example.org/ontology#Sisteme_de_operare_SO_C_Oprisa_40 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Sisteme_de_operare_SO_C_Oprisa_40">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Sisteme_de_operare_SO_C_Oprisa_Aula_I_ -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Sisteme_de_operare_SO_C_Oprisa_Aula_I_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Sisteme_informatice_SI_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Sisteme_informatice_SI_">
@@ -2891,25 +2619,9 @@
     
 
 
-    <!-- http://example.org/ontology#Sisteme_informatice_SI_O_Pop_F -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Sisteme_informatice_SI_O_Pop_F">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Sisteme_inteligente_SI_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Sisteme_inteligente_SI_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Sisteme_inteligente_SI_A_Marginean_D21 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Sisteme_inteligente_SI_A_Marginean_D21">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -2962,14 +2674,6 @@
     
 
 
-    <!-- http://example.org/ontology#Statistica_prob_SP_I_Rasa_BT_7_02 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Statistica_prob_SP_I_Rasa_BT_7_02">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Stiinta_Calculatoarelor -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Stiinta_Calculatoarelor">
@@ -2981,22 +2685,6 @@
     <!-- http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_C_Lemnaru_17_20_Aula_I_ -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_C_Lemnaru_17_20_Aula_I_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_R_Brehar_11_14_Aula_I_ -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_R_Brehar_11_14_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -4273,33 +3961,9 @@
     
 
 
-    <!-- http://example.org/ontology#Tehnici_de_programare_TP_T_Cioara_40 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Tehnici_de_programare_TP_T_Cioara_40">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_T_Cioara_D1 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_T_Cioara_D1">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_V_Chifu_40 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_V_Chifu_40">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -4316,14 +3980,6 @@
     <!-- http://example.org/ontology#Teoria_sistemelor_TS_ -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Teoria_sistemelor_TS_">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Teoria_sistemelor_TS_P_Raica_D1 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Teoria_sistemelor_TS_P_Raica_D1">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -4497,14 +4153,6 @@
     
 
 
-    <!-- http://example.org/ontology#Virtualization_and_Hardware_Based_Security_opt_A_Colesa_102 -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Virtualization_and_Hardware_Based_Security_opt_A_Colesa_102">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://example.org/ontology#Viziune_Artificiala -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Viziune_Artificiala">
@@ -4608,14 +4256,6 @@
     <!-- http://example.org/ontology#Windows_Internals_and_Kernel_Driver_Development -->
 
     <NamedIndividual rdf:about="http://example.org/ontology#Windows_Internals_and_Kernel_Driver_Development">
-        <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://example.org/ontology#Windows_Internals_and_Kernel_Driver_Development_R_Portase_105_8_9_ -->
-
-    <NamedIndividual rdf:about="http://example.org/ontology#Windows_Internals_and_Kernel_Driver_Development_R_Portase_105_8_9_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
     </NamedIndividual>
     
@@ -4927,7 +4567,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#1CSC_Marti_14_16_Sisteme_de_operare_SO_C_Oprisa_40">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Sisteme_de_operare_SO_C_Oprisa_40"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#Complemente_de_Stiinta_Calculatoarelor"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1CSC"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Tuesday_14_16"/>
@@ -4939,7 +4578,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#1CSC_Marti_16_18_Structuri_de_date_şi_algoritmi_SDA_C_Lemnaru_17_20_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_C_Lemnaru_17_20_Aula_I_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#Complemente_de_Stiinta_Calculatoarelor"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1CSC"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Tuesday_16_18"/>
@@ -4951,7 +4589,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#1CSC_Marti_18_20_Structuri_de_date_şi_algoritmi_SDA_C_Lemnaru_17_20_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_C_Lemnaru_17_20_Aula_I_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#Complemente_de_Stiinta_Calculatoarelor"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1CSC"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
@@ -5321,7 +4958,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1M_Luni_8_10_Windows_Internals_and_Kernel_Driver_Development_R_Portase_105_8_9_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Windows_Internals_and_Kernel_Driver_Development"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Windows_Internals_and_Kernel_Driver_Development_R_Portase_105_8_9_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#Cybersecurity_Engineering"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1M"/>
         <ns1:hasRoom rdf:resource="http://example.org/ontology#105_8_9_"/>
@@ -5437,7 +5073,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1M_Marti_18_20_Fog_si_Cloud_T_Cioara_BT_5_01">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Fog_si_Cloud"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Fog_si_Cloud_T_Cioara_BT_5_01"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#Inginerie_Software"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1M"/>
         <ns1:hasRoom rdf:resource="http://example.org/ontology#BT5_01"/>
@@ -5569,7 +5204,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1M_Miercuri_16_18_Image_Processing_and_Computer_Vision_F_Oniga_BT_5_02">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Image_Processing_and_Computer_Vision"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Image_Processing_and_Computer_Vision_F_Oniga_BT_5_02"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#Data_Science"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1M"/>
         <ns1:hasRoom rdf:resource="http://example.org/ontology#BT5_02"/>
@@ -5613,7 +5247,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1M_Miercuri_18_20_Managementul_Proiectelor_I_Anghel_D21">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Managementul_Proiectelor"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Managementul_Proiectelor_I_Anghel_D21"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#Inginerie_Software"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#Tehnologia_Informatiei_in_Economie"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1M"/>
@@ -5629,7 +5262,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1M_Miercuri_18_20_OPT_Statistics_prob_SP_I_Rasa_F">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#OPT_Statistics_prob_SP_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#OPT_Statistics_prob_SP_I_Rasa_F"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1M"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#32211"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#32212"/>
@@ -5669,7 +5301,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1M_Miercuri_8_10_OPT_Alg_Computability_AC_R_Potolea_BT_7_02">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#OPT_Alg_Computability_AC_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#OPT_Alg_Computability_AC_R_Potolea_BT_7_02"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1M"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#32211"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#32212"/>
@@ -5789,7 +5420,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1M_Vineri_8_10_Data_Warehouse_and_Business_Intelligence_C_Cenan_BT_5_02">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Data_Warehouse_and_Business_Intelligence"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Data_Warehouse_and_Business_Intelligence_C_Cenan_BT_5_02"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#Data_Science"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1M"/>
         <ns1:hasRoom rdf:resource="http://example.org/ontology#BT5_02"/>
@@ -6205,7 +5835,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1r_Luni_14_16_Programare_in_limbaj_de_asamblare_PLA_G_Sebestyen_P03">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Programare_in_limbaj_de_asamblare_PLA_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Programare_in_limbaj_de_asamblare_PLA_G_Sebestyen_P03"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1r"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -6452,7 +6081,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1r_Marti_14_16_Proiectarea_sistemelor_numerice_PSN_V_Miclea_14_17_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_V_Miclea_14_17_Aula_I_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1r"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -6493,7 +6121,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1r_Marti_16_18_Proiectarea_sistemelor_numerice_PSN_V_Miclea_14_17_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_V_Miclea_14_17_Aula_I_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1r"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -6509,7 +6136,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1r_Marti_16_18_Structuri_de_date_şi_algoritmi_SDA_C_Lemnaru_17_20_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_C_Lemnaru_17_20_Aula_I_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1r"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -6537,7 +6163,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1r_Marti_18_20_Structuri_de_date_şi_algoritmi_SDA_C_Lemnaru_17_20_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_C_Lemnaru_17_20_Aula_I_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1r"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -6603,7 +6228,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1r_Miercuri_10_12_Proiectarea_sistemelor_numerice_PSN_F_Lisman_8_11_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_F_Lisman_8_11_Aula_I_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1r"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -6631,7 +6255,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1r_Miercuri_10_12_Structuri_de_date_şi_algoritmi_SDA_R_Brehar_11_14_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_R_Brehar_11_14_Aula_I_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1r"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -6697,7 +6320,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1r_Miercuri_12_14_Structuri_de_date_şi_algoritmi_SDA_R_Brehar_11_14_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_R_Brehar_11_14_Aula_I_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1r"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -6956,7 +6578,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#1r_Vineri_12_14_Programare_in_limbaj_de_asamblare_PLA_A_Hangan_13_15_P03">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Programare_in_limbaj_de_asamblare_PLA_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Programare_in_limbaj_de_asamblare_PLA_A_Hangan_13_15_P03"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1r"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -7928,7 +7549,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#2r_Luni_10_12_Tehnici_de_programare_fundamentale_TP_T_Cioara_D1">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_T_Cioara_D1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2r"/>
@@ -8005,7 +7625,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#2r_Luni_12_14_Teoria_sistemelor_TS_P_Raica_D1">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Teoria_sistemelor_TS_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Teoria_sistemelor_TS_P_Raica_D1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2r"/>
@@ -8332,7 +7951,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#2r_Marti_14_16_Sisteme_de_operare_SO_C_Oprisa_40">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Sisteme_de_operare_SO_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Sisteme_de_operare_SO_C_Oprisa_40"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2r"/>
@@ -8410,7 +8028,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#2r_Marti_16_18_Metode_numerice_CN_I_Gavrea_40">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Metode_numerice_CN_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Metode_numerice_CN_I_Gavrea_40"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2r"/>
@@ -8537,7 +8154,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#2r_Marti_18_20_Tehnici_de_programare_fundamentale_TP_V_Chifu_40">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_V_Chifu_40"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2r"/>
@@ -8725,7 +8341,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#2r_Miercuri_14_16_Metode_numerice_CN_I_Gavrea_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Metode_numerice_CN_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Metode_numerice_CN_I_Gavrea_Aula_I_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2r"/>
@@ -8892,7 +8507,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#2r_Miercuri_18_20_Sisteme_de_operare_SO_C_Oprisa_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Sisteme_de_operare_SO_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Sisteme_de_operare_SO_C_Oprisa_Aula_I_"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2r"/>
@@ -9582,7 +9196,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#3r_Joi_10_12_Sisteme_inteligente_SI_A_Marginean_D21">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Sisteme_inteligente_SI_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Sisteme_inteligente_SI_A_Marginean_D21"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#3r"/>
@@ -9906,7 +9519,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#3r_Luni_10_12_Procesarea_imaginilor_PI_R_Danescu_40">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Procesarea_imaginilor_PI_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Procesarea_imaginilor_PI_R_Danescu_40"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#3r"/>
@@ -9958,7 +9570,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#3r_Luni_12_14_Limbaje_formale_şi_translatoare_LFT_C_Feier_40">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Limbaje_formale_şi_translatoare_LFT_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Limbaje_formale_şi_translatoare_LFT_C_Feier_40"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#3r"/>
@@ -10289,7 +9900,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#3r_Marti_10_12_Limbaje_formale_şi_translatoare_LFT_A_Marginean_40">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Limbaje_formale_şi_translatoare_LFT_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Limbaje_formale_şi_translatoare_LFT_A_Marginean_40"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#3r"/>
@@ -10389,7 +9999,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#3r_Marti_12_14_Programare_logica_PL_C_Lemnaru_40">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Programare_logica_PL_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Programare_logica_PL_C_Lemnaru_40"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#3r"/>
@@ -10661,7 +10270,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#3r_Miercuri_10_12_Retele_de_calculatoare_RC_V_Dadarlat_40">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Retele_de_calculatoare_RC_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Retele_de_calculatoare_RC_V_Dadarlat_40"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#3r"/>
@@ -10701,7 +10309,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#3r_Miercuri_12_14_Programare_logica_PL_R_Ardelean_40">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Programare_logica_PL_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Programare_logica_PL_R_Ardelean_40"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#3r"/>
@@ -11603,7 +11210,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Joi_10_12_Sist_bazate_pe_cunost_SBC_A_Groza_H11">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Sist_bazate_pe_cunost_SBC_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Sist_bazate_pe_cunost_SBC_A_Groza_H11"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
@@ -11937,7 +11543,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Luni_10_12_Luni">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Luni"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Monday_10_12"/>
@@ -11962,7 +11567,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Luni_10_12_Programare_Web_PWEB_I_Anghel_H11">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Programare_Web_PWEB_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Programare_Web_PWEB_I_Anghel_H11"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -12004,7 +11608,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Luni_10_12_Securit_sist_apl_SSA_M_Joldos_F">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Securit_sist_apl_SSA_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Securit_sist_apl_SSA_M_Joldos_F"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
@@ -12031,7 +11634,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Luni_12_14_Luni">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Luni"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Monday_12_14"/>
@@ -12093,7 +11695,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Luni_14_16_Luni">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Luni"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Monday_14_16"/>
@@ -12181,7 +11782,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Luni_16_18_Luni">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Luni"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Monday_16_18"/>
@@ -12257,7 +11857,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Luni_18_20_Luni">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Luni"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Monday_18_20"/>
@@ -12306,7 +11905,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Marti_10_12_Marti">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Marti"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Tuesday_10_12"/>
@@ -12354,7 +11952,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Marti_12_14_Marti">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Marti"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Tuesday_12_14"/>
@@ -12426,7 +12023,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Marti_14_16_Marti">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Marti"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Tuesday_14_16"/>
@@ -12512,7 +12108,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Marti_16_18_Marti">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Marti"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Tuesday_16_18"/>
@@ -12574,7 +12169,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Marti_18_20_Marti">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Marti"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
@@ -12587,7 +12181,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Marti_18_20_Sisteme_informatice_SI_O_Pop_F">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Sisteme_informatice_SI_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Sisteme_informatice_SI_O_Pop_F"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
@@ -12614,7 +12207,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Miercuri_10_12_Miercuri">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Miercuri"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Wednesday_10_12"/>
@@ -12664,7 +12256,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Miercuri_12_14_Miercuri">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Miercuri"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Wednesday_12_14"/>
@@ -12715,7 +12306,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Miercuri_14_16_Metodologia_intocmirii_proiectelor_MIP_I_Anghel_D21">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Metodologia_intocmirii_proiectelor_MIP_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Metodologia_intocmirii_proiectelor_MIP_I_Anghel_D21"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -12731,7 +12321,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Miercuri_14_16_Miercuri">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Miercuri"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Wednesday_14_16"/>
@@ -12782,7 +12371,6 @@
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Miercuri_16_18_Dezv_si_integrarea_sistemelor_informatice_DISI_M_Antal_D21">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
         <ns1:hasCourse rdf:resource="http://example.org/ontology#Dezv_si_integrarea_sistemelor_informatice_DISI_"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Dezv_si_integrarea_sistemelor_informatice_DISI_M_Antal_D21"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#1"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#2"/>
@@ -12798,7 +12386,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Miercuri_16_18_Miercuri">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Miercuri"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Wednesday_16_18"/>
@@ -12834,7 +12421,6 @@
 
     <NamedIndividual rdf:about="http://example.org/ontology#4r_Miercuri_18_20_Miercuri">
         <rdf:type rdf:resource="http://example.org/ontology#ScheduleEntry"/>
-        <ns1:hasCourse rdf:resource="http://example.org/ontology#Miercuri"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#"/>
         <ns1:hasGroup rdf:resource="http://example.org/ontology#4r"/>
         <ns1:hasTimeslot rdf:resource="http://example.org/ontology#Wednesday_18_20"/>
@@ -13517,6 +13103,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Achim-CalebSighiartau">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13526,6 +13113,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AdrianRatiu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13535,6 +13123,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AdrianVasileSimon">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13544,6 +13133,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alessia-AnamariaPintilie">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13553,6 +13143,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alexandra-IuliaMotreanu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13562,6 +13153,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AlexandruCantemir">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13571,6 +13163,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AlexiaGiesswein">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13580,6 +13173,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alina-ElenaOrbeanu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13589,6 +13183,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ana-AndreeaMudura">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13598,6 +13193,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ana-IoanaPop">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13607,6 +13203,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AnastasiaHaiduc">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13616,6 +13213,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrea-MariaNichitut">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13625,6 +13223,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andreea-BeatriceCroitoriu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13634,6 +13233,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andreea-LaviniaGavrilescu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13643,6 +13243,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andreea-ManuelaFratean">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13652,6 +13253,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AndreeaCovaciu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13661,6 +13263,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AndreeaMarin">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13670,6 +13273,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-AntonieAchim">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13679,6 +13283,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-BogdanTudor">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13688,6 +13293,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-CristianOnea">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13697,6 +13303,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-DenisAlexandru">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13706,6 +13313,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-TiberiuDarko">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13715,6 +13323,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AndreiPelle">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13724,6 +13333,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AngelCzako">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13733,6 +13343,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Antonia-MariaFilimon">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13742,6 +13353,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AntoniaCoblisan">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13751,6 +13363,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AntoniaIncze">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13823,6 +13436,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bogdan-CristianBoanca">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13832,6 +13446,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bogdan-MihaiGalis">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13859,6 +13474,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Catalin-AdrianChita">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13868,6 +13484,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Catalin-AndreiSimonca">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13877,6 +13494,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#CatalinMaris">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13886,6 +13504,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#CatalinMiholca">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13895,6 +13514,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristian-AlexandruIelciu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13904,6 +13524,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristian-CatalinNicoara">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13913,6 +13534,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristian-FelicianPapiu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13922,6 +13544,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristina-SandraChetan">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13958,6 +13581,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dan-CristianCosma">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13967,6 +13591,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Daniel-Sebastian-NicholasVladut">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13976,6 +13601,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Daniela-MihaelaScobaru">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13985,6 +13611,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Daria-AlessiaHolom">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -13994,6 +13621,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DariaPirvan">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14003,6 +13631,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Darius-MarianSimu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14012,6 +13641,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Darius-RazvanHerman">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14021,6 +13651,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#David-StefanPascalau">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14030,6 +13661,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Deborah-Ruxandra-MariaFlorea">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14039,6 +13671,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DenisCretu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14048,6 +13681,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Denisa-BiancaDersedan">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14057,6 +13691,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Denisa-MariaHerlea">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14090,6 +13725,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dragos-BogdanIon">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14099,6 +13735,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dragos-SorinTivadar">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14126,6 +13763,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#EduardHegyi">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14135,6 +13773,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#EricAndrone">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14144,6 +13783,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Filip-IoanPintea">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14153,6 +13793,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Flaviu-ValeriuBaciu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14162,6 +13803,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#GeorgeMuresan">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14171,6 +13813,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Georgiana-TatianaMorodan">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14180,6 +13823,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Giulia-AnaPop">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14207,6 +13851,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Horatiu-AndreiBologa">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14216,6 +13861,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ilie-TraianNiculai">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14225,6 +13871,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioan-AlexandruMezo">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14234,6 +13881,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioan-FlorinIftene">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14243,6 +13891,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioan-RarisMois">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14252,6 +13901,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioana-RamonaMartin">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14261,6 +13911,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioana-RuxandraAngheluta">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14270,6 +13921,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#IonelaDanci">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14279,6 +13931,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Larisa-DamarisLupoaie">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14288,6 +13941,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Laurentiu-EusebiuMuresan">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14297,6 +13951,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Lorena-Maria-VeronicaRogoz">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14306,6 +13961,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Luca-GeorgianPavel">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14315,6 +13971,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#LucaIoanTrifan">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14351,6 +14008,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Madalina-MariaSalajan">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14360,6 +14018,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Maria-AntoniaHoluta">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14369,6 +14028,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MarianaBiltiu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14378,6 +14038,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MarynaNikolaiesku">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14387,6 +14048,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MihaelaAanei">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14396,6 +14058,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihai-AdrianDiaconu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14405,6 +14068,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihai-AndreiDumitrascu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14414,6 +14078,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihai-AndreiGalchis">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14423,6 +14088,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MihaiDamian">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14432,6 +14098,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MihaiEnache">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14441,6 +14108,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihnea-SebastianBurlacu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14450,6 +14118,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mira-TeodoraCulda">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14459,6 +14128,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Miruna-AndreeaUdvari">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14468,6 +14138,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MouadLaamarti">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14477,6 +14148,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Narcis-DumitruLascu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14486,6 +14158,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Oana-Georgia-CristianaIstrate">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14495,6 +14168,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Patricia-AndradaIancu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14504,6 +14178,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Patricia-MariaCiortin">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14513,6 +14188,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Radu-GeorgeAchim">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14522,6 +14198,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rares-IlieObogeanu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14531,6 +14208,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Raul-AndreiOros">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14540,6 +14218,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Raul-GabrielMladin">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14549,6 +14228,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Raul-GeorgePop">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14558,6 +14238,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#RazvanPodariu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <ont:hasAddress>73-71 Iugoslaviei Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14567,6 +14248,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#RobertPalfi">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14576,6 +14258,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#RubenBuleandra">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <ont:hasAddress>101 Decebal Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14603,6 +14286,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sebastian-AndreiPascu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14612,6 +14296,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sebastian-VasileMangau">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14621,6 +14306,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sergiu-CristianAnton">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14630,6 +14316,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Simion-AndreiKrisan">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <ont:hasAddress>Dorm Observator</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14639,6 +14326,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Stefan-CostinAtitienei">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14648,6 +14336,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#StefanAndreica">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14657,6 +14346,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Stefania-IoanaSucala">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14666,6 +14356,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Tudor-DanFlorea">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14675,6 +14366,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#TudorBuzgure">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14684,6 +14376,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#TudorPadurariu">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <ont:hasAddress>Dorm 1F</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14693,6 +14386,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Vlad-IonutDemean">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <ont:hasAddress>31 T. Mihali Street</ont:hasAddress>
     </NamedIndividual>
     
 
@@ -14702,6 +14396,7 @@
     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#-StanciuRaresSav">
         <rdf:type rdf:resource="http://example.org/ontology#Student"/>
         <ont:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
+        <ont:hasAddress> 13-11 Gheorghe Doja Street, Floresti</ont:hasAddress>
     </NamedIndividual>
     
 

@@ -70,6 +70,11 @@ g.add((is_free_at, RDF.type, OWL.ObjectProperty))
 g.add((is_free_at, RDFS.domain, BASE["Room"]))
 g.add((is_free_at, RDFS.range, BASE["Timeslot"]))
 
+has_title = BASE["hasTitle"]
+g.add((has_title, RDF.type, OWL.DatatypeProperty))
+g.add((has_title, RDFS.domain, BASE["Course"]))
+g.add((has_title, RDFS.range, XSD.string))
+
 
 def split_course_info(course_str):
     # Split by ' - ' exactly into 3 parts: course name, teacher, room
@@ -172,6 +177,8 @@ for filename in sorted(os.listdir(html_folder)):
                     for course_name in extract_courses(cell):
                         course, teacher, room = split_course_info(course_name)
                         course_ind = get_or_create_individual("Course", course)
+                        if (course_ind, BASE.hasTitle, None) not in g:
+                            g.add((course_ind, BASE.hasTitle, Literal(course, datatype=XSD.string)))
                         courses[course_name] = course_ind
 
                         timeslot_ind = get_or_create_timeslot(day_en, time)
