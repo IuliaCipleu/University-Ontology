@@ -136,9 +136,12 @@ print(f"\nOntology saved to {output_path}")
 
 if all_students:
     df = pd.DataFrame(all_students)
-    # Rename columns to what you want
-    df.rename(columns={"hasSurname": "Surname", "hasFirstName": "FirstName"}, inplace=True)
+
+    # Combine into FullName and keep only that column
+    df["FullName"] = df["hasFirstName"] + " " + df["hasSurname"]
+    df = df[["FullName"]]
 
     excel_output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\excel\students.xlsx"
     df.to_excel(excel_output_path, index=False)
     print(f"\nStudents saved to Excel file: {excel_output_path}")
+
