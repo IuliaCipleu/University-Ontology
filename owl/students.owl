@@ -4,58 +4,82 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Salajan_Madalina___Maria">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madalina - Maria</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salajan</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Androne_Eric">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eric</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Androne</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Alexandru_Andrei___Denis">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei - Denis</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexandru</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Sav___Stanciu_Rares">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- Stanciu Rares</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sav</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Orbeanu_Alina___Elena">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alina - Elena</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orbeanu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Herlea_Denisa___Maria">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denisa - Maria</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herlea</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Pop_Giulia___Ana">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
     <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giulia - Ana</base:hasFirstName>
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pop</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Morodan_Georgiana___Tatiana">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Papiu_Cristian___Felician">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georgiana - Tatiana</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morodan</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Ciortin_Patricia___Maria">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patricia - Maria</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciortin</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristian - Felician</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papiu</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Chita_Catalin___Adrian">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Boanca_Bogdan___Cristian">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalin - Adrian</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chita</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bogdan - Cristian</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boanca</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Baciu_Flaviu___Valeriu">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flaviu - Valeriu</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baciu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Dumitrascu_Mihai___Andrei">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihai - Andrei</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dumitrascu</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Andreica_Stefan">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Pirvan_Daria">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefan</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreica</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Covaciu_Andreea">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreea</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Covaciu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Culda_Mira___Teodora">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mira - Teodora</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culda</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Onea_Andrei___Cristian">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei - Cristian</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onea</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daria</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pirvan</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Ion_Dragos___Bogdan">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Lupoaie_Larisa___Damaris">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dragos - Bogdan</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ion</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Larisa - Damaris</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lupoaie</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Enache_Mihai">
@@ -64,29 +88,82 @@
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enache</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Mladin_Raul___Gabriel">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raul - Gabriel</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mladin</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Ielciu_Cristian___Alexandru">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristian - Alexandru</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ielciu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Danci_Ionela">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ionela</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danci</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Onea_Andrei___Cristian">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei - Cristian</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onea</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Trifan_Luca_Ioan">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
     <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luca Ioan</base:hasFirstName>
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trifan</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Padurariu_Tudor">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Istrate_Oana___Georgia___Cristiana">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tudor</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Padurariu</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oana - Georgia - Cristiana</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Istrate</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Oros_Raul___Andrei">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Simu_Darius___Marian">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raul - Andrei</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oros</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darius - Marian</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simu</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Martin_Ioana___Ramona">
+  <rdf:Description rdf:about="http://example.org/ontology#hasFirstName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology#Student"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Darko_Andrei___Tiberiu">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ioana - Ramona</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei - Tiberiu</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darko</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Angheluta_Ioana___Ruxandra">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ioana - Ruxandra</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angheluta</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Filimon_Antonia___Maria">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonia - Maria</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filimon</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Achim_Radu___George">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radu - George</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achim</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Udvari_Miruna___Andreea">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miruna - Andreea</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Udvari</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Tivadar_Dragos___Sorin">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
@@ -94,40 +171,17 @@
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tivadar</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Biltiu_Mariana">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Maris_Catalin">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mariana</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biltiu</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalin</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maris</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#inGroup">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/ontology#Student"/>
-    <rdfs:range rdf:resource="http://example.org/ontology#Group"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Pop_Ana___Ioana">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Nicoara_Cristian___Catalin">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ana - Ioana</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pop</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Pascu_Sebastian___Andrei">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sebastian - Andrei</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pascu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Iancu_Patricia___Andrada">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patricia - Andrada</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iancu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Istrate_Oana___Georgia___Cristiana">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oana - Georgia - Cristiana</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Istrate</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristian - Catalin</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicoara</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Pop_Raul___George">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
@@ -140,247 +194,22 @@
     <rdfs:domain rdf:resource="http://example.org/ontology#Group"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Sighiartau_Achim___Caleb">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achim - Caleb</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sighiartau</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Giesswein_Alexia">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexia</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giesswein</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Pelle_Andrei">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelle</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Dumitrascu_Mihai___Andrei">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihai - Andrei</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dumitrascu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Cretu_Denis">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denis</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cretu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Papiu_Cristian___Felician">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristian - Felician</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papiu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Rogoz_Lorena___Maria___Veronica">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
     <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorena - Maria - Veronica</base:hasFirstName>
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rogoz</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Miholca_Catalin">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Florea_Tudor___Dan">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalin</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miholca</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Mudura_Ana___Andreea">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ana - Andreea</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mudura</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Group_30146">
-    <rdf:type rdf:resource="http://example.org/ontology#Group"/>
-    <base:inYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</base:inYear>
-    <base:isEnrolledIn rdf:resource="http://example.org/ontology#Automation_and_Applied_Informatics_BSc"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Achim_Andrei___Antonie">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei - Antonie</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achim</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tudor - Dan</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florea</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Boanca_Bogdan___Cristian">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Atitienei_Stefan___Costin">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bogdan - Cristian</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boanca</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Aanei_Mihaela">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihaela</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aanei</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Maris_Catalin">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalin</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maris</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Czako_Angel">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angel</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Czako</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Haiduc_Anastasia">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anastasia</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haiduc</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Dersedan_Denisa___Bianca">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denisa - Bianca</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dersedan</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Angheluta_Ioana___Ruxandra">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ioana - Ruxandra</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angheluta</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Mladin_Raul___Gabriel">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raul - Gabriel</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mladin</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Simon_Adrian_Vasile">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrian Vasile</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Coblisan_Antonia">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonia</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coblisan</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Alexandru_Andrei___Denis">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei - Denis</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexandru</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Scobaru_Daniela___Mihaela">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniela - Mihaela</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scobaru</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Simonca_Catalin___Andrei">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalin - Andrei</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simonca</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Pintea_Filip___Ioan">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filip - Ioan</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pintea</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Bologa_Horatiu___Andrei">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horatiu - Andrei</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bologa</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Orbeanu_Alina___Elena">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alina - Elena</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orbeanu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Achim_Radu___George">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radu - George</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achim</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Buzgure_Tudor">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tudor</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buzgure</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Pirvan_Daria">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daria</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pirvan</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Marin_Andreea">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreea</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marin</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Chetan_Cristina___Sandra">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristina - Sandra</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chetan</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Holuta_Maria___Antonia">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maria - Antonia</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holuta</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Danci_Ionela">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ionela</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danci</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Ielciu_Cristian___Alexandru">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristian - Alexandru</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ielciu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Incze_Antonia">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonia</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incze</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Croitoriu_Andreea___Beatrice">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreea - Beatrice</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croitoriu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#hasSurname">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/ontology#Student"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Group_30425">
-    <rdf:type rdf:resource="http://example.org/ontology#Group"/>
-    <base:inYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</base:inYear>
-    <base:isEnrolledIn rdf:resource="http://example.org/ontology#Computer_Science_BSc"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Muresan_Laurentiu___Eusebiu">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laurentiu - Eusebiu</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muresan</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Fratean_Andreea___Manuela">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreea - Manuela</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fratean</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefan - Costin</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atitienei</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Anton_Sergiu___Cristian">
@@ -389,23 +218,29 @@
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anton</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Cosma_Dan___Cristian">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Fratean_Andreea___Manuela">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dan - Cristian</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cosma</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Iftene_Ioan___Florin">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ioan - Florin</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iftene</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreea - Manuela</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fratean</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Obogeanu_Rares___Ilie">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Sighiartau_Achim___Caleb">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rares - Ilie</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obogeanu</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achim - Caleb</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sighiartau</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Achim_Andrei___Antonie">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei - Antonie</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achim</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Diaconu_Mihai___Adrian">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihai - Adrian</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diaconu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Buleandra_Ruben">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
@@ -413,17 +248,59 @@
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buleandra</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Cantemir_Alexandru">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Buzgure_Tudor">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexandru</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cantemir</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tudor</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buzgure</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Lascu_Narcis___Dumitru">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcis - Dumitru</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lascu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Muresan_Laurentiu___Eusebiu">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laurentiu - Eusebiu</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muresan</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Tudor_Andrei___Bogdan">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei - Bogdan</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tudor</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Florea_Tudor___Dan">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Muresan_George">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tudor - Dan</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florea</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muresan</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Cretu_Denis">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denis</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cretu</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Scobaru_Daniela___Mihaela">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniela - Mihaela</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scobaru</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Iftene_Ioan___Florin">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ioan - Florin</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iftene</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Iancu_Patricia___Andrada">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patricia - Andrada</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iancu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Mezo_Ioan___Alexandru">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
@@ -437,23 +314,17 @@
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holom</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Pavel_Luca___Georgian">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luca - Georgian</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pavel</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Mangau_Sebastian___Vasile">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
     <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sebastian - Vasile</base:hasFirstName>
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mangau</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Lascu_Narcis___Dumitru">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Covaciu_Andreea">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcis - Dumitru</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lascu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreea</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Covaciu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Pascalau_David___Stefan">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
@@ -461,22 +332,41 @@
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pascalau</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#isEnrolledIn">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/ontology#Group"/>
-    <rdfs:range rdf:resource="http://example.org/ontology#StudyProgram"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Tudor_Andrei___Bogdan">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Burlacu_Mihnea___Sebastian">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei - Bogdan</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tudor</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihnea - Sebastian</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burlacu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Padurariu_Tudor">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tudor</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Padurariu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Incze_Antonia">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonia</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incze</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Demean_Vlad___Ionut">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Pintilie_Alessia___Anamaria">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vlad - Ionut</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Demean</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alessia - Anamaria</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pintilie</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Vladut_Daniel___Sebastian___Nicholas">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel - Sebastian - Nicholas</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vladut</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Holuta_Maria___Antonia">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maria - Antonia</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holuta</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Herman_Darius___Razvan">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
@@ -484,75 +374,17 @@
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herman</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Palfi_Robert">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Gavrilescu_Andreea___Lavinia">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palfi</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreea - Lavinia</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gavrilescu</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Damian_Mihai">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Niculai_Ilie___Traian">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihai</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damian</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Nichitut_Andrea___Maria">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrea - Maria</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nichitut</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ilie - Traian</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Niculai</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Darko_Andrei___Tiberiu">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei - Tiberiu</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darko</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Filimon_Antonia___Maria">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonia - Maria</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filimon</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Galchis_Mihai___Andrei">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihai - Andrei</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galchis</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Simu_Darius___Marian">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darius - Marian</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Motreanu_Alexandra___Iulia">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexandra - Iulia</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motreanu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Androne_Eric">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eric</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Androne</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Group_32311">
-    <rdf:type rdf:resource="http://example.org/ontology#Group"/>
-    <base:inYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</base:inYear>
-    <base:isEnrolledIn rdf:resource="http://example.org/ontology#Software_Engineering_MSc"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Muresan_George">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muresan</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Group_30412">
-    <rdf:type rdf:resource="http://example.org/ontology#Group"/>
-    <base:inYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</base:inYear>
-    <base:isEnrolledIn rdf:resource="http://example.org/ontology#Computer_Science_BSc"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Ratiu_Adrian">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
@@ -560,40 +392,21 @@
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ratiu</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Salajan_Madalina___Maria">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Florea_Deborah___Ruxandra___Maria">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madalina - Maria</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salajan</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deborah - Ruxandra - Maria</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florea</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Herlea_Denisa___Maria">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denisa - Maria</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herlea</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  <rdf:Description rdf:about="http://example.org/ontology#hasSurname">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology#Student"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Mois_Ioan___Raris">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Coblisan_Antonia">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ioan - Raris</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mois</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Gavrilescu_Andreea___Lavinia">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreea - Lavinia</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gavrilescu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Nicoara_Cristian___Catalin">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristian - Catalin</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicoara</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Pintilie_Alessia___Anamaria">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alessia - Anamaria</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pintilie</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonia</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coblisan</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Laamarti_Mouad">
@@ -602,31 +415,26 @@
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laamarti</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Burlacu_Mihnea___Sebastian">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Biltiu_Mariana">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihnea - Sebastian</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burlacu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mariana</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biltiu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#hasFirstName">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/ontology#Student"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Atitienei_Stefan___Costin">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Pop_Ana___Ioana">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefan - Costin</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atitienei</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Vladut_Daniel___Sebastian___Nicholas">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel - Sebastian - Nicholas</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vladut</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ana - Ioana</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pop</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Automation_and_Applied_Informatics_BSc">
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+  <rdf:Description rdf:about="http://example.org/ontology#Student">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Ciortin_Patricia___Maria">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patricia - Maria</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciortin</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Hegyi_Eduard">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
@@ -634,44 +442,77 @@
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hegyi</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Galis_Bogdan___Mihai">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Krisan_Simion___Andrei">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bogdan - Mihai</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galis</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Computer_Science_BSc">
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Diaconu_Mihai___Adrian">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihai - Adrian</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diaconu</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Baciu_Flaviu___Valeriu">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flaviu - Valeriu</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baciu</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simion - Andrei</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krisan</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Sav___Stanciu_Rares">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Ion_Dragos___Bogdan">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- Stanciu Rares</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sav</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dragos - Bogdan</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ion</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Nichitut_Andrea___Maria">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrea - Maria</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nichitut</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Culda_Mira___Teodora">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mira - Teodora</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culda</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Nikolaiesku_Maryna">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Simonca_Catalin___Andrei">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maryna</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nikolaiesku</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalin - Andrei</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simonca</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Dersedan_Denisa___Bianca">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denisa - Bianca</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dersedan</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Oros_Raul___Andrei">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raul - Andrei</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oros</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Pavel_Luca___Georgian">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luca - Georgian</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pavel</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Chita_Catalin___Adrian">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalin - Adrian</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chita</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Udvari_Miruna___Andreea">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Aanei_Mihaela">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miruna - Andreea</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Udvari</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihaela</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aanei</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Mudura_Ana___Andreea">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ana - Andreea</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mudura</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Pascu_Sebastian___Andrei">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sebastian - Andrei</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pascu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Sucala_Stefania___Ioana">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
@@ -679,46 +520,205 @@
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sucala</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Group_30146">
+    <rdf:type rdf:resource="http://example.org/ontology#Group"/>
+    <base:inYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</base:inYear>
+    <base:isEnrolledIn rdf:resource="http://example.org/ontology#Automation_and_Applied_Informatics_BSc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Automation_and_Applied_Informatics_BSc">
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Bologa_Horatiu___Andrei">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horatiu - Andrei</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bologa</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Haiduc_Anastasia">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anastasia</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haiduc</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Palfi_Robert">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palfi</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Miholca_Catalin">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalin</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miholca</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Obogeanu_Rares___Ilie">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rares - Ilie</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obogeanu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Martin_Ioana___Ramona">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ioana - Ramona</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Cosma_Dan___Cristian">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dan - Cristian</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cosma</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Group_32311">
+    <rdf:type rdf:resource="http://example.org/ontology#Group"/>
+    <base:inYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</base:inYear>
+    <base:isEnrolledIn rdf:resource="http://example.org/ontology#Software_Engineering_MSc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Nikolaiesku_Maryna">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maryna</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nikolaiesku</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Cantemir_Alexandru">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexandru</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cantemir</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Group_30425">
+    <rdf:type rdf:resource="http://example.org/ontology#Group"/>
+    <base:inYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</base:inYear>
+    <base:isEnrolledIn rdf:resource="http://example.org/ontology#Computer_Science_BSc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Pintea_Filip___Ioan">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filip - Ioan</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pintea</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#inGroup">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology#Student"/>
+    <rdfs:range rdf:resource="http://example.org/ontology#Group"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Motreanu_Alexandra___Iulia">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexandra - Iulia</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motreanu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Galchis_Mihai___Andrei">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihai - Andrei</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galchis</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Simon_Adrian_Vasile">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrian Vasile</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#StudyProgram">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Mois_Ioan___Raris">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ioan - Raris</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mois</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Software_Engineering_MSc">
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Czako_Angel">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angel</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Czako</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Morodan_Georgiana___Tatiana">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georgiana - Tatiana</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morodan</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Galis_Bogdan___Mihai">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bogdan - Mihai</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galis</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#isEnrolledIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology#Group"/>
+    <rdfs:range rdf:resource="http://example.org/ontology#StudyProgram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Computer_Science_BSc">
+    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Giesswein_Alexia">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexia</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giesswein</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Student_Podariu_Razvan">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
     <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Razvan</base:hasFirstName>
     <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Podariu</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Lupoaie_Larisa___Damaris">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Damian_Mihai">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Larisa - Damaris</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lupoaie</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Krisan_Simion___Andrei">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simion - Andrei</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krisan</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Florea_Deborah___Ruxandra___Maria">
-    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deborah - Ruxandra - Maria</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florea</base:hasSurname>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihai</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damian</base:hasSurname>
     <base:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Software_Engineering_MSc">
-    <rdf:type rdf:resource="http://example.org/ontology#StudyProgram"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student_Niculai_Ilie___Traian">
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Marin_Andreea">
     <rdf:type rdf:resource="http://example.org/ontology#Student"/>
-    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ilie - Traian</base:hasFirstName>
-    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Niculai</base:hasSurname>
-    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreea</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marin</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Student">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#StudyProgram">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  <rdf:Description rdf:about="http://example.org/ontology#Group_30412">
+    <rdf:type rdf:resource="http://example.org/ontology#Group"/>
+    <base:inYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</base:inYear>
+    <base:isEnrolledIn rdf:resource="http://example.org/ontology#Computer_Science_BSc"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Group">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Chetan_Cristina___Sandra">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristina - Sandra</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chetan</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Demean_Vlad___Ionut">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vlad - Ionut</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Demean</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Andreica_Stefan">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefan</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreica</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Pelle_Andrei">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrei</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelle</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Student_Croitoriu_Andreea___Beatrice">
+    <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+    <base:hasFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreea - Beatrice</base:hasFirstName>
+    <base:hasSurname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croitoriu</base:hasSurname>
+    <base:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
   </rdf:Description>
 </rdf:RDF>

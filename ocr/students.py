@@ -135,12 +135,19 @@ g.serialize(destination=output_path, format="xml")
 print(f"\nOntology saved to {output_path}")
 
 if all_students:
-    df = pd.DataFrame(all_students)
+    rows = []
+    for student in all_students:
+        # Match the same IRI pattern used in OWL generation
+        student_id = f"{student['hasSurname']}_{student['hasFirstName']}".replace(' ', '_').replace('-', '_')
+        iri = f"http://example.org/ontology#Student_{student_id}"
+        rows.append({
+            "IRI": iri,
+            "FirstName": student['hasFirstName'],
+            "Surname": student['hasSurname']
+        })
 
-    # Combine into FullName and keep only that column
-    df["FullName"] = df["hasFirstName"] + " " + df["hasSurname"]
-    df = df[["FullName"]]
-
+    df = pd.DataFrame(rows)
+    
     excel_output_path = r"C:\Users\Cipleu\Documents\IULIA\SCOALA\facultate\Year 4 Semester 2\KBS\Lab\Project\University-Ontology\excel\students.xlsx"
     df.to_excel(excel_output_path, index=False)
     print(f"\nStudents saved to Excel file: {excel_output_path}")
