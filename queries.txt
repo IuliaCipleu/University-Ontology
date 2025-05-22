@@ -77,3 +77,23 @@ WHERE {
 GROUP BY ?firstName ?surname
 ORDER BY ?surname
 ----------------------------------------------
+PREFIX ns1: <http://example.org/ontology#>
+PREFIX ont: <http://example.org/ontology#>
+
+SELECT DISTINCT ?teacher ?room
+WHERE {
+  ?se a ns1:ScheduleEntry .
+  ?se ns1:hasTeacher ?teacher .
+  ?se ns1:hasRoom ?room .
+}
+---------------------------------------------
+PREFIX ns1: <http://example.org/ontology#>
+PREFIX ont: <http://example.org/ontology#>
+
+SELECT DISTINCT ?teacher ?room ?course
+WHERE {
+  ?se a ns1:ScheduleEntry .
+  ?se ns1:hasTeacher ?teacher .
+  ?se ns1:hasRoom ?room .
+  ?se ns1:hasCourse ?course .
+}

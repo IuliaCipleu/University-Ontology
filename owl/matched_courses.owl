@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/ontology#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/ontology#match_10_22_00_2_Teoria_sistemelor_TS_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#10_22_00_2"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Teoria_sistemelor_TS_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8888888888888888</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_19_29_00_2_Sport">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#19_29_00_2"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Sport"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8571428571428572</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_125_10_00_1_Servicii_si_Aplicatii_in_Cloud">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#125_10_00_1"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Servicii_si_Aplicatii_in_Cloud"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_27_41_00_3_Proiectare_software_PS_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#27_41_00_3"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Proiectare_software_PS_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9333333333333333</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_0_10_00_1_Electrotehnică_ET_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#0_10_00_1"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Electrotehnică_ET_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9375</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_52_14_10_1_Limba_engleză">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#52_14_10_1"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Limba_engleză"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.967741935483871</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_26_40_00_3_13_Procesarea_imaginilor">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#26_40_00_3"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#13_Procesarea_imaginilor"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9375</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_13_25_00_2_17_Tehnici_de_programare_fundamentale">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#13_25_00_2"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#17_Tehnici_de_programare_fundamentale"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9696969696969697</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_25_39_00_3_Retele_de_calculatoare_RC_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#25_39_00_3"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Retele_de_calculatoare_RC_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9411764705882353</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_14_26_00_2_16_Sisteme_de_operare">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#14_26_00_2"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#16_Sisteme_de_operare"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9411764705882353</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_26_40_00_3_Procesarea_Imaginilor_PI_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#26_40_00_3"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Procesarea_Imaginilor_PI_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9375</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_2_12_00_1_Structuri_de_date_şi_algoritmi_SDA_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#2_12_00_1"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9473684210526316</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_11_23_00_2_Arhitectura_calculatoarelor_AC_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#11_23_00_2"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Arhitectura_calculatoarelor_AC_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9523809523809523</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_58_24_00_2_Teoria_sistemelor_TS_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#58_24_00_2"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Teoria_sistemelor_TS_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8888888888888888</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_26_40_00_3_Procesarea_imaginilor_PI_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#26_40_00_3"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Procesarea_imaginilor_PI_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9375</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_12_24_00_2_Metode_numerice_CN_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#12_24_00_2"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Metode_numerice_CN_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9411764705882353</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_14_26_00_2_Sisteme_de_operare_SO_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#14_26_00_2"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Sisteme_de_operare_SO_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9411764705882353</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_13_25_00_2_Tehnici_de_programare_fundamentale_TP_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#13_25_00_2"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9696969696969697</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_48_10_00_1_Electrotehnică_ET_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#48_10_00_1"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Electrotehnică_ET_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9375</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_61_27_00_2_Baze_date_BD_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#61_27_00_2"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Baze_date_BD_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_6_14_00_1_Sport">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#6_14_00_1"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Sport"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9230769230769231</ns1:hasSimilarity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#match_23_37_00_3_Programare_logica_PL_">
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#23_37_00_3"/>
+    <ns1:hasMatch rdf:resource="http://example.org/ontology#Programare_logica_PL_"/>
+    <ns1:hasSimilarity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9411764705882353</ns1:hasSimilarity>
+  </rdf:Description>
+</rdf:RDF>
