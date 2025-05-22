@@ -11,10 +11,12 @@ BASE = Namespace("http://example.org/ontology#")
 
 # Common abbreviations mapping to check both ways (you can expand this)
 ABBREVIATIONS = {
-    "operatingsystems": ["os", "sistemeoperare", "sistemeoperare"],
+    "operatingsystems": ["os", "so", "sistemeoperare", "sistemeoperare"],
     "electrotechnics": ["et", "electrotehnica"],
     "informationsecurity": ["is", "securitateinformatica"],
-    # Add more mappings here
+    "logicprogramming": ["pl", "lp","programarelogica"],
+    "logicdesign": ["pl", "ld", "proiectarelogica"],
+    "computernetwork": ["cn", "pc", "proiectarearetelelor"],
 }
 
 
