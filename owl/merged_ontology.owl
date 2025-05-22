@@ -333,6 +333,53 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#distanceTo -->
+
+    <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#distanceTo">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street -->
+
+    <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street">
+        <rdfs:subPropertyOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#distanceTo2_Observatorului_Street_2nd_floor -->
+
+    <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#distanceTo2_Observatorului_Street_2nd_floor">
+        <rdfs:subPropertyOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#distanceTo71-73_Dorobantilor_Street -->
+
+    <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#distanceTo71-73_Dorobantilor_Street">
+        <rdfs:subPropertyOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#distanceToTUCN_Swimming_Complex -->
+
+    <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#distanceToTUCN_Swimming_Complex">
+        <rdfs:subPropertyOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#hasAddress -->
+
+    <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasAddress"/>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#hasLocation -->
 
     <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasLocation">
