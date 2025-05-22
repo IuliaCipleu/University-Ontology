@@ -5,7 +5,7 @@ merged_graph = Graph()
 
 # List of OWL files to merge
 owl_files = ["owl/study_programs.owl", "owl/departments.owl", "owl/cs_department.owl", "owl/courses.owl", "owl/students.owl", "owl/timetables.owl", "owl/merged_ontology.owl",
-            "owl/match_courses.owl", "owl/inferred.owl"]
+            "owl/matched_courses.owl", "owl/inferred.owl"]
 
 # Loop over each OWL file, load it into the graph, and merge
 for owl_file in owl_files:
