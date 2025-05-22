@@ -40,3 +40,21 @@ WHERE {
 }
 ORDER BY ?surname
 ---------------------------------------------
+PREFIX base: <http://example.org/ontology#>
+
+SELECT ?se ?course
+WHERE {
+  ?se a base:ScheduleEntry ;
+      base:hasCourse ?course .
+}
+LIMIT 10
+_________________
+PREFIX base: <http://example.org/ontology#>
+
+SELECT ?se ?course ?courseTitle
+WHERE {
+  ?se a base:ScheduleEntry ;
+      base:hasCourse ?course .
+
+  OPTIONAL { ?course base:hasTitle ?courseTitle }.
+}
