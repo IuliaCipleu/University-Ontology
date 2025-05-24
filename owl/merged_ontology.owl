@@ -2,7 +2,7 @@
 <rdf:RDF xmlns="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-44#"
      xml:base="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-44"
      xmlns:ns1="http://example.org/ontology#"
-     xmlns:ns2="http://www.co-ode.org/ontologies/ont.owl#"
+     xmlns:ns3="http://www.co-ode.org/ontologies/ont.owl#"
      xmlns:ns4="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -117,8 +117,6 @@
 
     <owl:ObjectProperty rdf:about="http://example.org/ontology#inGroup">
         <rdfs:domain rdf:resource="http://example.org/ontology#Student"/>
-        <rdfs:domain rdf:resource="http://example.org/ontology#Teacher"/>
-        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
         <rdfs:range rdf:resource="http://example.org/ontology#Group"/>
     </owl:ObjectProperty>
     
@@ -192,6 +190,15 @@
         <rdfs:domain rdf:resource="http://example.org/ontology#Course"/>
         <rdfs:range rdf:resource="http://example.org/ontology#Teacher"/>
         <rdfs:range rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-44#hasAddress -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-44#hasAddress">
+        <rdfs:domain rdf:resource="http://example.org/ontology#Student"/>
+        <rdfs:range rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
     </owl:ObjectProperty>
     
 
@@ -274,8 +281,6 @@
 
     <owl:DatatypeProperty rdf:about="http://example.org/ontology#hasFirstName">
         <rdfs:domain rdf:resource="http://example.org/ontology#Student"/>
-        <rdfs:domain rdf:resource="http://example.org/ontology#Teacher"/>
-        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -326,8 +331,6 @@
     <!-- http://example.org/ontology#hasSurname -->
 
     <owl:DatatypeProperty rdf:about="http://example.org/ontology#hasSurname">
-        <rdfs:domain rdf:resource="http://example.org/ontology#Student"/>
-        <rdfs:domain rdf:resource="http://example.org/ontology#Teacher"/>
         <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
@@ -410,16 +413,11 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#hasAddress -->
-
-    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasAddress"/>
-    
-
-
     <!-- http://www.co-ode.org/ontologies/ont.owl#hasLocation -->
 
     <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasLocation">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cipleu/ontologies/2025/4/_TOP_OBJECT_PROPERTY_"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://example.org/ontology#Room"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -432,12 +430,6 @@
         <rdfs:domain rdf:resource="http://example.org/ontology#Room"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/cipleu/ontologies/2025/4/_TOP_OBJECT_PROPERTY_ -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cipleu/ontologies/2025/4/_TOP_OBJECT_PROPERTY_"/>
     
 
 
@@ -625,7 +617,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#A_Colesa">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#102"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#102"/>
     </owl:NamedIndividual>
     
 
@@ -635,8 +627,8 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#A_Groza">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#H11"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#356"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#H11"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#356"/>
     </owl:NamedIndividual>
     
 
@@ -646,7 +638,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#A_Hangan_13_15_">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#P03"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#P03"/>
     </owl:NamedIndividual>
     
 
@@ -656,8 +648,8 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#A_Marginean">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#D21"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#D21"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
     </owl:NamedIndividual>
     
 
@@ -667,7 +659,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#A_Suciu">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#F"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#F"/>
     </owl:NamedIndividual>
     
 
@@ -729,7 +721,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Analiza_matematica_II_AM_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#M_Rus"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#M_Rus"/>
         <ns1:hasTitle>Analiza matematica II (AM)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -765,8 +757,8 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Arhitectura_calculatoarelor_AC_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#C_Vancea"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#F_Oniga"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#C_Vancea"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#F_Oniga"/>
         <ns1:hasTitle>Arhitectura calculatoarelor (AC)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -785,7 +777,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_14_16"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_16_18"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_18_20"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -837,7 +829,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Thursday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_18_20"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -866,7 +858,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_14_16"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_16_18"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -891,7 +883,7 @@
         <owl:sameAs rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT7.02"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Thursday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_8_10"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,7thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,7thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -916,7 +908,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Thursday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_18_20"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -938,7 +930,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_14_16"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_16_18"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -956,7 +948,7 @@
         <owl:sameAs rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT7.02"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Thursday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_8_10"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,7thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,7thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -971,7 +963,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Baze_date_BD_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#G_Dragomir"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#G_Dragomir"/>
         <ns1:hasTitle>Baze date (BD)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -981,7 +973,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Bazele_programarii_orientate_pe_obiect_BPOO_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#V_Chifu"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#V_Chifu"/>
         <ns1:hasTitle>Bazele programarii orientate pe obiect (BPOO)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -1027,7 +1019,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#CV_for_Mobile_Systems">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#S_Nedevschi"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#S_Nedevschi"/>
         <ns1:hasTitle>CV for Mobile Systems</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -1038,9 +1030,9 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#C_Cenan">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
     </owl:NamedIndividual>
     
 
@@ -1050,7 +1042,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#C_Feier">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
     </owl:NamedIndividual>
     
 
@@ -1060,7 +1052,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#C_Lemnaru">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
     </owl:NamedIndividual>
     
 
@@ -1070,8 +1062,8 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#C_Lemnaru_17_20_">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
     </owl:NamedIndividual>
     
 
@@ -1090,7 +1082,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#C_Nandra">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
     </owl:NamedIndividual>
     
 
@@ -1100,9 +1092,9 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#C_Oprisa">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
     </owl:NamedIndividual>
     
 
@@ -1121,9 +1113,9 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#C_Pop">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
     </owl:NamedIndividual>
     
 
@@ -1133,8 +1125,8 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#C_Vancea">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
     </owl:NamedIndividual>
     
 
@@ -1210,7 +1202,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Comunicatii_Wireless_Mobile">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#E_Cebuc"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#E_Cebuc"/>
         <ns1:hasTitle>Comunicatii Wireless &amp; Mobile</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -1274,7 +1266,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Criptologie_Crip_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#A_Suciu"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#A_Suciu"/>
         <ns1:hasTitle>Criptologie (Crip)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -1321,7 +1313,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Monday_10_12"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Monday_12_14"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Monday_14_16"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -1336,7 +1328,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_14_16"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_16_18"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_18_20"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -1402,7 +1394,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Data_Warehouse_and_Business_Intelligence">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#C_Cenan"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#C_Cenan"/>
         <ns1:hasTitle>Data Warehouse and Business Intelligence</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -1439,7 +1431,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Dezv_si_integrarea_sistemelor_informatice_DISI_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#M_Antal"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#M_Antal"/>
         <ns1:hasTitle>Dezv. si integrarea sistemelor informatice (DISI)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -1504,9 +1496,9 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#E_Cebuc">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT5_01"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT_5_01"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.01"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT5_01"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT_5_01"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.01"/>
     </owl:NamedIndividual>
     
 
@@ -1515,8 +1507,8 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Electrotehnică_ET_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#M_Cretu_10_13_"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#M_Cretu_18_21_"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#M_Cretu_10_13_"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#M_Cretu_18_21_"/>
         <ns1:hasTitle>Electrotehnică (ET)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -1530,7 +1522,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Thursday_10_12"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_18_20"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -1540,8 +1532,8 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#F_Lisman_8_11_">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
     </owl:NamedIndividual>
     
 
@@ -1551,10 +1543,10 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#F_Oniga">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
     </owl:NamedIndividual>
     
 
@@ -1563,7 +1555,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Fog_si_Cloud">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#T_Cioara"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#T_Cioara"/>
         <ns1:hasTitle>Fog si Cloud</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -1643,7 +1635,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#G_Dragomir">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#467"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#467"/>
     </owl:NamedIndividual>
     
 
@@ -1653,7 +1645,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#G_Sebestyen">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#P03"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#P03"/>
     </owl:NamedIndividual>
     
 
@@ -1671,7 +1663,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Grafica_asist_calc_EGC_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#C_Nandra"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#C_Nandra"/>
         <ns1:hasTitle>Grafica asist. calc. (EGC)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -1723,7 +1715,7 @@
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Monday_10_12"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Thursday_10_12"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -1778,8 +1770,8 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#I_Anghel">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#D21"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#H11"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#D21"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#H11"/>
     </owl:NamedIndividual>
     
 
@@ -1789,9 +1781,9 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#I_Gavrea">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
     </owl:NamedIndividual>
     
 
@@ -1801,13 +1793,13 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#I_Rasa">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT7_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT_7_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#F"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT7.02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT7_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT_7_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#F"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT7.02"/>
     </owl:NamedIndividual>
     
 
@@ -1817,9 +1809,9 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#I_Salomie">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
     </owl:NamedIndividual>
     
 
@@ -1828,7 +1820,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Image_Processing_and_Computer_Vision">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#F_Oniga"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#F_Oniga"/>
         <ns1:hasTitle>Image Processing and Computer Vision</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -1873,7 +1865,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Information_Theory_and_Statistics_c_s_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#I_Rasa"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#I_Rasa"/>
         <ns1:hasTitle>Information Theory and Statistics (c+s)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -1955,7 +1947,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Limba_engleză">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#S_Munteanu"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#S_Munteanu"/>
         <ns1:hasTitle>Limba engleză</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2010,8 +2002,8 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Limbaje_formale_şi_translatoare_LFT_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#A_Marginean"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#C_Feier"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#A_Marginean"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#C_Feier"/>
         <ns1:hasTitle>Limbaje formale şi translatoare (LFT)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2040,7 +2032,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#M_Antal">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#D21"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#D21"/>
     </owl:NamedIndividual>
     
 
@@ -2050,7 +2042,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#M_Cretu_10_13_">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#P03"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#P03"/>
     </owl:NamedIndividual>
     
 
@@ -2060,7 +2052,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#M_Cretu_18_21_">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#P03"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#P03"/>
     </owl:NamedIndividual>
     
 
@@ -2070,7 +2062,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#M_Dinsoreanu">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#D21"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#D21"/>
     </owl:NamedIndividual>
     
 
@@ -2080,7 +2072,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#M_Joldos">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#F"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#F"/>
     </owl:NamedIndividual>
     
 
@@ -2090,7 +2082,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#M_Rus">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#P03"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#P03"/>
     </owl:NamedIndividual>
     
 
@@ -2099,7 +2091,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Managementul_Proiectelor">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#I_Anghel"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#I_Anghel"/>
         <ns1:hasTitle>Managementul Proiectelor</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2127,7 +2119,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Metode_numerice_CN_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#I_Gavrea"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#I_Gavrea"/>
         <ns1:hasTitle>Metode numerice (CN)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2137,7 +2129,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Metodologia_intocmirii_proiectelor_MIP_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#I_Anghel"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#I_Anghel"/>
         <ns1:hasTitle>Metodologia intocmirii proiectelor (MIP)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2165,7 +2157,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Modelarea_Proceselor_de_Business">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#I_Salomie"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#I_Salomie"/>
         <ns1:hasTitle>Modelarea Proceselor de Business</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2235,7 +2227,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#OPT_Alg_Computability_AC_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#R_Potolea"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#R_Potolea"/>
         <ns1:hasTitle>OPT: Alg. &amp; Computability (AC)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2299,7 +2291,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#OPT_Statistics_prob_SP_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#I_Rasa"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#I_Rasa"/>
         <ns1:hasTitle>OPT: Statistics &amp; prob. (SP)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2319,7 +2311,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#O_Pop">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#F"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#F"/>
     </owl:NamedIndividual>
     
 
@@ -2360,7 +2352,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Monday_14_16"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Monday_16_18"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Monday_18_20"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet,TheBuildingInsideTheBackyard"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet,TheBuildingInsideTheBackyard"/>
     </owl:NamedIndividual>
     
 
@@ -2550,7 +2542,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#P_Raica">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#D1"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#D1"/>
     </owl:NamedIndividual>
     
 
@@ -2577,7 +2569,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Procesarea_Imaginilor_PI_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#R_Itu"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#R_Itu"/>
         <ns1:hasTitle>Procesarea Imaginilor (PI)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2596,7 +2588,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Procesarea_imaginilor_PI_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#R_Danescu"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#R_Danescu"/>
         <ns1:hasTitle>Procesarea imaginilor (PI)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2606,7 +2598,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Programare_Web_PWEB_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#I_Anghel"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#I_Anghel"/>
         <ns1:hasTitle>Programare Web (PWEB)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2616,8 +2608,8 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Programare_in_limbaj_de_asamblare_PLA_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#A_Hangan_13_15_"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#G_Sebestyen"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#A_Hangan_13_15_"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#G_Sebestyen"/>
         <ns1:hasTitle>Programare in limbaj de asamblare (PLA)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2627,8 +2619,8 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Programare_logica_PL_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#C_Lemnaru"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#R_Ardelean"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#C_Lemnaru"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#R_Ardelean"/>
         <ns1:hasTitle>Programare logica (PL)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2638,7 +2630,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Proiectare_software_PS_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#M_Dinsoreanu"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#M_Dinsoreanu"/>
         <ns1:hasTitle>Proiectare software (PS)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2648,8 +2640,8 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Proiectarea_sistemelor_numerice_PSN_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#F_Lisman_8_11_"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#V_Miclea_14_17_"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#F_Lisman_8_11_"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#V_Miclea_14_17_"/>
         <ns1:hasTitle>Proiectarea sistemelor numerice (PSN)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2678,7 +2670,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#R_Ardelean">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
     </owl:NamedIndividual>
     
 
@@ -2688,8 +2680,8 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#R_Brehar_11_14_">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
     </owl:NamedIndividual>
     
 
@@ -2699,7 +2691,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#R_Danescu">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
     </owl:NamedIndividual>
     
 
@@ -2709,7 +2701,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#R_Itu">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
     </owl:NamedIndividual>
     
 
@@ -2719,8 +2711,8 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#R_Portase">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#105_8_9_"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#105"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#105_8_9_"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#105"/>
     </owl:NamedIndividual>
     
 
@@ -2730,9 +2722,9 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#R_Potolea">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT7_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT_7_02"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT7.02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT7_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT_7_02"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT7.02"/>
     </owl:NamedIndividual>
     
 
@@ -2741,7 +2733,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Retele_de_calculatoare_RC_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#V_Dadarlat"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#V_Dadarlat"/>
         <ns1:hasTitle>Retele de calculatoare (RC)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2860,8 +2852,8 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#S_Munteanu">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#D1"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#D21"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#D1"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#D21"/>
     </owl:NamedIndividual>
     
 
@@ -2871,9 +2863,9 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#S_Nedevschi">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT5_01"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT_5_01"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.01"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT5_01"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT_5_01"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.01"/>
     </owl:NamedIndividual>
     
 
@@ -2882,7 +2874,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Securit_sist_apl_SSA_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#M_Joldos"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#M_Joldos"/>
         <ns1:hasTitle>Securit.sist.apl. (SSA)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2901,7 +2893,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Semantic_Web_Agents">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#A_Groza"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#A_Groza"/>
         <ns1:hasTitle>Semantic Web &amp; Agents</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2911,7 +2903,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Servicii_si_Aplicatii_in_Cloud">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#C_Pop"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#C_Pop"/>
         <ns1:hasTitle>Servicii si Aplicatii in Cloud</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2921,7 +2913,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Sist_bazate_pe_cunost_SBC_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#A_Groza"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#A_Groza"/>
         <ns1:hasTitle>Sist. bazate pe cunost. (SBC)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2940,7 +2932,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Sisteme_de_operare_SO_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#C_Oprisa"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#C_Oprisa"/>
         <ns1:hasTitle>Sisteme de operare (SO)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2959,7 +2951,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Sisteme_informatice_SI_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#O_Pop"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#O_Pop"/>
         <ns1:hasTitle>Sisteme informatice (SI)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -2969,7 +2961,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Sisteme_inteligente_SI_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#A_Marginean"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#A_Marginean"/>
         <ns1:hasTitle>Sisteme inteligente (SI)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -3017,7 +3009,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Statistica_prob_SP_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#I_Rasa"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#I_Rasa"/>
         <ns1:hasTitle>Statistica prob. (SP)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -3035,8 +3027,8 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#C_Lemnaru_17_20_"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#R_Brehar_11_14_"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#C_Lemnaru_17_20_"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#R_Brehar_11_14_"/>
         <ns1:hasTitle>Structuri de date şi algoritmi (SDA)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -3047,6 +3039,1314 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_C_Lemnaru_17_20_Aula_I_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
         <ns1:hasTitle>Structuri de date şi algoritmi (SDA) - C. Lemnaru (17-20) Aula I.</ns1:hasTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Aanei_Mihaela -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Aanei_Mihaela">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Mihaela</ns1:hasFirstName>
+        <ns1:hasSurname>Aanei</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Achim_Andrei___Antonie -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Achim_Andrei___Antonie">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andrei - Antonie</ns1:hasFirstName>
+        <ns1:hasSurname>Achim</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Achim_Radu___George -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Achim_Radu___George">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Radu - George</ns1:hasFirstName>
+        <ns1:hasSurname>Achim</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Alexandru_Andrei___Denis -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Alexandru_Andrei___Denis">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andrei - Denis</ns1:hasFirstName>
+        <ns1:hasSurname>Alexandru</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Andreica_Stefan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Andreica_Stefan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Stefan</ns1:hasFirstName>
+        <ns1:hasSurname>Andreica</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Androne_Eric -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Androne_Eric">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Eric</ns1:hasFirstName>
+        <ns1:hasSurname>Androne</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Angheluta_Ioana___Ruxandra -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Angheluta_Ioana___Ruxandra">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Ioana - Ruxandra</ns1:hasFirstName>
+        <ns1:hasSurname>Angheluta</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Anton_Sergiu___Cristian -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Anton_Sergiu___Cristian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Sergiu - Cristian</ns1:hasFirstName>
+        <ns1:hasSurname>Anton</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Atitienei_Stefan___Costin -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Atitienei_Stefan___Costin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Stefan - Costin</ns1:hasFirstName>
+        <ns1:hasSurname>Atitienei</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Baciu_Flaviu___Valeriu -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Baciu_Flaviu___Valeriu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Flaviu - Valeriu</ns1:hasFirstName>
+        <ns1:hasSurname>Baciu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Biltiu_Mariana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Biltiu_Mariana">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Mariana</ns1:hasFirstName>
+        <ns1:hasSurname>Biltiu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Boanca_Bogdan___Cristian -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Boanca_Bogdan___Cristian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Bogdan - Cristian</ns1:hasFirstName>
+        <ns1:hasSurname>Boanca</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Bologa_Horatiu___Andrei -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Bologa_Horatiu___Andrei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Horatiu - Andrei</ns1:hasFirstName>
+        <ns1:hasSurname>Bologa</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Buleandra_Ruben -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Buleandra_Ruben">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Ruben</ns1:hasFirstName>
+        <ns1:hasSurname>Buleandra</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Burlacu_Mihnea___Sebastian -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Burlacu_Mihnea___Sebastian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Mihnea - Sebastian</ns1:hasFirstName>
+        <ns1:hasSurname>Burlacu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Buzgure_Tudor -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Buzgure_Tudor">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Tudor</ns1:hasFirstName>
+        <ns1:hasSurname>Buzgure</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Cantemir_Alexandru -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Cantemir_Alexandru">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Alexandru</ns1:hasFirstName>
+        <ns1:hasSurname>Cantemir</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Chetan_Cristina___Sandra -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Chetan_Cristina___Sandra">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Cristina - Sandra</ns1:hasFirstName>
+        <ns1:hasSurname>Chetan</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Chita_Catalin___Adrian -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Chita_Catalin___Adrian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Catalin - Adrian</ns1:hasFirstName>
+        <ns1:hasSurname>Chita</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Ciortin_Patricia___Maria -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Ciortin_Patricia___Maria">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Patricia - Maria</ns1:hasFirstName>
+        <ns1:hasSurname>Ciortin</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Coblisan_Antonia -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Coblisan_Antonia">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Antonia</ns1:hasFirstName>
+        <ns1:hasSurname>Coblisan</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Cosma_Dan___Cristian -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Cosma_Dan___Cristian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Dan - Cristian</ns1:hasFirstName>
+        <ns1:hasSurname>Cosma</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Covaciu_Andreea -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Covaciu_Andreea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andreea</ns1:hasFirstName>
+        <ns1:hasSurname>Covaciu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Cretu_Denis -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Cretu_Denis">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Denis</ns1:hasFirstName>
+        <ns1:hasSurname>Cretu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Croitoriu_Andreea___Beatrice -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Croitoriu_Andreea___Beatrice">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andreea - Beatrice</ns1:hasFirstName>
+        <ns1:hasSurname>Croitoriu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Culda_Mira___Teodora -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Culda_Mira___Teodora">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Mira - Teodora</ns1:hasFirstName>
+        <ns1:hasSurname>Culda</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Czako_Angel -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Czako_Angel">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Angel</ns1:hasFirstName>
+        <ns1:hasSurname>Czako</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Damian_Mihai -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Damian_Mihai">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Mihai</ns1:hasFirstName>
+        <ns1:hasSurname>Damian</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Danci_Ionela -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Danci_Ionela">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Ionela</ns1:hasFirstName>
+        <ns1:hasSurname>Danci</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Darko_Andrei___Tiberiu -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Darko_Andrei___Tiberiu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andrei - Tiberiu</ns1:hasFirstName>
+        <ns1:hasSurname>Darko</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Demean_Vlad___Ionut -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Demean_Vlad___Ionut">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Vlad - Ionut</ns1:hasFirstName>
+        <ns1:hasSurname>Demean</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Dersedan_Denisa___Bianca -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Dersedan_Denisa___Bianca">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Denisa - Bianca</ns1:hasFirstName>
+        <ns1:hasSurname>Dersedan</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Diaconu_Mihai___Adrian -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Diaconu_Mihai___Adrian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Mihai - Adrian</ns1:hasFirstName>
+        <ns1:hasSurname>Diaconu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Dumitrascu_Mihai___Andrei -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Dumitrascu_Mihai___Andrei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Mihai - Andrei</ns1:hasFirstName>
+        <ns1:hasSurname>Dumitrascu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Enache_Mihai -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Enache_Mihai">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Mihai</ns1:hasFirstName>
+        <ns1:hasSurname>Enache</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Filimon_Antonia___Maria -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Filimon_Antonia___Maria">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Antonia - Maria</ns1:hasFirstName>
+        <ns1:hasSurname>Filimon</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Florea_Deborah___Ruxandra___Maria -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Florea_Deborah___Ruxandra___Maria">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Deborah - Ruxandra - Maria</ns1:hasFirstName>
+        <ns1:hasSurname>Florea</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Florea_Tudor___Dan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Florea_Tudor___Dan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Tudor - Dan</ns1:hasFirstName>
+        <ns1:hasSurname>Florea</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Fratean_Andreea___Manuela -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Fratean_Andreea___Manuela">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andreea - Manuela</ns1:hasFirstName>
+        <ns1:hasSurname>Fratean</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Galchis_Mihai___Andrei -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Galchis_Mihai___Andrei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Mihai - Andrei</ns1:hasFirstName>
+        <ns1:hasSurname>Galchis</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Galis_Bogdan___Mihai -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Galis_Bogdan___Mihai">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Bogdan - Mihai</ns1:hasFirstName>
+        <ns1:hasSurname>Galis</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Gavrilescu_Andreea___Lavinia -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Gavrilescu_Andreea___Lavinia">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andreea - Lavinia</ns1:hasFirstName>
+        <ns1:hasSurname>Gavrilescu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Giesswein_Alexia -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Giesswein_Alexia">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Alexia</ns1:hasFirstName>
+        <ns1:hasSurname>Giesswein</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Haiduc_Anastasia -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Haiduc_Anastasia">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Anastasia</ns1:hasFirstName>
+        <ns1:hasSurname>Haiduc</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Hegyi_Eduard -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Hegyi_Eduard">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Eduard</ns1:hasFirstName>
+        <ns1:hasSurname>Hegyi</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Herlea_Denisa___Maria -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Herlea_Denisa___Maria">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Denisa - Maria</ns1:hasFirstName>
+        <ns1:hasSurname>Herlea</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Herman_Darius___Razvan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Herman_Darius___Razvan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Darius - Razvan</ns1:hasFirstName>
+        <ns1:hasSurname>Herman</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Holom_Daria___Alessia -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Holom_Daria___Alessia">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Daria - Alessia</ns1:hasFirstName>
+        <ns1:hasSurname>Holom</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Holuta_Maria___Antonia -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Holuta_Maria___Antonia">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Maria - Antonia</ns1:hasFirstName>
+        <ns1:hasSurname>Holuta</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Iancu_Patricia___Andrada -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Iancu_Patricia___Andrada">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Patricia - Andrada</ns1:hasFirstName>
+        <ns1:hasSurname>Iancu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Ielciu_Cristian___Alexandru -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Ielciu_Cristian___Alexandru">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Cristian - Alexandru</ns1:hasFirstName>
+        <ns1:hasSurname>Ielciu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Iftene_Ioan___Florin -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Iftene_Ioan___Florin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Ioan - Florin</ns1:hasFirstName>
+        <ns1:hasSurname>Iftene</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Incze_Antonia -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Incze_Antonia">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Antonia</ns1:hasFirstName>
+        <ns1:hasSurname>Incze</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Ion_Dragos___Bogdan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Ion_Dragos___Bogdan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Dragos - Bogdan</ns1:hasFirstName>
+        <ns1:hasSurname>Ion</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Istrate_Oana___Georgia___Cristiana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Istrate_Oana___Georgia___Cristiana">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Oana - Georgia - Cristiana</ns1:hasFirstName>
+        <ns1:hasSurname>Istrate</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Krisan_Simion___Andrei -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Krisan_Simion___Andrei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Simion - Andrei</ns1:hasFirstName>
+        <ns1:hasSurname>Krisan</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Laamarti_Mouad -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Laamarti_Mouad">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Mouad</ns1:hasFirstName>
+        <ns1:hasSurname>Laamarti</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Lascu_Narcis___Dumitru -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Lascu_Narcis___Dumitru">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Narcis - Dumitru</ns1:hasFirstName>
+        <ns1:hasSurname>Lascu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Lupoaie_Larisa___Damaris -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Lupoaie_Larisa___Damaris">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Larisa - Damaris</ns1:hasFirstName>
+        <ns1:hasSurname>Lupoaie</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Mangau_Sebastian___Vasile -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Mangau_Sebastian___Vasile">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Sebastian - Vasile</ns1:hasFirstName>
+        <ns1:hasSurname>Mangau</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Marin_Andreea -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Marin_Andreea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andreea</ns1:hasFirstName>
+        <ns1:hasSurname>Marin</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Maris_Catalin -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Maris_Catalin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Catalin</ns1:hasFirstName>
+        <ns1:hasSurname>Maris</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Martin_Ioana___Ramona -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Martin_Ioana___Ramona">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Ioana - Ramona</ns1:hasFirstName>
+        <ns1:hasSurname>Martin</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Mezo_Ioan___Alexandru -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Mezo_Ioan___Alexandru">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Ioan - Alexandru</ns1:hasFirstName>
+        <ns1:hasSurname>Mezo</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Miholca_Catalin -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Miholca_Catalin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Catalin</ns1:hasFirstName>
+        <ns1:hasSurname>Miholca</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Mladin_Raul___Gabriel -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Mladin_Raul___Gabriel">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Raul - Gabriel</ns1:hasFirstName>
+        <ns1:hasSurname>Mladin</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Mois_Ioan___Raris -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Mois_Ioan___Raris">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Ioan - Raris</ns1:hasFirstName>
+        <ns1:hasSurname>Mois</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Morodan_Georgiana___Tatiana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Morodan_Georgiana___Tatiana">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Georgiana - Tatiana</ns1:hasFirstName>
+        <ns1:hasSurname>Morodan</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Motreanu_Alexandra___Iulia -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Motreanu_Alexandra___Iulia">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Alexandra - Iulia</ns1:hasFirstName>
+        <ns1:hasSurname>Motreanu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Mudura_Ana___Andreea -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Mudura_Ana___Andreea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Ana - Andreea</ns1:hasFirstName>
+        <ns1:hasSurname>Mudura</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Muresan_George -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Muresan_George">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>George</ns1:hasFirstName>
+        <ns1:hasSurname>Muresan</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Muresan_Laurentiu___Eusebiu -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Muresan_Laurentiu___Eusebiu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Laurentiu - Eusebiu</ns1:hasFirstName>
+        <ns1:hasSurname>Muresan</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Nichitut_Andrea___Maria -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Nichitut_Andrea___Maria">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andrea - Maria</ns1:hasFirstName>
+        <ns1:hasSurname>Nichitut</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Nicoara_Cristian___Catalin -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Nicoara_Cristian___Catalin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Cristian - Catalin</ns1:hasFirstName>
+        <ns1:hasSurname>Nicoara</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Niculai_Ilie___Traian -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Niculai_Ilie___Traian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Ilie - Traian</ns1:hasFirstName>
+        <ns1:hasSurname>Niculai</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Nikolaiesku_Maryna -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Nikolaiesku_Maryna">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Maryna</ns1:hasFirstName>
+        <ns1:hasSurname>Nikolaiesku</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Obogeanu_Rares___Ilie -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Obogeanu_Rares___Ilie">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Rares - Ilie</ns1:hasFirstName>
+        <ns1:hasSurname>Obogeanu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Onea_Andrei___Cristian -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Onea_Andrei___Cristian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andrei - Cristian</ns1:hasFirstName>
+        <ns1:hasSurname>Onea</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Orbeanu_Alina___Elena -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Orbeanu_Alina___Elena">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Alina - Elena</ns1:hasFirstName>
+        <ns1:hasSurname>Orbeanu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Oros_Raul___Andrei -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Oros_Raul___Andrei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Raul - Andrei</ns1:hasFirstName>
+        <ns1:hasSurname>Oros</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Padurariu_Tudor -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Padurariu_Tudor">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Tudor</ns1:hasFirstName>
+        <ns1:hasSurname>Padurariu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Palfi_Robert -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Palfi_Robert">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Robert</ns1:hasFirstName>
+        <ns1:hasSurname>Palfi</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Papiu_Cristian___Felician -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Papiu_Cristian___Felician">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Cristian - Felician</ns1:hasFirstName>
+        <ns1:hasSurname>Papiu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Pascalau_David___Stefan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Pascalau_David___Stefan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>David - Stefan</ns1:hasFirstName>
+        <ns1:hasSurname>Pascalau</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Pascu_Sebastian___Andrei -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Pascu_Sebastian___Andrei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Sebastian - Andrei</ns1:hasFirstName>
+        <ns1:hasSurname>Pascu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Pavel_Luca___Georgian -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Pavel_Luca___Georgian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Luca - Georgian</ns1:hasFirstName>
+        <ns1:hasSurname>Pavel</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Pelle_Andrei -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Pelle_Andrei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andrei</ns1:hasFirstName>
+        <ns1:hasSurname>Pelle</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Pintea_Filip___Ioan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Pintea_Filip___Ioan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Filip - Ioan</ns1:hasFirstName>
+        <ns1:hasSurname>Pintea</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Pintilie_Alessia___Anamaria -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Pintilie_Alessia___Anamaria">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Alessia - Anamaria</ns1:hasFirstName>
+        <ns1:hasSurname>Pintilie</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Pirvan_Daria -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Pirvan_Daria">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Daria</ns1:hasFirstName>
+        <ns1:hasSurname>Pirvan</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Podariu_Razvan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Podariu_Razvan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Razvan</ns1:hasFirstName>
+        <ns1:hasSurname>Podariu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Pop_Ana___Ioana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Pop_Ana___Ioana">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Ana - Ioana</ns1:hasFirstName>
+        <ns1:hasSurname>Pop</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Pop_Giulia___Ana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Pop_Giulia___Ana">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Giulia - Ana</ns1:hasFirstName>
+        <ns1:hasSurname>Pop</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Pop_Raul___George -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Pop_Raul___George">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Raul - George</ns1:hasFirstName>
+        <ns1:hasSurname>Pop</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Ratiu_Adrian -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Ratiu_Adrian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Adrian</ns1:hasFirstName>
+        <ns1:hasSurname>Ratiu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Rogoz_Lorena___Maria___Veronica -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Rogoz_Lorena___Maria___Veronica">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Lorena - Maria - Veronica</ns1:hasFirstName>
+        <ns1:hasSurname>Rogoz</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Salajan_Madalina___Maria -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Salajan_Madalina___Maria">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Madalina - Maria</ns1:hasFirstName>
+        <ns1:hasSurname>Salajan</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_32311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Sav___Stanciu_Rares -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Sav___Stanciu_Rares">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>- Stanciu Rares</ns1:hasFirstName>
+        <ns1:hasSurname>Sav</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Scobaru_Daniela___Mihaela -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Scobaru_Daniela___Mihaela">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Daniela - Mihaela</ns1:hasFirstName>
+        <ns1:hasSurname>Scobaru</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Sighiartau_Achim___Caleb -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Sighiartau_Achim___Caleb">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Achim - Caleb</ns1:hasFirstName>
+        <ns1:hasSurname>Sighiartau</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Simon_Adrian_Vasile -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Simon_Adrian_Vasile">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Adrian Vasile</ns1:hasFirstName>
+        <ns1:hasSurname>Simon</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Simonca_Catalin___Andrei -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Simonca_Catalin___Andrei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Catalin - Andrei</ns1:hasFirstName>
+        <ns1:hasSurname>Simonca</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Simu_Darius___Marian -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Simu_Darius___Marian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Darius - Marian</ns1:hasFirstName>
+        <ns1:hasSurname>Simu</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Sucala_Stefania___Ioana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Sucala_Stefania___Ioana">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Stefania - Ioana</ns1:hasFirstName>
+        <ns1:hasSurname>Sucala</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Tivadar_Dragos___Sorin -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Tivadar_Dragos___Sorin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Dragos - Sorin</ns1:hasFirstName>
+        <ns1:hasSurname>Tivadar</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Trifan_Luca_Ioan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Trifan_Luca_Ioan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Luca Ioan</ns1:hasFirstName>
+        <ns1:hasSurname>Trifan</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Tudor_Andrei___Bogdan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Tudor_Andrei___Bogdan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Andrei - Bogdan</ns1:hasFirstName>
+        <ns1:hasSurname>Tudor</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30425"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Udvari_Miruna___Andreea -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Udvari_Miruna___Andreea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Miruna - Andreea</ns1:hasFirstName>
+        <ns1:hasSurname>Udvari</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/ontology#Student_Vladut_Daniel___Sebastian___Nicholas -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/ontology#Student_Vladut_Daniel___Sebastian___Nicholas">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <ns1:hasFirstName>Daniel - Sebastian - Nicholas</ns1:hasFirstName>
+        <ns1:hasSurname>Vladut</ns1:hasSurname>
+        <ns1:isInGroup rdf:resource="http://example.org/ontology#Group_30412"/>
     </owl:NamedIndividual>
     
 
@@ -3110,11 +4410,11 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#T_Cioara">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT5_01"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT_5_01"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#D1"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.01"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT5_01"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT_5_01"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#D1"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.01"/>
     </owl:NamedIndividual>
     
 
@@ -3132,7 +4432,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Tehnici_de_programare_TP_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#T_Cioara"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#T_Cioara"/>
         <ns1:hasTitle>Tehnici de programare (TP)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -3142,8 +4442,8 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#T_Cioara"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#V_Chifu"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#T_Cioara"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#V_Chifu"/>
         <ns1:hasTitle>Tehnici de programare fundamentale (TP)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -3161,7 +4461,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Teoria_sistemelor_TS_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#P_Raica"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#P_Raica"/>
         <ns1:hasTitle>Teoria sistemelor (TS)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -3301,10 +4601,10 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#V_Chifu">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT5_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#BT_5_02"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#BT5.02"/>
     </owl:NamedIndividual>
     
 
@@ -3314,7 +4614,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#V_Dadarlat">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#40"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#40"/>
     </owl:NamedIndividual>
     
 
@@ -3324,8 +4624,8 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#V_Miclea_14_17_">
         <rdf:type rdf:resource="http://example.org/ontology#Teacher"/>
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
-        <ns2:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
-        <ns2:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://example.org/ontology#AulaInstalatii"/>
+        <ns3:isFoundAt rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
     </owl:NamedIndividual>
     
 
@@ -3343,7 +4643,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Virtualization_and_Hardware_Based_Security_opt_">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#A_Colesa"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#A_Colesa"/>
         <ns1:hasTitle>Virtualization and Hardware-Based Security (opt)</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -3457,7 +4757,7 @@
 
     <owl:NamedIndividual rdf:about="http://example.org/ontology#Windows_Internals_and_Kernel_Driver_Development">
         <rdf:type rdf:resource="http://example.org/ontology#Course"/>
-        <ns2:isTaughtBy rdf:resource="http://example.org/ontology#R_Portase"/>
+        <ns3:isTaughtBy rdf:resource="http://example.org/ontology#R_Portase"/>
         <ns1:hasTitle>Windows Internals and Kernel Driver Development</ns1:hasTitle>
     </owl:NamedIndividual>
     
@@ -6235,7 +7535,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#102">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Thursday_10_12"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -6302,7 +7602,7 @@
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
         <owl:sameAs rdf:resource="http://www.co-ode.org/ontologies/ont.owl#105"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Monday_8_10"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -10718,7 +12018,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#356">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -12455,7 +13755,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_10_12"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_12_14"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -12563,7 +13863,7 @@
     <owl:NamedIndividual rdf:about="http://example.org/ontology#467">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13402,6 +14702,249 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Achim-CalebSighiartau -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Achim-CalebSighiartau">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AdrianRatiu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AdrianRatiu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AdrianVasileSimon -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AdrianVasileSimon">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Alessia-AnamariaPintilie -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alessia-AnamariaPintilie">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Alexandra-IuliaMotreanu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alexandra-IuliaMotreanu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AlexandruCantemir -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AlexandruCantemir">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AlexiaGiesswein -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AlexiaGiesswein">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Alina-ElenaOrbeanu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alina-ElenaOrbeanu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ana-AndreeaMudura -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ana-AndreeaMudura">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ana-IoanaPop -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ana-IoanaPop">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AnastasiaHaiduc -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AnastasiaHaiduc">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrea-MariaNichitut -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrea-MariaNichitut">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andreea-BeatriceCroitoriu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andreea-BeatriceCroitoriu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andreea-LaviniaGavrilescu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andreea-LaviniaGavrilescu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andreea-ManuelaFratean -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andreea-ManuelaFratean">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AndreeaCovaciu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AndreeaCovaciu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AndreeaMarin -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AndreeaMarin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrei-AntonieAchim -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-AntonieAchim">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrei-BogdanTudor -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-BogdanTudor">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrei-CristianOnea -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-CristianOnea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrei-DenisAlexandru -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-DenisAlexandru">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Andrei-TiberiuDarko -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Andrei-TiberiuDarko">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AndreiPelle -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AndreiPelle">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AngelCzako -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AngelCzako">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Antonia-MariaFilimon -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Antonia-MariaFilimon">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AntoniaCoblisan -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AntoniaCoblisan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AntoniaIncze -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AntoniaIncze">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii -->
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii">
@@ -13414,7 +14957,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_14_16"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_16_18"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_18_20"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13426,7 +14969,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Thursday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_18_20"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -13441,7 +14984,7 @@
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Tuesday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_14_16"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_16_18"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -13450,7 +14993,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#BT5.03">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -13459,7 +15002,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#BT5.04">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -13468,7 +15011,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#BT5.05">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,5thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -13479,7 +15022,25 @@
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Thursday_18_20"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Wednesday_8_10"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,7thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#8Gh.BaritiuStreet,7thFloor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Bogdan-CristianBoanca -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bogdan-CristianBoanca">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Bogdan-MihaiGalis -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bogdan-MihaiGalis">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
     </owl:NamedIndividual>
     
 
@@ -13488,7 +15049,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#C01">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13497,7 +15058,79 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#C12">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Catalin-AdrianChita -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Catalin-AdrianChita">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Catalin-AndreiSimonca -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Catalin-AndreiSimonca">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CatalinMaris -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#CatalinMaris">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CatalinMiholca -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#CatalinMiholca">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cristian-AlexandruIelciu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristian-AlexandruIelciu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cristian-CatalinNicoara -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristian-CatalinNicoara">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cristian-FelicianPapiu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristian-FelicianPapiu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cristina-SandraChetan -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cristina-SandraChetan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
     </owl:NamedIndividual>
     
 
@@ -13506,7 +15139,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#D11">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13515,7 +15148,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#D12">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13524,7 +15157,115 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#D3">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dan-CristianCosma -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dan-CristianCosma">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Daniel-Sebastian-NicholasVladut -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Daniel-Sebastian-NicholasVladut">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Daniela-MihaelaScobaru -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Daniela-MihaelaScobaru">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Daria-AlessiaHolom -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Daria-AlessiaHolom">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DariaPirvan -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DariaPirvan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Darius-MarianSimu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Darius-MarianSimu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Darius-RazvanHerman -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Darius-RazvanHerman">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#David-StefanPascalau -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#David-StefanPascalau">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Deborah-Ruxandra-MariaFlorea -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Deborah-Ruxandra-MariaFlorea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DenisCretu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DenisCretu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Denisa-BiancaDersedan -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Denisa-BiancaDersedan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Denisa-MariaHerlea -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Denisa-MariaHerlea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
     </owl:NamedIndividual>
     
 
@@ -13533,11 +15274,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dorm1F">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-        <ns2:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ns2:distanceTo>
-        <ns2:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ns2:distanceTo26-28_Gh._Baritiu_Street>
-        <ns2:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ns2:distanceTo2_Observatorului_Street_2nd_floor>
-        <ns2:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ns2:distanceTo71-73_Dorobantilor_Street>
-        <ns2:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ns2:distanceToTUCN_Swimming_Complex>
+        <ns3:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ns3:distanceTo>
+        <ns3:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ns3:distanceTo26-28_Gh._Baritiu_Street>
+        <ns3:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ns3:distanceTo2_Observatorului_Street_2nd_floor>
+        <ns3:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ns3:distanceTo71-73_Dorobantilor_Street>
+        <ns3:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</ns3:distanceToTUCN_Swimming_Complex>
     </owl:NamedIndividual>
     
 
@@ -13546,11 +15287,29 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DormObservator">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-        <ns2:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:distanceTo>
-        <ns2:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:distanceTo26-28_Gh._Baritiu_Street>
-        <ns2:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:distanceTo2_Observatorului_Street_2nd_floor>
-        <ns2:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:distanceTo71-73_Dorobantilor_Street>
-        <ns2:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns2:distanceToTUCN_Swimming_Complex>
+        <ns3:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns3:distanceTo>
+        <ns3:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns3:distanceTo26-28_Gh._Baritiu_Street>
+        <ns3:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns3:distanceTo2_Observatorului_Street_2nd_floor>
+        <ns3:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns3:distanceTo71-73_Dorobantilor_Street>
+        <ns3:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns3:distanceToTUCN_Swimming_Complex>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dragos-BogdanIon -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dragos-BogdanIon">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dragos-SorinTivadar -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dragos-SorinTivadar">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
     </owl:NamedIndividual>
     
 
@@ -13559,7 +15318,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#E15">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13568,7 +15327,70 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#E17">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#EduardHegyi -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#EduardHegyi">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#EricAndrone -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#EricAndrone">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Filip-IoanPintea -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Filip-IoanPintea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Flaviu-ValeriuBaciu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Flaviu-ValeriuBaciu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#GeorgeMuresan -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#GeorgeMuresan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Georgiana-TatianaMorodan -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Georgiana-TatianaMorodan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Giulia-AnaPop -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Giulia-AnaPop">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
     </owl:NamedIndividual>
     
 
@@ -13577,7 +15399,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#H01">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13586,7 +15408,124 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#H41">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Horatiu-AndreiBologa -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Horatiu-AndreiBologa">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ilie-TraianNiculai -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ilie-TraianNiculai">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ioan-AlexandruMezo -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioan-AlexandruMezo">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ioan-FlorinIftene -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioan-FlorinIftene">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ioan-RarisMois -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioan-RarisMois">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ioana-RamonaMartin -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioana-RamonaMartin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ioana-RuxandraAngheluta -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ioana-RuxandraAngheluta">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#IonelaDanci -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#IonelaDanci">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Larisa-DamarisLupoaie -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Larisa-DamarisLupoaie">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Laurentiu-EusebiuMuresan -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Laurentiu-EusebiuMuresan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Lorena-Maria-VeronicaRogoz -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Lorena-Maria-VeronicaRogoz">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Luca-GeorgianPavel -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Luca-GeorgianPavel">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#LucaIoanTrifan -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#LucaIoanTrifan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
     </owl:NamedIndividual>
     
 
@@ -13595,7 +15534,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#M1">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13604,7 +15543,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#M2">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13613,7 +15552,241 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#M3">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Madalina-MariaSalajan -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Madalina-MariaSalajan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Maria-AntoniaHoluta -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Maria-AntoniaHoluta">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MarianaBiltiu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MarianaBiltiu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MarynaNikolaiesku -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MarynaNikolaiesku">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MihaelaAanei -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MihaelaAanei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mihai-AdrianDiaconu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihai-AdrianDiaconu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mihai-AndreiDumitrascu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihai-AndreiDumitrascu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mihai-AndreiGalchis -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihai-AndreiGalchis">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MihaiDamian -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MihaiDamian">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MihaiEnache -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MihaiEnache">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mihnea-SebastianBurlacu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mihnea-SebastianBurlacu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mira-TeodoraCulda -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mira-TeodoraCulda">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Miruna-AndreeaUdvari -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Miruna-AndreeaUdvari">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MouadLaamarti -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MouadLaamarti">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Narcis-DumitruLascu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Narcis-DumitruLascu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Oana-Georgia-CristianaIstrate -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Oana-Georgia-CristianaIstrate">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Patricia-AndradaIancu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Patricia-AndradaIancu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Patricia-MariaCiortin -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Patricia-MariaCiortin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Radu-GeorgeAchim -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Radu-GeorgeAchim">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Rares-IlieObogeanu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rares-IlieObogeanu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Raul-AndreiOros -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Raul-AndreiOros">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Raul-GabrielMladin -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Raul-GabrielMladin">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Raul-GeorgePop -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Raul-GeorgePop">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#RazvanPodariu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#RazvanPodariu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#RobertPalfi -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#RobertPalfi">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#RubenBuleandra -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#RubenBuleandra">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
     </owl:NamedIndividual>
     
 
@@ -13622,7 +15795,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#S4.2">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet,BuildingBehindRoomP03,4thFloor"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet,BuildingBehindRoomP03,4thFloor"/>
     </owl:NamedIndividual>
     
 
@@ -13631,7 +15804,115 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#SG">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sebastian-AndreiPascu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sebastian-AndreiPascu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sebastian-VasileMangau -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sebastian-VasileMangau">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sergiu-CristianAnton -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sergiu-CristianAnton">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Simion-AndreiKrisan -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Simion-AndreiKrisan">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Stefan-CostinAtitienei -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Stefan-CostinAtitienei">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#StefanAndreica -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#StefanAndreica">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Stefania-IoanaSucala -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Stefania-IoanaSucala">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Tudor-DanFlorea -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Tudor-DanFlorea">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#TudorBuzgure -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#TudorBuzgure">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#TudorPadurariu -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#TudorPadurariu">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Vlad-IonutDemean -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Vlad-IonutDemean">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#-StanciuRaresSav -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#-StanciuRaresSav">
+        <rdf:type rdf:resource="http://example.org/ontology#Student"/>
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Person"/>
     </owl:NamedIndividual>
     
 
@@ -13640,7 +15921,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#101">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13649,11 +15930,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-        <ns2:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns2:distanceTo>
-        <ns2:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns2:distanceTo26-28_Gh._Baritiu_Street>
-        <ns2:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns2:distanceTo2_Observatorului_Street_2nd_floor>
-        <ns2:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns2:distanceTo71-73_Dorobantilor_Street>
-        <ns2:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns2:distanceToTUCN_Swimming_Complex>
+        <ns3:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns3:distanceTo>
+        <ns3:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns3:distanceTo26-28_Gh._Baritiu_Street>
+        <ns3:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns3:distanceTo2_Observatorului_Street_2nd_floor>
+        <ns3:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns3:distanceTo71-73_Dorobantilor_Street>
+        <ns3:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</ns3:distanceToTUCN_Swimming_Complex>
     </owl:NamedIndividual>
     
 
@@ -13662,7 +15943,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#103">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13671,7 +15952,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#104">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13681,7 +15962,7 @@
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#105">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
         <ns1:isOccupiedAt rdf:resource="http://example.org/ontology#Monday_8_10"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13690,7 +15971,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#106">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13699,7 +15980,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#107">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13708,7 +15989,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#108">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13717,11 +15998,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-        <ns2:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:distanceTo>
-        <ns2:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:distanceTo26-28_Gh._Baritiu_Street>
-        <ns2:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:distanceTo2_Observatorului_Street_2nd_floor>
-        <ns2:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:distanceTo71-73_Dorobantilor_Street>
-        <ns2:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns2:distanceToTUCN_Swimming_Complex>
+        <ns3:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns3:distanceTo>
+        <ns3:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns3:distanceTo26-28_Gh._Baritiu_Street>
+        <ns3:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns3:distanceTo2_Observatorului_Street_2nd_floor>
+        <ns3:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns3:distanceTo71-73_Dorobantilor_Street>
+        <ns3:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</ns3:distanceToTUCN_Swimming_Complex>
     </owl:NamedIndividual>
     
 
@@ -13730,7 +16011,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#16B">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13739,7 +16020,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#192">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13748,7 +16029,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#197">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13757,7 +16038,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#202">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13766,7 +16047,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#203">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13775,7 +16056,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#204">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13784,7 +16065,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#205">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13793,7 +16074,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#206">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13810,7 +16091,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#207">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13819,7 +16100,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#208">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13828,7 +16109,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#209">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13837,7 +16118,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#210">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13846,7 +16127,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#211">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13855,7 +16136,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#211LS">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13864,7 +16145,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#212">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13873,7 +16154,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#213">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13882,7 +16163,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#214">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13891,7 +16172,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#216LS">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#25Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13908,7 +16189,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#26B">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13941,11 +16222,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-        <ns2:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:distanceTo>
-        <ns2:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:distanceTo26-28_Gh._Baritiu_Street>
-        <ns2:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:distanceTo2_Observatorului_Street_2nd_floor>
-        <ns2:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:distanceTo71-73_Dorobantilor_Street>
-        <ns2:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns2:distanceToTUCN_Swimming_Complex>
+        <ns3:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns3:distanceTo>
+        <ns3:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns3:distanceTo26-28_Gh._Baritiu_Street>
+        <ns3:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns3:distanceTo2_Observatorului_Street_2nd_floor>
+        <ns3:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns3:distanceTo71-73_Dorobantilor_Street>
+        <ns3:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</ns3:distanceToTUCN_Swimming_Complex>
     </owl:NamedIndividual>
     
 
@@ -13954,7 +16235,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#36">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13963,7 +16244,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#45">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13972,7 +16253,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#479">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13981,7 +16262,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#51">
         <rdf:type rdf:resource="http://example.org/ontology#Room"/>
-        <ns2:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <ns3:hasLocation rdf:resource="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </owl:NamedIndividual>
     
 
@@ -13998,11 +16279,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet">
         <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
-        <ns2:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns2:distanceTo>
-        <ns2:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns2:distanceTo26-28_Gh._Baritiu_Street>
-        <ns2:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns2:distanceTo2_Observatorului_Street_2nd_floor>
-        <ns2:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns2:distanceTo71-73_Dorobantilor_Street>
-        <ns2:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns2:distanceToTUCN_Swimming_Complex>
+        <ns3:distanceTo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns3:distanceTo>
+        <ns3:distanceTo26-28_Gh._Baritiu_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns3:distanceTo26-28_Gh._Baritiu_Street>
+        <ns3:distanceTo2_Observatorului_Street_2nd_floor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns3:distanceTo2_Observatorului_Street_2nd_floor>
+        <ns3:distanceTo71-73_Dorobantilor_Street rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns3:distanceTo71-73_Dorobantilor_Street>
+        <ns3:distanceToTUCN_Swimming_Complex rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ns3:distanceToTUCN_Swimming_Complex>
     </owl:NamedIndividual>
     
 
