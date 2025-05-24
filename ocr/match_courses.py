@@ -109,7 +109,7 @@ def find_matches(courses1, courses2, threshold=0.85):
 def create_match_graph(matches):
     match_graph = Graph()
     for c1_uri, c2_uri, sim in matches:
-        match_uri = URIRef(f"http://example.org/ontology#match_{c1_uri.split('#')[-1]}_{c2_uri.split('#')[-1]}")
+        match_uri = URIRef(f"http://example.org/ontology#{c1_uri.split('#')[-1]}_{c2_uri.split('#')[-1]}")
 
         # Declare the match node as an OWL named individual
         match_graph.add((match_uri, RDF.type, OWL.NamedIndividual))
