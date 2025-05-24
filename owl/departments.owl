@@ -9,18 +9,16 @@
     <rdfs:domain rdf:resource="http://example.org/ontology#Department"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#hasPhone">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/ontology#Department"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdf:Description rdf:about="http://example.org/ontology#Department">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Departamentul_de_Automatica">
+    <rdf:type rdf:resource="http://example.org/ontology#Department"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#hasEmail">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://example.org/ontology#Department"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Departamentul_de_Automatica">
-    <rdf:type rdf:resource="http://example.org/ontology#Department"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/ontology#Departamentul_de_Calculatoare">
     <rdf:type rdf:resource="http://example.org/ontology#Department"/>
@@ -31,7 +29,9 @@
     <base:hasPhone>+40-264-401261</base:hasPhone>
     <base:hasEmail>Popa.Dorian@math.utcluj.ro</base:hasEmail>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ontology#Department">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  <rdf:Description rdf:about="http://example.org/ontology#hasPhone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology#Department"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
 </rdf:RDF>
