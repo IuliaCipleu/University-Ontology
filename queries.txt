@@ -1,3 +1,4 @@
+--------------------1-----------------------
 PREFIX base: <http://example.org/ontology#>
 
 SELECT ?student ?firstName ?surname ?group
@@ -8,7 +9,7 @@ WHERE {
            base:isInGroup ?group .
 }
 ORDER BY ?group ?surname
-----------------------------------
+-----------------2-----------------
 PREFIX base: <http://example.org/ontology#>
 
 SELECT ?studyProgram ?student ?firstName ?surname
@@ -20,7 +21,7 @@ WHERE {
   ?group base:isEnrolledIn ?studyProgram .
 }
 ORDER BY ?studyProgram ?surname
-----------------------------------
+------------------3----------------
 PREFIX base: <http://example.org/ontology#>
 
 SELECT ?student ?firstName ?surname ?courseTitle
@@ -39,7 +40,7 @@ WHERE {
   FILTER(str(?courseTitle) = "Electrotechnics")
 }
 ORDER BY ?surname
----------------------------------------------
+-------------------4--------------------------
 PREFIX base: <http://example.org/ontology#>
 
 SELECT ?se ?course
@@ -48,7 +49,7 @@ WHERE {
       base:hasCourse ?course .
 }
 LIMIT 10
-_________________
+--------------------5-----------------------
 PREFIX base: <http://example.org/ontology#>
 
 SELECT ?se ?course ?courseTitle
@@ -58,7 +59,7 @@ WHERE {
 
   OPTIONAL { ?course base:hasTitle ?courseTitle }.
 }
-____________________________
+--------------------6----------------------
 PREFIX base: <http://example.org/ontology#>
 
 SELECT ?firstName ?surname (SUM(?credits) AS ?totalCredits)
@@ -76,7 +77,7 @@ WHERE {
 }
 GROUP BY ?firstName ?surname
 ORDER BY ?surname
-----------------------------------------------
+----------------------7------------------------
 PREFIX ns1: <http://example.org/ontology#>
 PREFIX ont: <http://example.org/ontology#>
 
@@ -86,7 +87,7 @@ WHERE {
   ?se ns1:hasTeacher ?teacher .
   ?se ns1:hasRoom ?room .
 }
----------------------------------------------
+-------------------8--------------------------
 PREFIX ns1: <http://example.org/ontology#>
 PREFIX ont: <http://example.org/ontology#>
 
@@ -97,7 +98,7 @@ WHERE {
   ?se ns1:hasRoom ?room .
   ?se ns1:hasCourse ?course .
 }
-------------------------------------------
+-------------------9-----------------------
 PREFIX base: <http://example.org/ontology#>
 
 SELECT ?student ?firstName ?surname ?courseTitle ?room
@@ -117,7 +118,7 @@ WHERE {
           base:hasRoom ?room.
 }
 ORDER BY ?surname
--------------------------------------------------
+----------------------10---------------------------
 PREFIX ont: <http://example.org/ontology#>
 
 SELECT DISTINCT ?student ?firstName ?surname ?courseTitle ?room ?teacher
@@ -139,7 +140,7 @@ WHERE {
       ont:hasTeacher ?teacher .
 }
 ORDER BY ?surname
---------------------------------
+-----------------11---------------
 PREFIX ont: <http://example.org/ontology#>
 PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -150,7 +151,7 @@ WHERE {
   ?teacher co:isFoundAt ?location .
 }
 ORDER BY ?teacher
---------------------------------------
+---------------------12-----------------
 PREFIX ont: <http://example.org/ontology#>
 PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
 
@@ -175,3 +176,155 @@ WHERE {
   ?teacher co:isFoundAt ?teacherLocation .
 }
 ORDER BY ?surname
+-----------------13-------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?room (COUNT(DISTINCT ?teacher) AS ?numTeachers)
+WHERE {
+  ?se a ont:ScheduleEntry ;
+      ont:hasRoom ?room ;
+      ont:hasTeacher ?teacher .
+}
+GROUP BY ?room
+HAVING (COUNT(DISTINCT ?teacher) > 1)
+-------------------14----------------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?course ?courseTitle (COUNT(DISTINCT ?student) AS ?numStudents)
+WHERE {
+  ?student a ont:Student ;
+           ont:isInGroup ?group .
+
+  ?group ont:isEnrolledIn ?program .
+
+  ?course a ont:Course ;
+          ont:isTaughtAt ?program ;
+          ont:hasTitle ?courseTitle .
+}
+GROUP BY ?course ?courseTitle
+------------------15--------------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?student ?courseTitle ?teacher ?location ?room
+WHERE {
+  ?student a ont:Student ;
+           ont:isInGroup ?group .
+
+  ?group ont:isEnrolledIn ?program .
+
+  ?course a ont:Course ;
+          ont:isTaughtAt ?program ;
+          ont:hasTitle ?courseTitle .
+
+  ?se a ont:ScheduleEntry ;
+      ont:hasCourse ?course ;
+      ont:hasTeacher ?teacher ;
+      ont:hasRoom ?room .
+
+  ?room co:hasLocation ?location .
+}
+-------------------16----------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?courseTitle ?room
+WHERE {
+  ?course a ont:Course ;
+          ont:hasTitle ?courseTitle .
+
+  ?se a ont:ScheduleEntry ;
+      ont:hasCourse ?course ;
+      ont:hasRoom ?room .
+}
+--------------------17--------------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?student ?peer
+WHERE {
+  ?student a ont:Student ;
+      ont:isInGroup ?group1 .
+  ?group1 ont:isEnrolledIn ?program1 .
+  ?course a ont:Course ;
+          ont:isTaughtAt ?program1 .
+
+  ?peer a ont:Student ;
+         ont:isInGroup ?group2 .
+  ?group2 ont:isEnrolledIn ?program1 .
+
+  FILTER(?peer != ?student).
+}
+------------------18----------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?room (COUNT(DISTINCT ?course) AS ?courseCount)
+WHERE {
+  ?se a ont:ScheduleEntry ;
+      ont:hasRoom ?room ;
+      ont:hasCourse ?course .
+}
+GROUP BY ?room
+-------------------- 19--------------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?student
+WHERE {
+  ?student a ont:Student ;
+           ont:isInGroup ?group .
+
+  ?group ont:isEnrolledIn ?program .
+
+  ?course a ont:Course ;
+          ont:isTaughtAt ?program .
+
+  ?se a ont:ScheduleEntry ;
+      ont:hasCourse ?course ;
+      ont:hasRoom ?room .
+
+  FILTER(?room = ont:AulaInstalatii)
+}
+----------------------20--------------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?student ?course ?courseRoom ?courseRoomLocation ?freeRoom
+WHERE {
+  ?student a ont:Student ;
+           ont:isInGroup ?group .
+
+  ?group ont:isEnrolledIn ?studyProgramme .
+
+  ?course a ont:Course ;
+          ont:isTaughtAt ?studyProgramme .
+
+  ?se a ont:ScheduleEntry ;
+      ont:hasCourse ?course ;
+      ont:hasRoom ?courseRoom ;
+      ont:hasTimeslot ?timeSlot .
+
+  ?courseRoom co:hasLocation ?courseRoomLocation .
+
+  ?freeRoom a ont:Room ;
+            co:hasLocation ?courseRoomLocation .
+
+  FILTER NOT EXISTS {
+    ?freeRoom ont:isOccupiedAt ?timeSlot .
+  }
+
+  FILTER (?freeRoom != ?courseRoom)
+}
+ORDER BY ?student ?course
+
