@@ -97,3 +97,81 @@ WHERE {
   ?se ns1:hasRoom ?room .
   ?se ns1:hasCourse ?course .
 }
+------------------------------------------
+PREFIX base: <http://example.org/ontology#>
+
+SELECT ?student ?firstName ?surname ?courseTitle ?room
+WHERE {
+  ?student a base:Student ;
+           base:hasFirstName ?firstName ;
+           base:hasSurname ?surname ;
+           base:isInGroup ?group .
+
+  ?group base:isEnrolledIn ?studyProgram .
+
+  ?course a base:Course ;
+          base:isTaughtAt ?studyProgram ;
+          base:hasTitle ?courseTitle .
+  ?se a base:ScheduleEntry ;
+          base:hasCourse ?course;
+          base:hasRoom ?room.
+}
+ORDER BY ?surname
+-------------------------------------------------
+PREFIX ont: <http://example.org/ontology#>
+
+SELECT DISTINCT ?student ?firstName ?surname ?courseTitle ?room ?teacher
+WHERE {
+  ?student a ont:Student ;
+           ont:hasFirstName ?firstName ;
+           ont:hasSurname ?surname ;
+           ont:isInGroup ?group .
+
+  ?group ont:isEnrolledIn ?studyProgram .
+
+  ?course a ont:Course ;
+          ont:isTaughtAt ?studyProgram ;
+          ont:hasTitle ?courseTitle .
+
+  ?se a ont:ScheduleEntry ;
+      ont:hasCourse ?course ;
+      ont:hasRoom ?room ;
+      ont:hasTeacher ?teacher .
+}
+ORDER BY ?surname
+--------------------------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?teacher ?location
+WHERE {
+  ?teacher rdf:type ont:Teacher .
+  ?teacher co:isFoundAt ?location .
+}
+ORDER BY ?teacher
+--------------------------------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+
+SELECT DISTINCT ?student ?firstName ?surname ?courseTitle ?room ?teacher ?teacherLocation
+WHERE {
+  ?student a ont:Student ;
+           ont:hasFirstName ?firstName ;
+           ont:hasSurname ?surname ;
+           ont:isInGroup ?group .
+
+  ?group ont:isEnrolledIn ?studyProgram .
+
+  ?course a ont:Course ;
+          ont:isTaughtAt ?studyProgram ;
+          ont:hasTitle ?courseTitle .
+
+  ?se a ont:ScheduleEntry ;
+      ont:hasCourse ?course ;
+      ont:hasRoom ?room ;
+      ont:hasTeacher ?teacher .
+
+  ?teacher co:isFoundAt ?teacherLocation .
+}
+ORDER BY ?surname
