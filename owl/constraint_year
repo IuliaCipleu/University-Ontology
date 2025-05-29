@@ -1,0 +1,13 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ex: <http://example.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:GroupShape
+  a sh:NodeShape ;
+  sh:targetClass ex:Group ;
+  sh:property [
+    sh:path ex:inYear ;
+    sh:datatype xsd:integer ;
+    sh:in (1 2 3 4) ;
+    sh:message "inYear must be one of: 1, 2, 3, or 4." ;
+  ] .

@@ -55,6 +55,18 @@
         <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Person"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CloseLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FarLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiddleLocation"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://example.org/ontology#hasCourse"/>
     </Declaration>
     <Declaration>
@@ -98,6 +110,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-44#hasAddress"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCloseness"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://example.org/ontology#day"/>
@@ -4246,6 +4261,15 @@
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TUCNSwimmingComplex,SplaiulIndependenteiStreet"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Close"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Far"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Middle"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://example.org/ontology#hasLanguage"/>
     </Declaration>
     <Declaration>
@@ -4257,6 +4281,14 @@
     <Declaration>
         <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Distance"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Close"/>
+            <NamedIndividual IRI="#Far"/>
+            <NamedIndividual IRI="#Middle"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://example.org/ontology#BSc"/>
         <Class IRI="http://example.org/ontology#StudyProgram"/>
@@ -4276,6 +4308,39 @@
     <SubClassOf>
         <Class IRI="http://example.org/ontology#Teacher"/>
         <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CloseLocation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CloseLocation"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCloseness"/>
+            <NamedIndividual IRI="#Close"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FarLocation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FarLocation"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCloseness"/>
+            <NamedIndividual IRI="#Far"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiddleLocation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiddleLocation"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasCloseness"/>
+            <NamedIndividual IRI="#Middle"/>
+        </ObjectHasValue>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="http://example.org/ontology#Student"/>
@@ -10828,6 +10893,18 @@
     <ClassAssertion>
         <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TUCNSwimmingComplex,SplaiulIndependenteiStreet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Distance"/>
+        <NamedIndividual IRI="#Close"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Distance"/>
+        <NamedIndividual IRI="#Far"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Distance"/>
+        <NamedIndividual IRI="#Middle"/>
     </ClassAssertion>
     <SameIndividual>
         <NamedIndividual IRI="http://example.org/ontology#AulaInstalatii"/>
@@ -37544,6 +37621,10 @@
         <ObjectProperty IRI="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-44#hasAddress"/>
         <Class IRI="http://example.org/ontology#Student"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCloseness"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://example.org/ontology#hasCourse"/>
         <Class IRI="http://example.org/ontology#Course"/>
@@ -37611,6 +37692,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-44#hasAddress"/>
         <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCloseness"/>
+        <Class IRI="#Distance"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
@@ -37840,22 +37925,22 @@
         <Body>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="http://example.org/ontology#hasMatch"/>
-                <Variable IRI="urn:swrl:var#a"/>
-                <Variable IRI="urn:swrl:var#b"/>
+                <Variable abbreviatedIRI="owl:a"/>
+                <Variable abbreviatedIRI="owl:b"/>
             </ObjectPropertyAtom>
             <ClassAtom>
                 <Class IRI="http://example.org/ontology#Course"/>
-                <Variable IRI="urn:swrl:var#a"/>
+                <Variable abbreviatedIRI="owl:a"/>
             </ClassAtom>
             <ClassAtom>
                 <Class IRI="http://example.org/ontology#Course"/>
-                <Variable IRI="urn:swrl:var#b"/>
+                <Variable abbreviatedIRI="owl:b"/>
             </ClassAtom>
         </Body>
         <Head>
             <SameIndividualAtom>
-                <Variable IRI="urn:swrl:var#a"/>
-                <Variable IRI="urn:swrl:var#b"/>
+                <Variable abbreviatedIRI="owl:a"/>
+                <Variable abbreviatedIRI="owl:b"/>
             </SameIndividualAtom>
         </Head>
     </DLSafeRule>

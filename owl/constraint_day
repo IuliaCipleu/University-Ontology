@@ -1,0 +1,10 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ex: <http://example.org/ontology#> .
+
+ex:TimeslotShape a sh:NodeShape ;
+    sh:targetClass ex:Timeslot ;
+    sh:property [
+        sh:path ex:day ;
+        sh:in ("Monday" "Tuesday" "Wednesday" "Thursday" "Friday") ;  
+        sh:message "Day must be a weekday (Monday to Thursday)." ;
+    ] .

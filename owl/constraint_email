@@ -1,0 +1,13 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ex: <http://example.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:DepartmentShape
+  a sh:NodeShape ;
+  sh:targetClass ex:Department ;  # Apply this shape to Department class
+  sh:property [
+    sh:path ex:hasEmail ;
+    sh:datatype xsd:string ;
+    sh:pattern "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$" ;
+    sh:message "Email must be a valid email address." ;
+  ] .
