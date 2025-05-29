@@ -339,4 +339,36 @@ WHERE {
 GROUP BY ?room
 ORDER BY DESC(?occupiedCount)
 LIMIT 4
+---------------------------22---------------------------
+PREFIX : <http://www.co-ode.org/ontologies/ont.owl#>
+SELECT ?loc ?distance
+WHERE {
+  ?loc :distanceTo26-28_Gh._Baritiu_Street ?distance .
+}
+---------------------------23---------------------------
+PREFIX : <http://www.co-ode.org/ontologies/ont.owl#>
+SELECT ?loc ?distance
+WHERE {
+  ?loc :distanceTo26-28_Gh._Baritiu_Street ?distance .
+  FILTER (?distance >= 2.0 && ?distance <= 5.0)
+}
+---------------------24------------------------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
+SELECT ?program (COUNT(DISTINCT ?teacher) AS ?teacherCount)
+WHERE {
+  ?student a ont:Student ;
+           ont:isInGroup ?group .
+
+  ?group ont:isEnrolledIn ?program .
+
+  ?course a ont:Course ;
+          ont:isTaughtAt ?program .
+
+  ?se a ont:ScheduleEntry ;
+      ont:hasCourse ?course ;
+      ont:hasTeacher ?teacher .
+}
+GROUP BY ?program
