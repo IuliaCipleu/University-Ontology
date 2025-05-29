@@ -4321,6 +4321,18 @@
         </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CloseLocation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:decimal"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#FarLocation"/>
         <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
     </SubClassOf>
@@ -4332,6 +4344,18 @@
         </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#FarLocation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:decimal"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#MiddleLocation"/>
         <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
     </SubClassOf>
@@ -4341,6 +4365,21 @@
             <ObjectProperty IRI="#hasCloseness"/>
             <NamedIndividual IRI="#Middle"/>
         </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiddleLocation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:decimal"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="http://example.org/ontology#Student"/>
@@ -37344,11 +37383,6 @@
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.6</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo2_Observatorului_Street_2nd_floor"/>

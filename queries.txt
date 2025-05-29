@@ -327,4 +327,16 @@ WHERE {
   FILTER (?freeRoom != ?courseRoom)
 }
 ORDER BY ?student ?course
+-------------------------21----------------------------
+PREFIX ont: <http://example.org/ontology#>
+PREFIX co: <http://www.co-ode.org/ontologies/ont.owl#>
+
+SELECT ?room (COUNT(?timeSlot) AS ?occupiedCount)
+WHERE {
+  ?room a ont:Room .
+  ?room ont:isOccupiedAt ?timeSlot .
+}
+GROUP BY ?room
+ORDER BY DESC(?occupiedCount)
+LIMIT 4
 
