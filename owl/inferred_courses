@@ -4321,16 +4321,12 @@
         </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CloseLocation"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
-            <DatatypeRestriction>
-                <Datatype abbreviatedIRI="xsd:decimal"/>
-                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
-                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
-                </FacetRestriction>
-            </DatatypeRestriction>
-        </DataSomeValuesFrom>
+        <Class IRI="#Distance"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Close"/>
+            <NamedIndividual IRI="#Far"/>
+            <NamedIndividual IRI="#Middle"/>
+        </ObjectOneOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FarLocation"/>
@@ -4344,18 +4340,6 @@
         </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#FarLocation"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
-            <DatatypeRestriction>
-                <Datatype abbreviatedIRI="xsd:decimal"/>
-                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
-                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
-                </FacetRestriction>
-            </DatatypeRestriction>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#MiddleLocation"/>
         <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
     </SubClassOf>
@@ -4367,19 +4351,12 @@
         </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MiddleLocation"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
-            <DatatypeRestriction>
-                <Datatype abbreviatedIRI="xsd:decimal"/>
-                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
-                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
-                </FacetRestriction>
-                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
-                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
-                </FacetRestriction>
-            </DatatypeRestriction>
-        </DataSomeValuesFrom>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Close"/>
+            <NamedIndividual IRI="#Far"/>
+            <NamedIndividual IRI="#Middle"/>
+        </ObjectOneOf>
+        <Class IRI="#Distance"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="http://example.org/ontology#Student"/>
@@ -10938,13 +10915,45 @@
         <NamedIndividual IRI="#Close"/>
     </ClassAssertion>
     <ClassAssertion>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Close"/>
+            <NamedIndividual IRI="#Far"/>
+            <NamedIndividual IRI="#Middle"/>
+        </ObjectOneOf>
+        <NamedIndividual IRI="#Close"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Distance"/>
+        <NamedIndividual IRI="#Far"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Close"/>
+            <NamedIndividual IRI="#Far"/>
+            <NamedIndividual IRI="#Middle"/>
+        </ObjectOneOf>
         <NamedIndividual IRI="#Far"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Distance"/>
         <NamedIndividual IRI="#Middle"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Close"/>
+            <NamedIndividual IRI="#Far"/>
+            <NamedIndividual IRI="#Middle"/>
+        </ObjectOneOf>
+        <NamedIndividual IRI="#Middle"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Arhitectura_calculatoarelor_AC_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_11_23_00_2_Arhitectura_calculatoarelor_AC_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Arhitectura_calculatoarelor_AC_"/>
+        <NamedIndividual IRI="http://example.org/ontology#11_23_00_2"/>
+    </SameIndividual>
     <SameIndividual>
         <NamedIndividual IRI="http://example.org/ontology#AulaInstalatii"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#AulaInstalatii"/>
@@ -10986,8 +10995,392 @@
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BT7.02"/>
     </SameIndividual>
     <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Baze_date_BD_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_61_27_00_2_Baze_date_BD_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Baze_date_BD_"/>
+        <NamedIndividual IRI="http://example.org/ontology#61_27_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Electrotehnică_ET_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_0_10_00_1_Electrotehnică_ET_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Electrotehnică_ET_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_48_10_00_1_Electrotehnică_ET_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Electrotehnică_ET_"/>
+        <NamedIndividual IRI="http://example.org/ontology#0_10_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Electrotehnică_ET_"/>
+        <NamedIndividual IRI="http://example.org/ontology#48_10_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Limba_engleză"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_52_14_10_1_Limba_engleză"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Limba_engleză"/>
+        <NamedIndividual IRI="http://example.org/ontology#52_14_10_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Metode_numerice_CN_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_12_24_00_2_Metode_numerice_CN_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Metode_numerice_CN_"/>
+        <NamedIndividual IRI="http://example.org/ontology#12_24_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_Imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_imaginilor_PI_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_Imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_13_Procesarea_imaginilor"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_Imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_Imaginilor_PI_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_Imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_imaginilor_PI_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_Imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#13_Procesarea_imaginilor"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_Imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#26_40_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_13_Procesarea_imaginilor"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_Imaginilor_PI_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_imaginilor_PI_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#13_Procesarea_imaginilor"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Procesarea_imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#26_40_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Programare_logica_PL_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_23_37_00_3_Programare_logica_PL_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Programare_logica_PL_"/>
+        <NamedIndividual IRI="http://example.org/ontology#23_37_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Proiectare_software_PS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_27_41_00_3_Proiectare_software_PS_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Proiectare_software_PS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#27_41_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Retele_de_calculatoare_RC_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_25_39_00_3_Retele_de_calculatoare_RC_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Retele_de_calculatoare_RC_"/>
+        <NamedIndividual IRI="http://example.org/ontology#25_39_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Servicii_si_Aplicatii_in_Cloud"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_125_10_00_1_Servicii_si_Aplicatii_in_Cloud"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Servicii_si_Aplicatii_in_Cloud"/>
+        <NamedIndividual IRI="http://example.org/ontology#125_10_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Sisteme_de_operare_SO_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_14_26_00_2_16_Sisteme_de_operare"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Sisteme_de_operare_SO_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_14_26_00_2_Sisteme_de_operare_SO_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Sisteme_de_operare_SO_"/>
+        <NamedIndividual IRI="http://example.org/ontology#14_26_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Sisteme_de_operare_SO_"/>
+        <NamedIndividual IRI="http://example.org/ontology#16_Sisteme_de_operare"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Sport"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_19_29_00_2_Sport"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Sport"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_6_14_00_1_Sport"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Sport"/>
+        <NamedIndividual IRI="http://example.org/ontology#19_29_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Sport"/>
+        <NamedIndividual IRI="http://example.org/ontology#6_14_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_2_12_00_1_Structuri_de_date_şi_algoritmi_SDA_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Structuri_de_date_şi_algoritmi_SDA_"/>
+        <NamedIndividual IRI="http://example.org/ontology#2_12_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_13_25_00_2_17_Tehnici_de_programare_fundamentale"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_13_25_00_2_Tehnici_de_programare_fundamentale_TP_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_"/>
+        <NamedIndividual IRI="http://example.org/ontology#13_25_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Tehnici_de_programare_fundamentale_TP_"/>
+        <NamedIndividual IRI="http://example.org/ontology#17_Tehnici_de_programare_fundamentale"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Teoria_sistemelor_TS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_10_22_00_2_Teoria_sistemelor_TS_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Teoria_sistemelor_TS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_58_24_00_2_Teoria_sistemelor_TS_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Teoria_sistemelor_TS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#10_22_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#Teoria_sistemelor_TS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#58_24_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_0_10_00_1_Electrotehnică_ET_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_48_10_00_1_Electrotehnică_ET_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_0_10_00_1_Electrotehnică_ET_"/>
+        <NamedIndividual IRI="http://example.org/ontology#0_10_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_0_10_00_1_Electrotehnică_ET_"/>
+        <NamedIndividual IRI="http://example.org/ontology#48_10_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_10_22_00_2_Teoria_sistemelor_TS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_58_24_00_2_Teoria_sistemelor_TS_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_10_22_00_2_Teoria_sistemelor_TS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#10_22_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_10_22_00_2_Teoria_sistemelor_TS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#58_24_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_11_23_00_2_Arhitectura_calculatoarelor_AC_"/>
+        <NamedIndividual IRI="http://example.org/ontology#11_23_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_125_10_00_1_Servicii_si_Aplicatii_in_Cloud"/>
+        <NamedIndividual IRI="http://example.org/ontology#125_10_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_12_24_00_2_Metode_numerice_CN_"/>
+        <NamedIndividual IRI="http://example.org/ontology#12_24_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_13_25_00_2_17_Tehnici_de_programare_fundamentale"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_13_25_00_2_Tehnici_de_programare_fundamentale_TP_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_13_25_00_2_17_Tehnici_de_programare_fundamentale"/>
+        <NamedIndividual IRI="http://example.org/ontology#13_25_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_13_25_00_2_17_Tehnici_de_programare_fundamentale"/>
+        <NamedIndividual IRI="http://example.org/ontology#17_Tehnici_de_programare_fundamentale"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_13_25_00_2_Tehnici_de_programare_fundamentale_TP_"/>
+        <NamedIndividual IRI="http://example.org/ontology#13_25_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_13_25_00_2_Tehnici_de_programare_fundamentale_TP_"/>
+        <NamedIndividual IRI="http://example.org/ontology#17_Tehnici_de_programare_fundamentale"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_14_26_00_2_16_Sisteme_de_operare"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_14_26_00_2_Sisteme_de_operare_SO_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_14_26_00_2_16_Sisteme_de_operare"/>
+        <NamedIndividual IRI="http://example.org/ontology#14_26_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_14_26_00_2_16_Sisteme_de_operare"/>
+        <NamedIndividual IRI="http://example.org/ontology#16_Sisteme_de_operare"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_14_26_00_2_Sisteme_de_operare_SO_"/>
+        <NamedIndividual IRI="http://example.org/ontology#14_26_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_14_26_00_2_Sisteme_de_operare_SO_"/>
+        <NamedIndividual IRI="http://example.org/ontology#16_Sisteme_de_operare"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_19_29_00_2_Sport"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_6_14_00_1_Sport"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_19_29_00_2_Sport"/>
+        <NamedIndividual IRI="http://example.org/ontology#19_29_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_19_29_00_2_Sport"/>
+        <NamedIndividual IRI="http://example.org/ontology#6_14_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_23_37_00_3_Programare_logica_PL_"/>
+        <NamedIndividual IRI="http://example.org/ontology#23_37_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_25_39_00_3_Retele_de_calculatoare_RC_"/>
+        <NamedIndividual IRI="http://example.org/ontology#25_39_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_13_Procesarea_imaginilor"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_Imaginilor_PI_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_13_Procesarea_imaginilor"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_imaginilor_PI_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_13_Procesarea_imaginilor"/>
+        <NamedIndividual IRI="http://example.org/ontology#13_Procesarea_imaginilor"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_13_Procesarea_imaginilor"/>
+        <NamedIndividual IRI="http://example.org/ontology#26_40_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_Imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_imaginilor_PI_"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_Imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#13_Procesarea_imaginilor"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_Imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#26_40_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#13_Procesarea_imaginilor"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_26_40_00_3_Procesarea_imaginilor_PI_"/>
+        <NamedIndividual IRI="http://example.org/ontology#26_40_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_27_41_00_3_Proiectare_software_PS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#27_41_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_2_12_00_1_Structuri_de_date_şi_algoritmi_SDA_"/>
+        <NamedIndividual IRI="http://example.org/ontology#2_12_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_48_10_00_1_Electrotehnică_ET_"/>
+        <NamedIndividual IRI="http://example.org/ontology#0_10_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_48_10_00_1_Electrotehnică_ET_"/>
+        <NamedIndividual IRI="http://example.org/ontology#48_10_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_52_14_10_1_Limba_engleză"/>
+        <NamedIndividual IRI="http://example.org/ontology#52_14_10_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_58_24_00_2_Teoria_sistemelor_TS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#10_22_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_58_24_00_2_Teoria_sistemelor_TS_"/>
+        <NamedIndividual IRI="http://example.org/ontology#58_24_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_61_27_00_2_Baze_date_BD_"/>
+        <NamedIndividual IRI="http://example.org/ontology#61_27_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_6_14_00_1_Sport"/>
+        <NamedIndividual IRI="http://example.org/ontology#19_29_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#match_6_14_00_1_Sport"/>
+        <NamedIndividual IRI="http://example.org/ontology#6_14_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#0_10_00_1"/>
+        <NamedIndividual IRI="http://example.org/ontology#48_10_00_1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#10_22_00_2"/>
+        <NamedIndividual IRI="http://example.org/ontology#58_24_00_2"/>
+    </SameIndividual>
+    <SameIndividual>
         <NamedIndividual IRI="http://example.org/ontology#105_8_9_"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#105"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#13_25_00_2"/>
+        <NamedIndividual IRI="http://example.org/ontology#17_Tehnici_de_programare_fundamentale"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#13_Procesarea_imaginilor"/>
+        <NamedIndividual IRI="http://example.org/ontology#26_40_00_3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#14_26_00_2"/>
+        <NamedIndividual IRI="http://example.org/ontology#16_Sisteme_de_operare"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://example.org/ontology#19_29_00_2"/>
+        <NamedIndividual IRI="http://example.org/ontology#6_14_00_1"/>
     </SameIndividual>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isFoundAt"/>
@@ -29525,6 +29918,16 @@
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCloseness"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
+        <NamedIndividual IRI="#Middle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCloseness"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
+        <NamedIndividual IRI="#Middle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasLocation"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#E15"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
@@ -29705,6 +30108,11 @@
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCloseness"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
+        <NamedIndividual IRI="#Middle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasLocation"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#36"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
@@ -29723,6 +30131,11 @@
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasLocation"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#51"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCloseness"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <NamedIndividual IRI="#Middle"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://example.org/ontology#hasTitle"/>
@@ -37372,6 +37785,11 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
@@ -37470,34 +37888,19 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.6</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9.6</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.6</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo2_Observatorului_Street_2nd_floor"/>
@@ -37512,17 +37915,37 @@
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceToTUCN_Swimming_Complex"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceToTUCN_Swimming_Complex"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9.6</Literal>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo71-73_Dorobantilor_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#71-73DorobantilorStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
@@ -37543,6 +37966,11 @@
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceToTUCN_Swimming_Complex"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TUCNSwimmingComplex,SplaiulIndependenteiStreet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceToTUCN_Swimming_Complex"/>
@@ -37585,6 +38013,10 @@
         <Class IRI="http://example.org/ontology#Student"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://example.org/ontology#inGroup"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="http://example.org/ontology#isEnrolledIn"/>
         <Class IRI="http://example.org/ontology#Group"/>
     </ObjectPropertyDomain>
@@ -37619,6 +38051,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-44#hasAddress"/>
         <Class IRI="http://example.org/ontology#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/cipleu/ontologies/2025/4/untitled-ontology-44#hasAddress"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasCloseness"/>
@@ -37696,6 +38132,14 @@
         <ObjectProperty IRI="#hasCloseness"/>
         <Class IRI="#Distance"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCloseness"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Close"/>
+            <NamedIndividual IRI="#Far"/>
+            <NamedIndividual IRI="#Middle"/>
+        </ObjectOneOf>
+    </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
@@ -37755,6 +38199,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="http://example.org/ontology#hasFirstName"/>
         <Class IRI="http://example.org/ontology#Student"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://example.org/ontology#hasFirstName"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="http://example.org/ontology#hasLengthOfYears"/>
@@ -38051,6 +38499,46 @@
                 <ObjectProperty IRI="http://example.org/ontology#isOccupiedAt"/>
                 <Variable abbreviatedIRI="owl:r"/>
                 <Variable abbreviatedIRI="owl:t"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+                <Variable abbreviatedIRI="owl:x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
+                <Variable abbreviatedIRI="owl:x"/>
+                <Variable abbreviatedIRI="owl:d"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable abbreviatedIRI="owl:d"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable abbreviatedIRI="owl:d"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasCloseness"/>
+                <Variable abbreviatedIRI="owl:x"/>
+                <NamedIndividual IRI="#Middle"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
