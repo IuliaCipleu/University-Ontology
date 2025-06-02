@@ -166,7 +166,7 @@
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo2_Observatorului_Street_2nd_floor"/>
@@ -4323,7 +4323,7 @@
     <SubClassOf>
         <Class IRI="#CloseLocation"/>
         <DataSomeValuesFrom>
-            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
             <DatatypeRestriction>
                 <Datatype abbreviatedIRI="xsd:decimal"/>
                 <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
@@ -4346,7 +4346,7 @@
     <SubClassOf>
         <Class IRI="#FarLocation"/>
         <DataSomeValuesFrom>
-            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
             <DatatypeRestriction>
                 <Datatype abbreviatedIRI="xsd:decimal"/>
                 <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
@@ -4369,7 +4369,7 @@
     <SubClassOf>
         <Class IRI="#MiddleLocation"/>
         <DataSomeValuesFrom>
-            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+            <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
             <DatatypeRestriction>
                 <Datatype abbreviatedIRI="xsd:decimal"/>
                 <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
@@ -37275,12 +37275,12 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Dorm1F"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
     </DataPropertyAssertion>
@@ -37325,12 +37325,12 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DormObservator"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.3</Literal>
     </DataPropertyAssertion>
@@ -37380,7 +37380,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#101DecebalStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.6</Literal>
     </DataPropertyAssertion>
@@ -37435,12 +37435,12 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#13-11GheorgheDojaStreet,Floresti"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.6</Literal>
     </DataPropertyAssertion>
@@ -37470,7 +37470,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#26-28Gh.BaritiuStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
     </DataPropertyAssertion>
@@ -37490,12 +37490,12 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#31T.MihaliStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
     </DataPropertyAssertion>
@@ -37525,34 +37525,9 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.7</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.4</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.7</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.4</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo2_Observatorului_Street_2nd_floor"/>
@@ -37563,16 +37538,6 @@
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo71-73_Dorobantilor_Street"/>
         <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.7</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo71-73_Dorobantilor_Street"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceToTUCN_Swimming_Complex"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#73-71IugoslavieiStreet"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceToTUCN_Swimming_Complex"/>
@@ -37732,7 +37697,7 @@
         <Class IRI="#Distance"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -37828,7 +37793,7 @@
         <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -37920,7 +37885,7 @@
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh._Baritiu_Street"/>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#distanceTo26-28_Gh_Baritiu_Street"/>
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
